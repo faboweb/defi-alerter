@@ -1,0 +1,1149 @@
+{
+  "name": "Makina Finance",
+  "graph": {
+    "nodes": [
+      {
+        "address": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "label": "ATTACKER: EOA",
+        "totalUsd": 11.418629248876119,
+        "txCount": 49,
+        "tokens": [
+          "ETH",
+          "FMT",
+          "WETH",
+          "RITUAL"
+        ],
+        "type": "attacker"
+      },
+      {
+        "address": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "label": "0xd176a9e2",
+        "totalUsd": 41.008147289374755,
+        "txCount": 17,
+        "tokens": [
+          "FMT",
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "label": "0x00000000",
+        "totalUsd": 0,
+        "txCount": 9,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "label": "0x4838b106",
+        "totalUsd": 1009.0765838446775,
+        "txCount": 19,
+        "tokens": [
+          "ETH",
+          "?"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "label": "0xba122222",
+        "totalUsd": 1024.907049675099,
+        "txCount": 20,
+        "tokens": [
+          "WETH",
+          "BAL",
+          "WBTC",
+          "ETH",
+          "DAI",
+          "DPI"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4dc2a406011ef1118aed54687583a48e5b297503",
+        "label": "0x4dc2a406",
+        "totalUsd": 6214.50966374716,
+        "txCount": 20,
+        "tokens": [
+          "WETH",
+          "RITUAL"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "label": "0xc02aaa39",
+        "totalUsd": 0,
+        "txCount": 8,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4d2a30a2ef8e8273b8352ee4a0a4e93fea2d0bbe",
+        "label": "0x4d2a30a2",
+        "totalUsd": 0,
+        "txCount": 13,
+        "tokens": [
+          "RITUAL",
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4c381d4fda7afc274f53a6f48e7c2a703dee0191",
+        "label": "0x4c381d4f",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4ab12e7ce31857ee022f273e8580f73335a73c0b",
+        "label": "0x4ab12e7c",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x5b5a0580bcfd3673820bb249514234afad33e209",
+        "label": "0x5b5a0580",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xd683b81c2608980db90a6fd730153e04629ff1a3",
+        "label": "0xd683b81c",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xe08d97e151473a848c3d9ca3f323cb720472d015",
+        "label": "0xe08d97e1",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x49bc3cec1fb7978746f742a4e485d0d601831cea",
+        "label": "0x49bc3cec",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x74e2b8eee3ea8f4639b81e1e9b230cc9c06e5f6a",
+        "label": "0x74e2b8ee",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x5968ada261a84e19a6c85830e655647752585ed4",
+        "label": "0x5968ada2",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x03cd656b6559b534700e487166f175eb5cd40e11",
+        "label": "0x03cd656b",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xee5fae63ae253eb96942215d48def642519b716c",
+        "label": "0xee5fae63",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "FMT"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x01ba19143476a8bc4b27c450a8d46b29ec35a7e5",
+        "label": "0x01ba1914",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "FMT"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4e7a12532f1c4b5ed6bb6420914bb0ba82a1fc7f",
+        "label": "0x4e7a1253",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xbd32122bad41a09f2405bb374a83877d8245079c",
+        "label": "0xbd32122b",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xb3445d5413abf63df1112a4a517de2602f249785",
+        "label": "0xb3445d54",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x2df9a59cd29faa8c02a7a84f6b223b8d9f231f12",
+        "label": "0x2df9a59c",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "?"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4675c7e5baafbffbca748158becba61ef3b0a263",
+        "label": "0x4675c7e5",
+        "totalUsd": 0,
+        "txCount": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x388c818ca8b9251b393131c08a736a67ccb19297",
+        "label": "0x388c818c",
+        "totalUsd": 0,
+        "txCount": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xfd39d21c258a35f25fdec0b174f9ae915cc63622",
+        "label": "0xfd39d21c",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xcbfa884044546d5569e2abff3fb429301b61562a",
+        "label": "0xcbfa8840",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xf588c58f467db3711b558f5294de4900b535ce69",
+        "label": "0xf588c58f",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x0d22e6a9a418f04b8b6296878439f68fa5abfac6",
+        "label": "0x0d22e6a9",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xffd22b84fb1d46ef74ed6530b2635be61340f347",
+        "label": "0xffd22b84",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4e71f9debec9117f1facc7eeb490758af45806a7",
+        "label": "0x4e71f9de",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xde12c3d2257fc9bb1c1a00d409f292eecd55ffaf",
+        "label": "0xde12c3d2",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x6b333b20fbae3c5c0969dd02176e30802e2fbbdb",
+        "label": "0x6b333b20",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x089775364ea24957da94348cf740375826ed3330",
+        "label": "0x08977536",
+        "totalUsd": 0,
+        "txCount": 3,
+        "tokens": [
+          "BAL",
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xdf330ccb1d8fe97d176850bc127d0101cbe4e932",
+        "label": "0xdf330ccb",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "WBTC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xdb38ae75c5f44276803345f7f02e95a0aeef5944",
+        "label": "0xdb38ae75",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x22cd4027b8af39de8eb8809588a60b8ef067ef76",
+        "label": "0x22cd4027",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "DAI",
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x701902858a6a9b6f36603244622732d9ec57a82a",
+        "label": "0x70190285",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DPI"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x728f1bc2c3170fa9fd9baaa4105781ac4af6c35f",
+        "label": "0x728f1bc2",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "RITUAL",
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xbc2053df37acd48a36a6d6b1b70a47aafc020c1c",
+        "label": "0xbc2053df",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "RITUAL"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x1fcee8efa91c36c528e23ac0e63490dcbd780946",
+        "label": "0x1fcee8ef",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "RITUAL"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "label": "0x7a250d56",
+        "totalUsd": 0,
+        "txCount": 11,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x6a000f20005980200259b80c5102003040001068",
+        "label": "0x6a000f20",
+        "totalUsd": 10551.513349950257,
+        "txCount": 9,
+        "tokens": [
+          "DUSD",
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "label": "VICTIM: DUSD/USDC Pool",
+        "totalUsd": 466498.01099428267,
+        "txCount": 40,
+        "tokens": [
+          "DUSD",
+          "USDC"
+        ],
+        "type": "victim"
+      },
+      {
+        "address": "0xd226997439ecfbeff8e110c8c78c8a7eefd19f89",
+        "label": "0xd2269974",
+        "totalUsd": 2210.236432671547,
+        "txCount": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x76e4ad4a6b04d99e7ed47580007bd9382a380857",
+        "label": "0x76e4ad4a",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+        "label": "0x8f10b468",
+        "totalUsd": 6797.528767585754,
+        "txCount": 4,
+        "tokens": [
+          "USDC",
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x1f2f10d1c40777ae1da742455c65828ff36df387",
+        "label": "0x1f2f10d1",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x37bab29dafe65278552bc74adbbabc15904b5502",
+        "label": "0x37bab29d",
+        "totalUsd": 2673.0883600436105,
+        "txCount": 2,
+        "tokens": [
+          "USDC",
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x81463b0f960f247f704377661ec81c1fd65b5128",
+        "label": "0x81463b0f",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4e4e6779ac4e8766d483bc934e2751353c791e52",
+        "label": "0x4e4e6779",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x45036c10e37de2fef7f7b2d4b7298ba4c3bcf7b7",
+        "label": "0x45036c10",
+        "totalUsd": 0,
+        "txCount": 3,
+        "tokens": [
+          "DUSD",
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xd855d04d31556575e6597ca78e58fe2e86a48ab1",
+        "label": "0xd855d04d",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xcf5540fffcdc3d510b18bfca6d2b9987b0772559",
+        "label": "0xcf5540ff",
+        "totalUsd": 0,
+        "txCount": 4,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x6e4141d33021b52c91c28608403db4a0ffb50ec6",
+        "label": "0x6e4141d3",
+        "totalUsd": 0,
+        "txCount": 7,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x668035c440606da01e788991bfbba5c0d24133ab",
+        "label": "0x668035c4",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "label": "0x9008d19f",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x2522d717ba90f0383d302b75ce20be472d2a9677",
+        "label": "0x2522d717",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "DUSD"
+        ],
+        "type": "normal"
+      }
+    ],
+    "edges": [
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "totalUsd": 2.1846546318603516e-11,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "totalUsd": 0,
+        "count": 2,
+        "tokens": [
+          "FMT"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0x0000000000000000000000000000000000000000",
+        "totalUsd": 3.335869419867194,
+        "count": 8,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "totalUsd": 0.26325121272505597,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "totalUsd": 2.608968696482613,
+        "count": 5,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0x4dc2a406011ef1118aed54687583a48e5b297503",
+        "totalUsd": 0.0006697317199985463,
+        "count": 5,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 2.08885248420729,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+        "to": "0x4d2a30a2ef8e8273b8352ee4a0a4e93fea2d0bbe",
+        "totalUsd": 3.121017703852119,
+        "count": 13,
+        "tokens": [
+          "RITUAL",
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x4c381d4fda7afc274f53a6f48e7c2a703dee0191",
+        "totalUsd": 4.968260014183555,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x4ab12e7ce31857ee022f273e8580f73335a73c0b",
+        "totalUsd": 4.141251991484166,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x5b5a0580bcfd3673820bb249514234afad33e209",
+        "totalUsd": 3.5049451339790596,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0xd683b81c2608980db90a6fd730153e04629ff1a3",
+        "totalUsd": 3.0048825896798377,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0xe08d97e151473a848c3d9ca3f323cb720472d015",
+        "totalUsd": 7.20919390105782,
+        "count": 2,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x49bc3cec1fb7978746f742a4e485d0d601831cea",
+        "totalUsd": 2.6047525282281714,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x74e2b8eee3ea8f4639b81e1e9b230cc9c06e5f6a",
+        "totalUsd": 2.011754325368892,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x5968ada261a84e19a6c85830e655647752585ed4",
+        "totalUsd": 1.788524154353629,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x03cd656b6559b534700e487166f175eb5cd40e11",
+        "totalUsd": 1.6005111661847513,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0xee5fae63ae253eb96942215d48def642519b716c",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "FMT"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x01ba19143476a8bc4b27c450a8d46b29ec35a7e5",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "FMT"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0x4e7a12532f1c4b5ed6bb6420914bb0ba82a1fc7f",
+        "totalUsd": 3.9658244969334495,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0xbd32122bad41a09f2405bb374a83877d8245079c",
+        "totalUsd": 2.8617661798044685,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
+        "to": "0xb3445d5413abf63df1112a4a517de2602f249785",
+        "totalUsd": 3.3464808081169517,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0x2df9a59cd29faa8c02a7a84f6b223b8d9f231f12",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "?"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0x4675c7e5baafbffbca748158becba61ef3b0a263",
+        "totalUsd": 255.39433640097013,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0x388c818ca8b9251b393131c08a736a67ccb19297",
+        "totalUsd": 251.67605757110246,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0xfd39d21c258a35f25fdec0b174f9ae915cc63622",
+        "totalUsd": 36.80989714537315,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0xcbfa884044546d5569e2abff3fb429301b61562a",
+        "totalUsd": 37.51813923819414,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0xf588c58f467db3711b558f5294de4900b535ce69",
+        "totalUsd": 86.05175282334221,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0x0d22e6a9a418f04b8b6296878439f68fa5abfac6",
+        "totalUsd": 65.16187735617955,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0xffd22b84fb1d46ef74ed6530b2635be61340f347",
+        "totalUsd": 54.11313400409811,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0x4e71f9debec9117f1facc7eeb490758af45806a7",
+        "totalUsd": 58.847545054411825,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0xde12c3d2257fc9bb1c1a00d409f292eecd55ffaf",
+        "totalUsd": 27.147063058101583,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "to": "0x6b333b20fbae3c5c0969dd02176e30802e2fbbdb",
+        "totalUsd": 136.3567811929044,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0x089775364ea24957da94348cf740375826ed3330",
+        "totalUsd": 189.15521681964407,
+        "count": 3,
+        "tokens": [
+          "BAL",
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0xdf330ccb1d8fe97d176850bc127d0101cbe4e932",
+        "totalUsd": 240.51439483441405,
+        "count": 2,
+        "tokens": [
+          "WBTC"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 474.39614484375,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0xdb38ae75c5f44276803345f7f02e95a0aeef5944",
+        "totalUsd": 120.72990807359409,
+        "count": 2,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0x22cd4027b8af39de8eb8809588a60b8ef067ef76",
+        "totalUsd": 0.06694456292527524,
+        "count": 2,
+        "tokens": [
+          "DAI",
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0x0000000000000000000000000000000000000000",
+        "totalUsd": 0.04444054077148438,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0x701902858a6a9b6f36603244622732d9ec57a82a",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DPI"
+        ]
+      },
+      {
+        "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
+        "to": "0x728f1bc2c3170fa9fd9baaa4105781ac4af6c35f",
+        "totalUsd": 6054.16936889075,
+        "count": 2,
+        "tokens": [
+          "RITUAL",
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
+        "to": "0xbc2053df37acd48a36a6d6b1b70a47aafc020c1c",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "RITUAL"
+        ]
+      },
+      {
+        "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
+        "to": "0x1fcee8efa91c36c528e23ac0e63490dcbd780946",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "RITUAL"
+        ]
+      },
+      {
+        "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
+        "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "totalUsd": 160.34029485640954,
+        "count": 11,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x6a000f20005980200259b80c5102003040001068",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 10551.513349950257,
+        "count": 9,
+        "tokens": [
+          "DUSD",
+          "USDC"
+        ]
+      },
+      {
+        "from": "0xd226997439ecfbeff8e110c8c78c8a7eefd19f89",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 2210.236432671547,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ]
+      },
+      {
+        "from": "0x76e4ad4a6b04d99e7ed47580007bd9382a380857",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 0,
+        "count": 2,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 6797.528767585754,
+        "count": 4,
+        "tokens": [
+          "USDC",
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x1f2f10d1c40777ae1da742455c65828ff36df387",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x37bab29dafe65278552bc74adbbabc15904b5502",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 2673.0883600436105,
+        "count": 2,
+        "tokens": [
+          "USDC",
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x81463b0f960f247f704377661ec81c1fd65b5128",
+        "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0x4e4e6779ac4e8766d483bc934e2751353c791e52",
+        "totalUsd": 0,
+        "count": 2,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0x45036c10e37de2fef7f7b2d4b7298ba4c3bcf7b7",
+        "totalUsd": 466498.01099428267,
+        "count": 3,
+        "tokens": [
+          "DUSD",
+          "USDC"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0xd855d04d31556575e6597ca78e58fe2e86a48ab1",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0xcf5540fffcdc3d510b18bfca6d2b9987b0772559",
+        "totalUsd": 0,
+        "count": 4,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0x6e4141d33021b52c91c28608403db4a0ffb50ec6",
+        "totalUsd": 0,
+        "count": 7,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0x668035c440606da01e788991bfbba5c0d24133ab",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DUSD"
+        ]
+      },
+      {
+        "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+        "to": "0x2522d717ba90f0383d302b75ce20be472d2a9677",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "DUSD"
+        ]
+      }
+    ]
+  },
+  "transferCount": 145
+}

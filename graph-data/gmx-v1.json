@@ -1,0 +1,881 @@
+{
+  "name": "GMX V1",
+  "graph": {
+    "nodes": [
+      {
+        "address": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "label": "ATTACKER: EOA",
+        "totalUsd": 55223.93322753906,
+        "txCount": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "attacker"
+      },
+      {
+        "address": "0x2d1545d6dedce867fca3091f49b29d16b230a6e4",
+        "label": "0x2d1545d6",
+        "totalUsd": 29372.504516601562,
+        "txCount": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "label": "0xf031e4f9",
+        "totalUsd": 330907.4023543217,
+        "txCount": 7,
+        "tokens": [
+          "ETH",
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "label": "0x00000000",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+        "label": "0xfd78ee91",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x10d8b8daa26d307489803e10477de69c0492b610",
+        "label": "0x10d8b8da",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "label": "ATTACKER: Contract",
+        "totalUsd": 9513455.78342493,
+        "txCount": 30,
+        "tokens": [
+          "ETH",
+          "USDC",
+          "fsGLP",
+          "fGLP",
+          "GLP",
+          "FRAX"
+        ],
+        "type": "attacker"
+      },
+      {
+        "address": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "label": "0x09f77e8a",
+        "totalUsd": 5399.305856458075,
+        "txCount": 22,
+        "tokens": [
+          "ETH",
+          "WETH",
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "label": "VICTIM: GMX Vault",
+        "totalUsd": 32554.36310225881,
+        "txCount": 66,
+        "tokens": [
+          "USDC",
+          "FRAX",
+          "WETH",
+          "USD₮0",
+          "WBTC",
+          "USDG",
+          "UNI",
+          "LINK"
+        ],
+        "type": "victim"
+      },
+      {
+        "address": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "label": "0xb87a436b",
+        "totalUsd": 41.004091241853786,
+        "txCount": 20,
+        "tokens": [
+          "ETH",
+          "USDC",
+          "WETH",
+          "WBTC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x0000000000000000000000000000000000000000",
+        "label": "0x00000000",
+        "totalUsd": 0,
+        "txCount": 15,
+        "tokens": [
+          "fsGLP",
+          "fGLP",
+          "GLP",
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "label": "0x1addd80e",
+        "totalUsd": 0,
+        "txCount": 17,
+        "tokens": [
+          "fGLP",
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "label": "0x4e971a87",
+        "totalUsd": 1842.4407697480221,
+        "txCount": 17,
+        "tokens": [
+          "GLP",
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xf4643762507466f121aa01ab95d6483f5732b06d",
+        "label": "0xf4643762",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x2a1b09ab7c67108fcf915add4a380047396c0926",
+        "label": "0x2a1b09ab",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "ETH",
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xdf6ccdc845045ab27c6d1cc99a5a942f862cdf13",
+        "label": "0xdf6ccdc8",
+        "totalUsd": 0,
+        "txCount": 3,
+        "tokens": [
+          "ETH",
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x64dac40243cc1171e73533e4b75aeca296eae0a3",
+        "label": "0x64dac402",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xd64cbeb833dbc72c8dfa28b7a7320a103e12b7af",
+        "label": "0xd64cbeb8",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
+        "label": "0xabbc5f99",
+        "totalUsd": 0,
+        "txCount": 5,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "label": "0x5f799f36",
+        "totalUsd": 0,
+        "txCount": 3,
+        "tokens": [
+          "USDC"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba",
+        "label": "0x3d6ba331",
+        "totalUsd": 0,
+        "txCount": 27,
+        "tokens": [
+          "USDC",
+          "WETH",
+          "USD₮0",
+          "UNI"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "label": "0x82af4944",
+        "totalUsd": 0,
+        "txCount": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x94577665926885f47ddc1feb322bc51470daa8e8",
+        "label": "0x94577665",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xbee27bd52db995d3c74dc11ff32d93a1aad747f7",
+        "label": "0xbee27bd5",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x02009370ff755704e9acbd96042c1ab832d6067e",
+        "label": "0x02009370",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x1474111085f455bbcff25de74272bf7b8738d65b",
+        "label": "0x14741110",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x862f26238d773fde4e29156f3bb7cf58ea4cd1af",
+        "label": "0x862f2623",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x300415b2bf0b155e7027fc024d234e9bc7d93524",
+        "label": "0x300415b2",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x17ceca2a6c0d079efa0224bc64e9046efc77e556",
+        "label": "0x17ceca2a",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x127a14fef5c6cd4e9180a5048c962511ab8d781c",
+        "label": "0x127a14fe",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x4fd90de08c0fe2a57bf4369c3ef5ee3057eb3123",
+        "label": "0x4fd90de0",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x6c622ee87c3cadde20d757baa83d4e9b5b76a0aa",
+        "label": "0x6c622ee8",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xfb6fbc7722ed10ae429ac1bd3f6fc9f61887a94c",
+        "label": "0xfb6fbc77",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x5bc6a64275391dd2d79cf0431dbdd888e5ef35f1",
+        "label": "0x5bc6a642",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x1d47a34e8f854cb6a5383fa516702b293cff69f6",
+        "label": "0x1d47a34e",
+        "totalUsd": 0,
+        "txCount": 2,
+        "tokens": [
+          "fGLP"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xc6cd8ceae0f73af2e698b09747b38db5a2ca0874",
+        "label": "0xc6cd8cea",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xdfd071c0bce614c84c554a194ccfb31929935360",
+        "label": "0xdfd071c0",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x5483a69f92e6cbb680785b62e9c15602b4144521",
+        "label": "0x5483a69f",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "esGMX"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1",
+        "label": "0xa906f338",
+        "totalUsd": 0,
+        "txCount": 14,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x75a795dbbd314e9fb56971c348ffe8f727a093dc",
+        "label": "0x75a795db",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x3963ffc9dff443c2a94f21b129d429891e32ec18",
+        "label": "0x3963ffc9",
+        "totalUsd": 0,
+        "txCount": 20,
+        "tokens": [
+          "USDG"
+        ],
+        "type": "normal"
+      },
+      {
+        "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+        "label": "0x11111112",
+        "totalUsd": 0,
+        "txCount": 1,
+        "tokens": [
+          "LINK"
+        ],
+        "type": "normal"
+      }
+    ],
+    "edges": [
+      {
+        "from": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "to": "0x2d1545d6dedce867fca3091f49b29d16b230a6e4",
+        "totalUsd": 15347.354248046875,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "to": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "totalUsd": 39876.57897949219,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x2d1545d6dedce867fca3091f49b29d16b230a6e4",
+        "to": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "totalUsd": 29372.504516601562,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "totalUsd": 19.542147216796874,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "totalUsd": 97026.99584960938,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0xfd78ee919681417d192449715b2594ab58f5d002",
+        "totalUsd": 96837.57932331579,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ]
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0x10d8b8daa26d307489803e10477de69c0492b610",
+        "totalUsd": 137023.2850341797,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "totalUsd": 306.4224099121095,
+        "count": 7,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "totalUsd": 9513109.506132206,
+        "count": 8,
+        "tokens": [
+          "USDC",
+          "FRAX"
+        ]
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "totalUsd": 39.8548828125,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0x0000000000000000000000000000000000000000",
+        "totalUsd": 0,
+        "count": 6,
+        "tokens": [
+          "fsGLP",
+          "fGLP",
+          "GLP"
+        ]
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "totalUsd": 0,
+        "count": 2,
+        "tokens": [
+          "fGLP"
+        ]
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "totalUsd": 0,
+        "count": 2,
+        "tokens": [
+          "GLP"
+        ]
+      },
+      {
+        "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "to": "0x0000000000000000000000000000000000000000",
+        "totalUsd": 2.8093327311247553,
+        "count": 6,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "to": "0xf4643762507466f121aa01ab95d6483f5732b06d",
+        "totalUsd": 0.9321945135546875,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "to": "0x2a1b09ab7c67108fcf915add4a380047396c0926",
+        "totalUsd": 3989.0156073929643,
+        "count": 2,
+        "tokens": [
+          "ETH",
+          "USDC"
+        ]
+      },
+      {
+        "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "to": "0xdf6ccdc845045ab27c6d1cc99a5a942f862cdf13",
+        "totalUsd": 1405.6132821544588,
+        "count": 3,
+        "tokens": [
+          "ETH",
+          "USDC"
+        ]
+      },
+      {
+        "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "to": "0x64dac40243cc1171e73533e4b75aeca296eae0a3",
+        "totalUsd": 0.46771983298669434,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
+        "to": "0xd64cbeb833dbc72c8dfa28b7a7320a103e12b7af",
+        "totalUsd": 0.46771983298669434,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
+        "totalUsd": 49.841425679338485,
+        "count": 5,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "totalUsd": 311.6340713800979,
+        "count": 2,
+        "tokens": [
+          "USDC"
+        ]
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba",
+        "totalUsd": 32177.435527906877,
+        "count": 27,
+        "tokens": [
+          "USDC",
+          "WETH",
+          "USD₮0",
+          "UNI"
+        ]
+      },
+      {
+        "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "to": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "totalUsd": 0.6628286621093751,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "to": "0x94577665926885f47ddc1feb322bc51470daa8e8",
+        "totalUsd": 0.26441982421875,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "totalUsd": 30.01082095364685,
+        "count": 3,
+        "tokens": [
+          "USDC",
+          "WBTC"
+        ]
+      },
+      {
+        "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "to": "0x0000000000000000000000000000000000000000",
+        "totalUsd": 0.39694123535156245,
+        "count": 3,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "to": "0xbee27bd52db995d3c74dc11ff32d93a1aad747f7",
+        "totalUsd": 0.13234472656250001,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ]
+      },
+      {
+        "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
+        "to": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "totalUsd": 9.536735839964747,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x02009370ff755704e9acbd96042c1ab832d6067e",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x1474111085f455bbcff25de74272bf7b8738d65b",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x862f26238d773fde4e29156f3bb7cf58ea4cd1af",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x300415b2bf0b155e7027fc024d234e9bc7d93524",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x17ceca2a6c0d079efa0224bc64e9046efc77e556",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x127a14fef5c6cd4e9180a5048c962511ab8d781c",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x4fd90de08c0fe2a57bf4369c3ef5ee3057eb3123",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x6c622ee87c3cadde20d757baa83d4e9b5b76a0aa",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0xfb6fbc7722ed10ae429ac1bd3f6fc9f61887a94c",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x5bc6a64275391dd2d79cf0431dbdd888e5ef35f1",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x1d47a34e8f854cb6a5383fa516702b293cff69f6",
+        "totalUsd": 0,
+        "count": 2,
+        "tokens": [
+          "fGLP"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0xc6cd8ceae0f73af2e698b09747b38db5a2ca0874",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0xdfd071c0bce614c84c554a194ccfb31929935360",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x5483a69f92e6cbb680785b62e9c15602b4144521",
+        "totalUsd": 0,
+        "count": 1,
+        "tokens": [
+          "esGMX"
+        ]
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1",
+        "totalUsd": 1837.521757359937,
+        "count": 14,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x75a795dbbd314e9fb56971c348ffe8f727a093dc",
+        "totalUsd": 4.919012388085131,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ]
+      },
+      {
+        "from": "0x3963ffc9dff443c2a94f21b129d429891e32ec18",
+        "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "totalUsd": 0,
+        "count": 20,
+        "tokens": [
+          "USDG"
+        ]
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+        "totalUsd": 15.45207729250058,
+        "count": 1,
+        "tokens": [
+          "LINK"
+        ]
+      }
+    ]
+  },
+  "transferCount": 153
+}
