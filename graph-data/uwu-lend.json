@@ -2327,6 +2327,8 @@
       }
     ],
     "fundingSources": 2,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "Tornado Cash 1 ETH (6 ETH)",
+    "laundering": "Tornado Cash Router, Across SpokePool bridge"
   }
 }

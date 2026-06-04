@@ -1113,6 +1113,18 @@
         ],
         "hop": 2,
         "direction": "destination"
+      },
+      {
+        "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        "label": "Bybit 1",
+        "type": "cex",
+        "totalUsd": 550,
+        "totalEth": 0.22,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "funding"
       }
     ],
     "edges": [
@@ -2744,6 +2756,8 @@
     "cexes": [],
     "bridges": [],
     "fundingSources": 0,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "Bybit (0.22 ETH gas, hop 3)",
+    "laundering": "Tornado Cash (4,520 ETH / $11.3M)"
   }
 }

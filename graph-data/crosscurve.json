@@ -2076,6 +2076,8 @@
       }
     ],
     "fundingSources": 0,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "FixedFloat (no-KYC, 0.06 ETH)",
+    "laundering": "Tornado Cash (800 ETH), LiFi bridge"
   }
 }

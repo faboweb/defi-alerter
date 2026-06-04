@@ -5057,6 +5057,8 @@
       }
     ],
     "fundingSources": 0,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "Unknown",
+    "laundering": "Token flows (RYU, WETH), dust to L2 bridges"
   }
 }

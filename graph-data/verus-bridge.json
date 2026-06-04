@@ -1442,6 +1442,8 @@
     "cexes": [],
     "bridges": [],
     "fundingSources": 0,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "Unknown (CREATE2 obfuscation)",
+    "laundering": "CoW Protocol swaps → CREATE2+selfdestruct chain"
   }
 }

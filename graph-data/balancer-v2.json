@@ -899,6 +899,18 @@
         ],
         "hop": 3,
         "direction": "destination"
+      },
+      {
+        "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+        "label": "Coinbase 2",
+        "type": "cex",
+        "totalUsd": 125,
+        "totalEth": 0.05,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 4,
+        "direction": "funding"
       }
     ],
     "edges": [
@@ -2052,6 +2064,8 @@
       }
     ],
     "fundingSources": 0,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "Coinbase 2 (0.05 ETH gas, hop 4)",
+    "laundering": "THORChain (21K+ ETH), Tornado Cash (2.5K ETH), LiFi"
   }
 }

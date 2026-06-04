@@ -2836,6 +2836,8 @@
     "cexes": [],
     "bridges": [],
     "fundingSources": 0,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "OKX (hop 4, likely not direct)",
+    "laundering": "$41.8M DAI to staging, CREATE2+selfdestruct peeling chain"
   }
 }

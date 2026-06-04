@@ -5479,6 +5479,8 @@
       }
     ],
     "fundingSources": 160,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "FixedFloat (no-KYC, 1.2 ETH)",
+    "laundering": "Tornado Cash, Hop/Synapse/Wormhole bridges"
   }
 }

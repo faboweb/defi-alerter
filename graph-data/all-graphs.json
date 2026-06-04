@@ -900,6 +900,18 @@
           ],
           "hop": 3,
           "direction": "destination"
+        },
+        {
+          "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+          "label": "Coinbase 2",
+          "type": "cex",
+          "totalUsd": 125,
+          "totalEth": 0.05,
+          "tokens": [
+            "ETH"
+          ],
+          "hop": 4,
+          "direction": "funding"
         }
       ],
       "edges": [
@@ -2053,7 +2065,9 @@
         }
       ],
       "fundingSources": 0,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "Coinbase 2 (0.05 ETH gas, hop 4)",
+      "laundering": "THORChain (21K+ ETH), Tornado Cash (2.5K ETH), LiFi"
     }
   },
   {
@@ -5317,7 +5331,9 @@
       "cexes": [],
       "bridges": [],
       "fundingSources": 16,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "15 sources on Arbitrum (no mixer/CEX identified)",
+      "laundering": "CREATE2+selfdestruct obfuscation"
     }
   },
   {
@@ -6764,7 +6780,9 @@
       "cexes": [],
       "bridges": [],
       "fundingSources": 0,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "Unknown (CREATE2 obfuscation)",
+      "laundering": "CoW Protocol swaps → CREATE2+selfdestruct chain"
     }
   },
   {
@@ -11826,7 +11844,9 @@
         }
       ],
       "fundingSources": 0,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "Unknown",
+      "laundering": "Token flows (RYU, WETH), dust to L2 bridges"
     }
   },
   {
@@ -13907,7 +13927,9 @@
         }
       ],
       "fundingSources": 0,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "FixedFloat (no-KYC, 0.06 ETH)",
+      "laundering": "Tornado Cash (800 ETH), LiFi bridge"
     }
   },
   {
@@ -16748,7 +16770,9 @@
       "cexes": [],
       "bridges": [],
       "fundingSources": 0,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "OKX (hop 4, likely not direct)",
+      "laundering": "$41.8M DAI to staging, CREATE2+selfdestruct peeling chain"
     }
   },
   {
@@ -17866,6 +17890,18 @@
           ],
           "hop": 2,
           "direction": "destination"
+        },
+        {
+          "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+          "label": "Bybit 1",
+          "type": "cex",
+          "totalUsd": 550,
+          "totalEth": 0.22,
+          "tokens": [
+            "ETH"
+          ],
+          "hop": 3,
+          "direction": "funding"
         }
       ],
       "edges": [
@@ -19497,7 +19533,9 @@
       "cexes": [],
       "bridges": [],
       "fundingSources": 0,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "Bybit (0.22 ETH gas, hop 3)",
+      "laundering": "Tornado Cash (4,520 ETH / $11.3M)"
     }
   },
   {
@@ -21829,7 +21867,9 @@
         }
       ],
       "fundingSources": 2,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "Tornado Cash 1 ETH (6 ETH)",
+      "laundering": "Tornado Cash Router, Across SpokePool bridge"
     }
   },
   {
@@ -27313,7 +27353,9 @@
         }
       ],
       "fundingSources": 160,
-      "maxHop": 3
+      "maxHop": 3,
+      "funding": "FixedFloat (no-KYC, 1.2 ETH)",
+      "laundering": "Tornado Cash, Hop/Synapse/Wormhole bridges"
     }
   }
 ]

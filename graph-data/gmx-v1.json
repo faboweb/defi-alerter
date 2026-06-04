@@ -3259,6 +3259,8 @@
     "cexes": [],
     "bridges": [],
     "fundingSources": 16,
-    "maxHop": 3
+    "maxHop": 3,
+    "funding": "15 sources on Arbitrum (no mixer/CEX identified)",
+    "laundering": "CREATE2+selfdestruct obfuscation"
   }
 }
