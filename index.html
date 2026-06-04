@@ -546,9 +546,10 @@ footer {
   <canvas id="network-canvas"></canvas>
   <div class="network-legend">
     <div class="legend-item"><div class="legend-dot red"></div>Attacker</div>
-    <div class="legend-item"><div class="legend-dot blue"></div>Protocol</div>
-    <div class="legend-item"><div class="legend-dot green"></div>Detected</div>
-    <div class="legend-item"><div class="legend-dot gray"></div>Address</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#cc4422"></div>Fund Trail</div>
+    <div class="legend-item"><div class="legend-dot blue"></div>Victim</div>
+    <div class="legend-item"><div class="legend-dot green"></div>Detection</div>
+    <div class="legend-item"><div class="legend-dot gray"></div>Protocol Infra</div>
   </div>
 </section>
 
@@ -1050,6 +1051,7 @@ function buildNetworkFromTxs(txList, hack) {
   const positions = new Map();
   const attackerNodes = nodes.filter(n => n.type === 'attacker');
   const victimNodes = nodes.filter(n => n.type === 'victim');
+  const trailNodes = nodes.filter(n => n.type === 'trail');
   const normalNodes = nodes.filter(n => n.type === 'normal');
 
   // Victim(s) at center
@@ -1057,25 +1059,36 @@ function buildNetworkFromTxs(txList, hack) {
     positions.set(n.address, new THREE.Vector3(0, i * 0.5, 0));
   });
 
-  // Attackers clustered on the right, spread by USD volume
+  // Attackers top-right
   attackerNodes.forEach((n, i) => {
-    const angle = -0.8 + (i / Math.max(attackerNodes.length - 1, 1)) * 1.6;
-    const r = 3 + (rng() * 1.5);
+    const angle = -0.6 + (i / Math.max(attackerNodes.length - 1, 1)) * 1.2;
+    const r = 3.5 + rng() * 1;
     positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r + 2.5,
-      Math.sin(angle) * r * 0.7,
+      Math.cos(angle) * r + 2,
+      Math.sin(angle) * r * 0.6 + 1,
+      (rng() - 0.5) * 1.5
+    ));
+  });
+
+  // Trail nodes (attacker fund destinations) — fan out right and below attackers
+  trailNodes.forEach((n, i) => {
+    const angle = -1.2 + (i / Math.max(trailNodes.length - 1, 1)) * 2.4;
+    const r = 2 + rng() * 2;
+    positions.set(n.address, new THREE.Vector3(
+      Math.cos(angle) * r + 1.5,
+      Math.sin(angle) * r * 0.5 - 1,
       (rng() - 0.5) * 2
     ));
   });
 
-  // Normal nodes spread on the left
+  // Normal nodes (protocol infra) — spread on the left
   normalNodes.forEach((n, i) => {
-    const angle = Math.PI * 0.3 + (i / Math.max(normalNodes.length - 1, 1)) * Math.PI * 1.4;
-    const r = 2 + rng() * 2.5;
+    const angle = Math.PI * 0.3 + (i / Math.max(normalNodes.length - 1, 1)) * Math.PI * 1.2;
+    const r = 2 + rng() * 2;
     positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r - 1,
-      Math.sin(angle) * r * 0.6,
-      (rng() - 0.5) * 2.5
+      Math.cos(angle) * r - 2,
+      Math.sin(angle) * r * 0.5,
+      (rng() - 0.5) * 2
     ));
   });
 
@@ -1088,18 +1101,20 @@ function buildNetworkFromTxs(txList, hack) {
 
     const isAttacker = node.type === 'attacker';
     const isVictim = node.type === 'victim';
-    const color = isAttacker ? 0xff3344 : isVictim ? 0x4488ff : 0x222838;
+    const isTrail = node.type === 'trail';
+    const color = isAttacker ? 0xff3344 : isVictim ? 0x4488ff : isTrail ? 0xcc4422 : 0x222838;
     const usdRatio = Math.min((node.totalUsd || 0) / maxUsd, 1);
     const size = isVictim ? 0.35 :
-                 isAttacker ? 0.1 + usdRatio * 0.2 :
+                 isAttacker ? 0.12 + usdRatio * 0.2 :
+                 isTrail ? 0.06 + usdRatio * 0.1 :
                  0.04 + usdRatio * 0.06;
 
     const geo = new THREE.SphereGeometry(size, 14, 14);
     const mat = new THREE.MeshPhongMaterial({
       color, emissive: color,
-      emissiveIntensity: isAttacker ? 0.5 : isVictim ? 0.35 : 0.05,
+      emissiveIntensity: isAttacker ? 0.5 : isVictim ? 0.35 : isTrail ? 0.3 : 0.05,
       transparent: true,
-      opacity: isAttacker || isVictim ? 0.9 : 0.25 + usdRatio * 0.3,
+      opacity: isAttacker || isVictim ? 0.9 : isTrail ? 0.6 : 0.25 + usdRatio * 0.3,
     });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
@@ -1129,17 +1144,19 @@ function buildNetworkFromTxs(txList, hack) {
     const fromNode = nodes.find(n => n.address === edge.from);
     const toNode = nodes.find(n => n.address === edge.to);
     const isAttackerEdge = fromNode?.type === 'attacker' || toNode?.type === 'attacker';
+    const isTrailEdge = fromNode?.type === 'trail' || toNode?.type === 'trail';
+    const isHotEdge = isAttackerEdge || isTrailEdge;
     const usdRatio = Math.min((edge.totalUsd || 0) / maxEdgeUsd, 1);
 
-    const lineColor = isAttackerEdge ? 0xff3344 : 0x151a2a;
-    const opacity = isAttackerEdge ? 0.25 + usdRatio * 0.5 : 0.03 + usdRatio * 0.06;
+    const lineColor = isAttackerEdge ? 0xff3344 : isTrailEdge ? 0x993322 : 0x151a2a;
+    const opacity = isHotEdge ? 0.15 + usdRatio * 0.5 : 0.03 + usdRatio * 0.06;
 
     const geo = new THREE.BufferGeometry().setFromPoints([fromPos.clone(), toPos.clone()]);
     const mat = new THREE.LineBasicMaterial({ color: lineColor, transparent: true, opacity });
     networkGroup.add(new THREE.Line(geo, mat));
 
-    // Particles on attacker edges with significant USD value
-    if (isAttackerEdge && edge.totalUsd > 1000) {
+    // Particles on hot edges with significant USD value
+    if (isHotEdge && edge.totalUsd > 1000) {
       const pCount = Math.min(6, 2 + Math.floor(usdRatio * 4));
       for (let j = 0; j < pCount; j++) {
         const pGeo = new THREE.SphereGeometry(0.025 + usdRatio * 0.02, 6, 6);

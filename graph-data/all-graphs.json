@@ -55,7 +55,7 @@
             "wstETH",
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x5352920f2080ca86952e63723dcd9ba1226934e4",
@@ -115,7 +115,7 @@
             "osETH",
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x000010036c0190e009a000d0fc3541100a07380a",
@@ -125,7 +125,7 @@
           "tokens": [
             "osETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
@@ -135,7 +135,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x00c600b30fb0400701010f4b080409018b9006e0",
@@ -145,7 +145,7 @@
           "tokens": [
             "osETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
@@ -155,7 +155,7 @@
           "tokens": [
             "osETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x63242a4ea82847b20e506b63b0e2e2eff0cc6cb0",
@@ -166,7 +166,7 @@
             "USDC",
             "osETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x365084b05fa7d5028346bd21d842ed0601bab5b8",
@@ -176,37 +176,7 @@
           "tokens": [
             "osETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x0e9c9473d0c504da72763426719f6f03a15544d5",
-          "label": "0x0e9c9473",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x424993dd317ec44db13ee94fe4d1ea6e204e77d1",
-          "label": "0x424993dd",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x81463b0f960f247f704377661ec81c1fd65b5128",
-          "label": "0x81463b0f",
-          "totalUsd": 9.315126304607444,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
@@ -226,32 +196,12 @@
           "type": "victim"
         },
         {
-          "address": "0x7e68c279ea86fa49a49eef2cbb79b9cbfbc48025",
-          "label": "0x7e68c279",
-          "totalUsd": 321.90745110382676,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x0000000000efa780a8e6f50fc5de9c1497bfd175",
           "label": "0x00000000",
           "totalUsd": 650.951108029358,
           "txCount": 2,
           "tokens": [
             "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa77aec8a02982011390cdc5a33a328cb2effcb93",
-          "label": "0xa77aec8a",
-          "totalUsd": 18.000238362245213,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
           ],
           "type": "normal"
         },
@@ -276,16 +226,6 @@
           "type": "normal"
         },
         {
-          "address": "0x009a8dbad7000f0000009b002d050058ca881b57",
-          "label": "0x009a8dba",
-          "totalUsd": 26.727267232742154,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0xc4fc3183b044dfd4bb05ea050cac58db1dd5ed0d",
           "label": "0xc4fc3183",
           "totalUsd": 7695.931173587264,
@@ -306,135 +246,12 @@
           "type": "normal"
         },
         {
-          "address": "0x09ad820aac5779683b481c4674208a4e1b024afa",
-          "label": "0x09ad820a",
-          "totalUsd": 7.131252451171875,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x71d5dcd76fb9ca8fe92b4952f13eaad149a955e0",
-          "label": "0x71d5dcd7",
-          "totalUsd": 136.29466384636402,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0xe08d97e151473a848c3d9ca3f323cb720472d015",
           "label": "0xe08d97e1",
           "totalUsd": 548.9240247110156,
           "txCount": 1,
           "tokens": [
             "WBTC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7f54f05635d15cde17a49502fedb9d1803a3be8a",
-          "label": "0x7f54f056",
-          "totalUsd": 158.72165422217623,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x76084300abe48baf8a00d90000e000a6530000c2",
-          "label": "0x76084300",
-          "totalUsd": 170.16724031726812,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x50d3865a63d52c0a54e4679949647ea752107390",
-          "label": "0x50d3865a",
-          "totalUsd": 162.68144503739475,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x089775364ea24957da94348cf740375826ed3330",
-          "label": "0x08977536",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "BAL",
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdf330ccb1d8fe97d176850bc127d0101cbe4e932",
-          "label": "0xdf330ccb",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WBTC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-          "label": "0xc02aaa39",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdb38ae75c5f44276803345f7f02e95a0aeef5944",
-          "label": "0xdb38ae75",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x22cd4027b8af39de8eb8809588a60b8ef067ef76",
-          "label": "0x22cd4027",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "DAI",
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x701902858a6a9b6f36603244622732d9ec57a82a",
-          "label": "0x70190285",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DPI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa1401656e9383b760fdaa01ef2332a0d1601ed26",
-          "label": "0xa1401656",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WBTC",
-            "USDC"
           ],
           "type": "normal"
         }
@@ -595,57 +412,12 @@
           ]
         },
         {
-          "from": "0xf19ffb56a8ec6f11f15551a020530dcc19e2fae2",
-          "to": "0x0e9c9473d0c504da72763426719f6f03a15544d5",
-          "totalUsd": 0.000009356867919921875,
-          "count": 3,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xf19ffb56a8ec6f11f15551a020530dcc19e2fae2",
-          "to": "0x424993dd317ec44db13ee94fe4d1ea6e204e77d1",
-          "totalUsd": 0.00000328573828125,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x81463b0f960f247f704377661ec81c1fd65b5128",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 9.315126304607444,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x7e68c279ea86fa49a49eef2cbb79b9cbfbc48025",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 321.90745110382676,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
           "from": "0x0000000000efa780a8e6f50fc5de9c1497bfd175",
           "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
           "totalUsd": 650.951108029358,
           "count": 2,
           "tokens": [
             "WETH"
-          ]
-        },
-        {
-          "from": "0xa77aec8a02982011390cdc5a33a328cb2effcb93",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 18.000238362245213,
-          "count": 1,
-          "tokens": [
-            "DAI"
           ]
         },
         {
@@ -667,15 +439,6 @@
           ]
         },
         {
-          "from": "0x009a8dbad7000f0000009b002d050058ca881b57",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 26.727267232742154,
-          "count": 1,
-          "tokens": [
-            "DAI"
-          ]
-        },
-        {
           "from": "0xc4fc3183b044dfd4bb05ea050cac58db1dd5ed0d",
           "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
           "totalUsd": 7695.931173587264,
@@ -694,24 +457,6 @@
           ]
         },
         {
-          "from": "0x09ad820aac5779683b481c4674208a4e1b024afa",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 7.131252451171875,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x71d5dcd76fb9ca8fe92b4952f13eaad149a955e0",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 136.29466384636402,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
           "from": "0xe08d97e151473a848c3d9ca3f323cb720472d015",
           "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
           "totalUsd": 548.9240247110156,
@@ -721,105 +466,12 @@
           ]
         },
         {
-          "from": "0x7f54f05635d15cde17a49502fedb9d1803a3be8a",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 158.72165422217623,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x76084300abe48baf8a00d90000e000a6530000c2",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 170.16724031726812,
-          "count": 1,
-          "tokens": [
-            "DAI"
-          ]
-        },
-        {
-          "from": "0x50d3865a63d52c0a54e4679949647ea752107390",
-          "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "totalUsd": 162.68144503739475,
-          "count": 1,
-          "tokens": [
-            "DAI"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0x089775364ea24957da94348cf740375826ed3330",
-          "totalUsd": 418.5142500227691,
-          "count": 4,
-          "tokens": [
-            "BAL",
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0xdf330ccb1d8fe97d176850bc127d0101cbe4e932",
-          "totalUsd": 240.51439483441405,
-          "count": 2,
-          "tokens": [
-            "WBTC"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-          "totalUsd": 474.39614484375,
-          "count": 4,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0xdb38ae75c5f44276803345f7f02e95a0aeef5944",
-          "totalUsd": 1119.6702046468306,
-          "count": 4,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0x22cd4027b8af39de8eb8809588a60b8ef067ef76",
-          "totalUsd": 0.06694456292527524,
-          "count": 2,
-          "tokens": [
-            "DAI",
-            "ETH"
-          ]
-        },
-        {
           "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
           "to": "0x0000000000000000000000000000000000000000",
           "totalUsd": 0.04444054077148438,
           "count": 1,
           "tokens": [
             "WETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0x701902858a6a9b6f36603244622732d9ec57a82a",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DPI"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0xa1401656e9383b760fdaa01ef2332a0d1601ed26",
-          "totalUsd": 41.62459522690479,
-          "count": 2,
-          "tokens": [
-            "WBTC",
-            "USDC"
           ]
         }
       ]
@@ -848,7 +500,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
@@ -859,7 +511,7 @@
             "ETH",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x0000000000001ff3684f28c67538d4d072c22734",
@@ -869,7 +521,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
@@ -879,7 +531,7 @@
           "tokens": [
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x10d8b8daa26d307489803e10477de69c0492b610",
@@ -889,7 +541,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
@@ -916,7 +568,7 @@
             "WETH",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x489ee077994b6658eafa855c308275ead8097c4a",
@@ -984,16 +636,6 @@
           "type": "normal"
         },
         {
-          "address": "0xf4643762507466f121aa01ab95d6483f5732b06d",
-          "label": "0xf4643762",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x2a1b09ab7c67108fcf915add4a380047396c0926",
           "label": "0x2a1b09ab",
           "totalUsd": 0,
@@ -1002,7 +644,7 @@
             "ETH",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xdf6ccdc845045ab27c6d1cc99a5a942f862cdf13",
@@ -1013,37 +655,7 @@
             "ETH",
             "USDC"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x64dac40243cc1171e73533e4b75aeca296eae0a3",
-          "label": "0x64dac402",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xd64cbeb833dbc72c8dfa28b7a7320a103e12b7af",
-          "label": "0xd64cbeb8",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
-          "label": "0xabbc5f99",
-          "totalUsd": 0,
-          "txCount": 5,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
@@ -1053,7 +665,7 @@
           "tokens": [
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba",
@@ -1066,217 +678,7 @@
             "USD₮0",
             "UNI"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-          "label": "0x82af4944",
-          "totalUsd": 0,
-          "txCount": 5,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x94577665926885f47ddc1feb322bc51470daa8e8",
-          "label": "0x94577665",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xbee27bd52db995d3c74dc11ff32d93a1aad747f7",
-          "label": "0xbee27bd5",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x02009370ff755704e9acbd96042c1ab832d6067e",
-          "label": "0x02009370",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1474111085f455bbcff25de74272bf7b8738d65b",
-          "label": "0x14741110",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x862f26238d773fde4e29156f3bb7cf58ea4cd1af",
-          "label": "0x862f2623",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x300415b2bf0b155e7027fc024d234e9bc7d93524",
-          "label": "0x300415b2",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x17ceca2a6c0d079efa0224bc64e9046efc77e556",
-          "label": "0x17ceca2a",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x127a14fef5c6cd4e9180a5048c962511ab8d781c",
-          "label": "0x127a14fe",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4fd90de08c0fe2a57bf4369c3ef5ee3057eb3123",
-          "label": "0x4fd90de0",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x6c622ee87c3cadde20d757baa83d4e9b5b76a0aa",
-          "label": "0x6c622ee8",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xfb6fbc7722ed10ae429ac1bd3f6fc9f61887a94c",
-          "label": "0xfb6fbc77",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5bc6a64275391dd2d79cf0431dbdd888e5ef35f1",
-          "label": "0x5bc6a642",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1d47a34e8f854cb6a5383fa516702b293cff69f6",
-          "label": "0x1d47a34e",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "fGLP"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc6cd8ceae0f73af2e698b09747b38db5a2ca0874",
-          "label": "0xc6cd8cea",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdfd071c0bce614c84c554a194ccfb31929935360",
-          "label": "0xdfd071c0",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5483a69f92e6cbb680785b62e9c15602b4144521",
-          "label": "0x5483a69f",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "esGMX"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1",
-          "label": "0xa906f338",
-          "totalUsd": 0,
-          "txCount": 14,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x75a795dbbd314e9fb56971c348ffe8f727a093dc",
-          "label": "0x75a795db",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x3963ffc9dff443c2a94f21b129d429891e32ec18",
-          "label": "0x3963ffc9",
-          "totalUsd": 0,
-          "txCount": 20,
-          "tokens": [
-            "USDG"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-          "label": "0x11111112",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "LINK"
-          ],
-          "type": "normal"
+          "type": "trail"
         }
       ],
       "edges": [
@@ -1411,15 +813,6 @@
         },
         {
           "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
-          "to": "0xf4643762507466f121aa01ab95d6483f5732b06d",
-          "totalUsd": 0.9321945135546875,
-          "count": 2,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
           "to": "0x2a1b09ab7c67108fcf915add4a380047396c0926",
           "totalUsd": 3989.0156073929643,
           "count": 2,
@@ -1436,33 +829,6 @@
           "tokens": [
             "ETH",
             "USDC"
-          ]
-        },
-        {
-          "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
-          "to": "0x64dac40243cc1171e73533e4b75aeca296eae0a3",
-          "totalUsd": 0.46771983298669434,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
-          "to": "0xd64cbeb833dbc72c8dfa28b7a7320a103e12b7af",
-          "totalUsd": 0.46771983298669434,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
-          "to": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
-          "totalUsd": 49.841425679338485,
-          "count": 5,
-          "tokens": [
-            "WETH"
           ]
         },
         {
@@ -1488,24 +854,6 @@
         },
         {
           "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
-          "to": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
-          "totalUsd": 0.6628286621093751,
-          "count": 5,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
-          "to": "0x94577665926885f47ddc1feb322bc51470daa8e8",
-          "totalUsd": 0.26441982421875,
-          "count": 2,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
           "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
           "totalUsd": 30.01082095364685,
           "count": 3,
@@ -1525,182 +873,11 @@
         },
         {
           "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
-          "to": "0xbee27bd52db995d3c74dc11ff32d93a1aad747f7",
-          "totalUsd": 0.13234472656250001,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
           "to": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
           "totalUsd": 9.536735839964747,
           "count": 1,
           "tokens": [
             "USDC"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x02009370ff755704e9acbd96042c1ab832d6067e",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x1474111085f455bbcff25de74272bf7b8738d65b",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x862f26238d773fde4e29156f3bb7cf58ea4cd1af",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x300415b2bf0b155e7027fc024d234e9bc7d93524",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x17ceca2a6c0d079efa0224bc64e9046efc77e556",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x127a14fef5c6cd4e9180a5048c962511ab8d781c",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x4fd90de08c0fe2a57bf4369c3ef5ee3057eb3123",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x6c622ee87c3cadde20d757baa83d4e9b5b76a0aa",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0xfb6fbc7722ed10ae429ac1bd3f6fc9f61887a94c",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x5bc6a64275391dd2d79cf0431dbdd888e5ef35f1",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x1d47a34e8f854cb6a5383fa516702b293cff69f6",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "fGLP"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0xc6cd8ceae0f73af2e698b09747b38db5a2ca0874",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0xdfd071c0bce614c84c554a194ccfb31929935360",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-          "to": "0x5483a69f92e6cbb680785b62e9c15602b4144521",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "esGMX"
-          ]
-        },
-        {
-          "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
-          "to": "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1",
-          "totalUsd": 1837.521757359937,
-          "count": 14,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
-          "to": "0x75a795dbbd314e9fb56971c348ffe8f727a093dc",
-          "totalUsd": 4.919012388085131,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x3963ffc9dff443c2a94f21b129d429891e32ec18",
-          "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
-          "totalUsd": 0,
-          "count": 20,
-          "tokens": [
-            "USDG"
-          ]
-        },
-        {
-          "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
-          "to": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-          "totalUsd": 15.45207729250058,
-          "count": 1,
-          "tokens": [
-            "LINK"
           ]
         }
       ]
@@ -1733,7 +910,7 @@
             "USDC",
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
@@ -1759,26 +936,6 @@
           "type": "normal"
         },
         {
-          "address": "0x27213e28d7fda5c57fe9e5dd923818dbccf71c47",
-          "label": "0x27213e28",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4423b0d6955af39b48cf215577a79ce574299d3f",
-          "label": "0x4423b0d6",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
           "label": "0x88e6a0c2",
           "totalUsd": 0,
@@ -1786,7 +943,7 @@
           "tokens": [
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -1796,257 +953,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x95ac5d754174735c22e03f48735bebd38cc665c5",
-          "label": "0x95ac5d75",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x504dd423fd3d786a78cdcd2a006d513081faf0cf",
-          "label": "0x504dd423",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xe7db0d2384587956ef9d47304e96236022cce3af",
-          "label": "0xe7db0d23",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x024816259425e1a0ccaf600b919189e427915fbe",
-          "label": "0x02481625",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xed74c0a84884d8752e29d075de7570b7b9422722",
-          "label": "0xed74c0a8",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa4b3e4006034182d96c8f26306053ab304e38284",
-          "label": "0xa4b3e400",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x27af129617d896b255d689f60b5cf48b34001f9d",
-          "label": "0x27af1296",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x6785eea1f263cfa5424f9b4e7e491eaf34d3c07c",
-          "label": "0x6785eea1",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7032ee64393c2eefe9627b68a172a3901235afe1",
-          "label": "0x7032ee64",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x443eca4eea159f591ab72fd9b1a0ed72d50b586f",
-          "label": "0x443eca4e",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x20ebac3a9c15da063d42b10063ce7096c64c90b1",
-          "label": "0x20ebac3a",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x757b8003c330418875f07e368c40b1b5ab4c6509",
-          "label": "0x757b8003",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x93bd6833454cd0c74598abddfe7b0a1d0be0168c",
-          "label": "0x93bd6833",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x6e76b3c45271f0aac7a2b245af18a9c883a493ad",
-          "label": "0x6e76b3c4",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x372095230aa707eaca108e17e0efcf2491b28c6a",
-          "label": "0x37209523",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5142fd6aede3d13ac27820c24093e234fb0ce104",
-          "label": "0x5142fd6a",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4efa6816d32d203aa2952f72d252d2d66f7dc05c",
-          "label": "0x4efa6816",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5dd41cef87a1dc8c31c34e6b9296588f039282a1",
-          "label": "0x5dd41cef",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xe3468ce114a7e46859233ffdf11346bd6957477d",
-          "label": "0xe3468ce1",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xfdad670824b6a6a3fee0a9110d876c8b459d2472",
-          "label": "0xfdad6708",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc31918c95b26482029fe294d030d18297abd7bdd",
-          "label": "0xc31918c9",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xce1a15e0514dd73c6297fbf4c29c9b27da15d8ac",
-          "label": "0xce1a15e0",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4cde83c0469aceaeb72ac9dddf96bd7a94135f26",
-          "label": "0x4cde83c0",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7844892d8a57b757d511189488734f5636fad3b1",
-          "label": "0x7844892d",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x3bfa5f79dea562e98b6b4567d204691203d90058",
-          "label": "0x3bfa5f79",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x65cb8b128bf6e690761044cceca422bb239c25f9",
@@ -2078,7 +985,7 @@
             "RAIL",
             "APEX"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
@@ -2095,7 +1002,7 @@
             "COW",
             "AAVE"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xf9ab28cb7b72b518e6a351fbdabe69362cbc1a74",
@@ -2106,7 +1013,7 @@
             "ETH",
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xf9a42bca0e75fb13fa54a9899fbe1991122cca74",
@@ -2136,7 +1043,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xa8d349642af602f12a32be7c20e5f13138568372",
@@ -2206,40 +1113,7 @@
           "tokens": [
             "XOR"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0xb666fd9b55572a3cf6d42b16fb550787670a000f",
-          "label": "0xb666fd9b",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "WETH",
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x0000000000000000000000000000000000000000",
-          "label": "0x00000000",
-          "totalUsd": 0,
-          "txCount": 22,
-          "tokens": [
-            "WETH",
-            "DAI",
-            "VRSC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x00000011f84b9aa48e5f8aa8b9897600006289be",
-          "label": "0x00000011",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
@@ -2249,17 +1123,7 @@
           "tokens": [
             "USDC"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x000000fee13a103a10d593b9ae06b3e05f2e7e1c",
-          "label": "0x000000fe",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x2837809fd68e4a4104af76bbec5b622b6146b2cb",
@@ -2269,7 +1133,7 @@
           "tokens": [
             "RAIL"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x7cf6a842e72c4bd7bc92e0c17ebdaa95ac1e7825",
@@ -2279,7 +1143,7 @@
           "tokens": [
             "RAIL"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xac86903cdda380f20a06cc8a2dea7749f1558c68",
@@ -2289,7 +1153,7 @@
           "tokens": [
             "RAIL"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xc581cd3ebb1c34b7a18434bc0cfa0a854426ca85",
@@ -2299,7 +1163,7 @@
           "tokens": [
             "USDT"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xe0554a476a092703abdb3ef35c80e0d76d32939f",
@@ -2309,7 +1173,7 @@
           "tokens": [
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x63242a4ea82847b20e506b63b0e2e2eff0cc6cb0",
@@ -2319,7 +1183,7 @@
           "tokens": [
             "APEX"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xc17a40852e4bfe04bc81af355fdf132c539ba753",
@@ -2330,7 +1194,7 @@
             "ETH",
             "ALT"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
@@ -2341,7 +1205,7 @@
             "WETH",
             "COW"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x0f4a1d7fdf4890be35e71f3e0bbc4a0ec377eca3",
@@ -2352,7 +1216,7 @@
             "UNI",
             "AAVE"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x5141b82f5ffda4c6fe1e372978f1c5427640a190",
@@ -2362,7 +1226,7 @@
           "tokens": [
             "POL"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x64f2095cc11e4726078f4a64d4279c7e7fb7e6ec",
@@ -2374,7 +1238,7 @@
             "WETH",
             "UNI"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x111111125421ca6dc452d289314280a0f8842a65",
@@ -2384,17 +1248,7 @@
           "tokens": [
             "COW"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa1911bb9869265e6e1ed597f835ddb2e6b10bfea",
-          "label": "0xa1911bb9",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
@@ -2404,17 +1258,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x168e226bc3ddc6aab600cfc88179da1ad6670d53",
-          "label": "0x168e226b",
-          "totalUsd": 57.9969755859375,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x71518580f36feceffe0721f06ba4703218cd7f63",
@@ -2433,43 +1277,12 @@
           "type": "victim"
         },
         {
-          "address": "0xd15fe25ed0dba12fe05e7029c88b10c25e8880e3",
-          "label": "0xd15fe25e",
-          "totalUsd": 0.019349453214090317,
-          "txCount": 1,
-          "tokens": [
-            "ZIK"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x3f06912a2ccb133d06694954e6945fee2efbe805",
-          "label": "0x3f06912a",
-          "totalUsd": 83.01969087696075,
-          "txCount": 3,
-          "tokens": [
-            "ETH",
-            "DAI"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x11f6f08267994310854b849fe33eb2c6e8df23fd",
           "label": "0x11f6f082",
           "totalUsd": 62713.60766699219,
           "txCount": 2,
           "tokens": [
             "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa0fb292a9de779d8534aec9ca4bc2254f15338d5",
-          "label": "0xa0fb292a",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DIXT"
           ],
           "type": "normal"
         },
@@ -2481,27 +1294,6 @@
           "tokens": [
             "ETH",
             "DAI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xd7d03ddb4b8c14e05e498a64072b29f44e448d65",
-          "label": "0xd7d03ddb",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DIXT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4f14e88b5037f0ca24348fa707e4a7ee5318d9d5",
-          "label": "0x4f14e88b",
-          "totalUsd": 6.7685222167968755,
-          "txCount": 2,
-          "tokens": [
-            "_PROXY_NATI_",
-            "ETH"
           ],
           "type": "normal"
         },
@@ -2557,24 +1349,6 @@
         },
         {
           "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x27213e28d7fda5c57fe9e5dd923818dbccf71c47",
-          "totalUsd": 0.21210961267262698,
-          "count": 4,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x4423b0d6955af39b48cf215577a79ce574299d3f",
-          "totalUsd": 33.875033407495025,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
           "to": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
           "totalUsd": 84.9299206542969,
           "count": 4,
@@ -2589,231 +1363,6 @@
           "count": 3,
           "tokens": [
             "ETH"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x95ac5d754174735c22e03f48735bebd38cc665c5",
-          "totalUsd": 50.7576230017209,
-          "count": 3,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0x504dd423fd3d786a78cdcd2a006d513081faf0cf",
-          "totalUsd": 3390.272110009193,
-          "count": 3,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0xe7db0d2384587956ef9d47304e96236022cce3af",
-          "totalUsd": 1467.4558073616026,
-          "count": 4,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0x024816259425e1a0ccaf600b919189e427915fbe",
-          "totalUsd": 379.41092262268063,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0xed74c0a84884d8752e29d075de7570b7b9422722",
-          "totalUsd": 2022.9882851839066,
-          "count": 2,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0xa4b3e4006034182d96c8f26306053ab304e38284",
-          "totalUsd": 2087.1798655986786,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0x27af129617d896b255d689f60b5cf48b34001f9d",
-          "totalUsd": 533.1888365745544,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0x6785eea1f263cfa5424f9b4e7e491eaf34d3c07c",
-          "totalUsd": 1325.8371472358704,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0x7032ee64393c2eefe9627b68a172a3901235afe1",
-          "totalUsd": 632.1414890289307,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x195a4b5583b2ab22c2a72ef4e8f618adb0e29845",
-          "to": "0x443eca4eea159f591ab72fd9b1a0ed72d50b586f",
-          "totalUsd": 999.9254941940308,
-          "count": 1,
-          "tokens": [
-            "DAI"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x20ebac3a9c15da063d42b10063ce7096c64c90b1",
-          "totalUsd": 0.000010007314682006836,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x757b8003c330418875f07e368c40b1b5ab4c6509",
-          "totalUsd": 0.000010007622241973878,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x93bd6833454cd0c74598abddfe7b0a1d0be0168c",
-          "totalUsd": 0.000010007232427597047,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x6e76b3c45271f0aac7a2b245af18a9c883a493ad",
-          "totalUsd": 0.00001000593662261963,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x372095230aa707eaca108e17e0efcf2491b28c6a",
-          "totalUsd": 0.00001000595808029175,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x5142fd6aede3d13ac27820c24093e234fb0ce104",
-          "totalUsd": 0.000010005286931991577,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x4efa6816d32d203aa2952f72d252d2d66f7dc05c",
-          "totalUsd": 0.000009999316930770875,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x5dd41cef87a1dc8c31c34e6b9296588f039282a1",
-          "totalUsd": 0.00001000078558921814,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0xe3468ce114a7e46859233ffdf11346bd6957477d",
-          "totalUsd": 0.00001000079870223999,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0xfdad670824b6a6a3fee0a9110d876c8b459d2472",
-          "totalUsd": 0.000010001002550125123,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0xc31918c95b26482029fe294d030d18297abd7bdd",
-          "totalUsd": 0.000009995203018188478,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0xce1a15e0514dd73c6297fbf4c29c9b27da15d8ac",
-          "totalUsd": 0.000009998551607131958,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x4cde83c0469aceaeb72ac9dddf96bd7a94135f26",
-          "totalUsd": 0.000010001025199890138,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x7844892d8a57b757d511189488734f5636fad3b1",
-          "totalUsd": 0.000010001134872436524,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x195a99d453e05e3057c6aa2d426c04397b6d9845",
-          "to": "0x3bfa5f79dea562e98b6b4567d204691203d90058",
-          "totalUsd": 0.00001000117063522339,
-          "count": 1,
-          "tokens": [
-            "USDT"
           ]
         },
         {
@@ -2935,48 +1484,11 @@
         },
         {
           "from": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
-          "to": "0xb666fd9b55572a3cf6d42b16fb550787670a000f",
-          "totalUsd": 71.69643177068319,
-          "count": 3,
-          "tokens": [
-            "WETH",
-            "USDT"
-          ]
-        },
-        {
-          "from": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
-          "to": "0x0000000000000000000000000000000000000000",
-          "totalUsd": 92.05806630524994,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
-          "to": "0x00000011f84b9aa48e5f8aa8b9897600006289be",
-          "totalUsd": 92.02009897657219,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
           "to": "0x000000000004444c5dc75cb358380d2e3de08a90",
           "totalUsd": 15404.454486909284,
           "count": 1,
           "tokens": [
             "USDC"
-          ]
-        },
-        {
-          "from": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
-          "to": "0x000000fee13a103a10d593b9ae06b3e05f2e7e1c",
-          "totalUsd": 38.31232233643341,
-          "count": 1,
-          "tokens": [
-            "USDT"
           ]
         },
         {
@@ -3044,15 +1556,6 @@
         },
         {
           "from": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
-          "to": "0x0000000000000000000000000000000000000000",
-          "totalUsd": 1.6030379638671874,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
           "to": "0xc17a40852e4bfe04bc81af355fdf132c539ba753",
           "totalUsd": 126.06326059749722,
           "count": 2,
@@ -3112,15 +1615,6 @@
         },
         {
           "from": "0xf9ab28cb7b72b518e6a351fbdabe69362cbc1a74",
-          "to": "0xa1911bb9869265e6e1ed597f835ddb2e6b10bfea",
-          "totalUsd": 0.10577730712890626,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xf9ab28cb7b72b518e6a351fbdabe69362cbc1a74",
           "to": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
           "totalUsd": 147749.09345703127,
           "count": 1,
@@ -3147,49 +1641,12 @@
           ]
         },
         {
-          "from": "0x168e226bc3ddc6aab600cfc88179da1ad6670d53",
-          "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "totalUsd": 57.9969755859375,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xd15fe25ed0dba12fe05e7029c88b10c25e8880e3",
-          "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "totalUsd": 0.019349453214090317,
-          "count": 1,
-          "tokens": [
-            "ZIK"
-          ]
-        },
-        {
-          "from": "0x3f06912a2ccb133d06694954e6945fee2efbe805",
-          "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "totalUsd": 83.01969087696075,
-          "count": 3,
-          "tokens": [
-            "ETH",
-            "DAI"
-          ]
-        },
-        {
           "from": "0x11f6f08267994310854b849fe33eb2c6e8df23fd",
           "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
           "totalUsd": 62713.60766699219,
           "count": 2,
           "tokens": [
             "ETH"
-          ]
-        },
-        {
-          "from": "0xa0fb292a9de779d8534aec9ca4bc2254f15338d5",
-          "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DIXT"
           ]
         },
         {
@@ -3200,25 +1657,6 @@
           "tokens": [
             "ETH",
             "DAI"
-          ]
-        },
-        {
-          "from": "0xd7d03ddb4b8c14e05e498a64072b29f44e448d65",
-          "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DIXT"
-          ]
-        },
-        {
-          "from": "0x4f14e88b5037f0ca24348fa707e4a7ee5318d9d5",
-          "to": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "totalUsd": 6.7685222167968755,
-          "count": 2,
-          "tokens": [
-            "_PROXY_NATI_",
-            "ETH"
           ]
         },
         {
@@ -3237,16 +1675,6 @@
           "count": 1,
           "tokens": [
             "USDC"
-          ]
-        },
-        {
-          "from": "0x71518580f36feceffe0721f06ba4703218cd7f63",
-          "to": "0x0000000000000000000000000000000000000000",
-          "totalUsd": 63213.948449167605,
-          "count": 20,
-          "tokens": [
-            "DAI",
-            "VRSC"
           ]
         }
       ]
@@ -3350,349 +1778,6 @@
           "type": "normal"
         },
         {
-          "address": "0x4c381d4fda7afc274f53a6f48e7c2a703dee0191",
-          "label": "0x4c381d4f",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4ab12e7ce31857ee022f273e8580f73335a73c0b",
-          "label": "0x4ab12e7c",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5b5a0580bcfd3673820bb249514234afad33e209",
-          "label": "0x5b5a0580",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xd683b81c2608980db90a6fd730153e04629ff1a3",
-          "label": "0xd683b81c",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xe08d97e151473a848c3d9ca3f323cb720472d015",
-          "label": "0xe08d97e1",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x49bc3cec1fb7978746f742a4e485d0d601831cea",
-          "label": "0x49bc3cec",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x74e2b8eee3ea8f4639b81e1e9b230cc9c06e5f6a",
-          "label": "0x74e2b8ee",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5968ada261a84e19a6c85830e655647752585ed4",
-          "label": "0x5968ada2",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x03cd656b6559b534700e487166f175eb5cd40e11",
-          "label": "0x03cd656b",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xee5fae63ae253eb96942215d48def642519b716c",
-          "label": "0xee5fae63",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "FMT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x01ba19143476a8bc4b27c450a8d46b29ec35a7e5",
-          "label": "0x01ba1914",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "FMT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4e7a12532f1c4b5ed6bb6420914bb0ba82a1fc7f",
-          "label": "0x4e7a1253",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xbd32122bad41a09f2405bb374a83877d8245079c",
-          "label": "0xbd32122b",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xb3445d5413abf63df1112a4a517de2602f249785",
-          "label": "0xb3445d54",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x2df9a59cd29faa8c02a7a84f6b223b8d9f231f12",
-          "label": "0x2df9a59c",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "?"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4675c7e5baafbffbca748158becba61ef3b0a263",
-          "label": "0x4675c7e5",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x388c818ca8b9251b393131c08a736a67ccb19297",
-          "label": "0x388c818c",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xfd39d21c258a35f25fdec0b174f9ae915cc63622",
-          "label": "0xfd39d21c",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xcbfa884044546d5569e2abff3fb429301b61562a",
-          "label": "0xcbfa8840",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xf588c58f467db3711b558f5294de4900b535ce69",
-          "label": "0xf588c58f",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x0d22e6a9a418f04b8b6296878439f68fa5abfac6",
-          "label": "0x0d22e6a9",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xffd22b84fb1d46ef74ed6530b2635be61340f347",
-          "label": "0xffd22b84",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4e71f9debec9117f1facc7eeb490758af45806a7",
-          "label": "0x4e71f9de",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xde12c3d2257fc9bb1c1a00d409f292eecd55ffaf",
-          "label": "0xde12c3d2",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x6b333b20fbae3c5c0969dd02176e30802e2fbbdb",
-          "label": "0x6b333b20",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x089775364ea24957da94348cf740375826ed3330",
-          "label": "0x08977536",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "BAL",
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdf330ccb1d8fe97d176850bc127d0101cbe4e932",
-          "label": "0xdf330ccb",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WBTC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdb38ae75c5f44276803345f7f02e95a0aeef5944",
-          "label": "0xdb38ae75",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x22cd4027b8af39de8eb8809588a60b8ef067ef76",
-          "label": "0x22cd4027",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "DAI",
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x701902858a6a9b6f36603244622732d9ec57a82a",
-          "label": "0x70190285",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DPI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x728f1bc2c3170fa9fd9baaa4105781ac4af6c35f",
-          "label": "0x728f1bc2",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "RITUAL",
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xbc2053df37acd48a36a6d6b1b70a47aafc020c1c",
-          "label": "0xbc2053df",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "RITUAL"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1fcee8efa91c36c528e23ac0e63490dcbd780946",
-          "label": "0x1fcee8ef",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "RITUAL"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
-          "label": "0x7a250d56",
-          "totalUsd": 0,
-          "txCount": 11,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x6a000f20005980200259b80c5102003040001068",
           "label": "0x6a000f20",
           "totalUsd": 10551.513349950257,
@@ -3725,16 +1810,6 @@
           "type": "normal"
         },
         {
-          "address": "0x76e4ad4a6b04d99e7ed47580007bd9382a380857",
-          "label": "0x76e4ad4a",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
           "label": "0x8f10b468",
           "totalUsd": 6797.528767585754,
@@ -3746,113 +1821,12 @@
           "type": "normal"
         },
         {
-          "address": "0x1f2f10d1c40777ae1da742455c65828ff36df387",
-          "label": "0x1f2f10d1",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x37bab29dafe65278552bc74adbbabc15904b5502",
           "label": "0x37bab29d",
           "totalUsd": 2673.0883600436105,
           "txCount": 2,
           "tokens": [
             "USDC",
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x81463b0f960f247f704377661ec81c1fd65b5128",
-          "label": "0x81463b0f",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4e4e6779ac4e8766d483bc934e2751353c791e52",
-          "label": "0x4e4e6779",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x45036c10e37de2fef7f7b2d4b7298ba4c3bcf7b7",
-          "label": "0x45036c10",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "DUSD",
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xd855d04d31556575e6597ca78e58fe2e86a48ab1",
-          "label": "0xd855d04d",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xcf5540fffcdc3d510b18bfca6d2b9987b0772559",
-          "label": "0xcf5540ff",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x6e4141d33021b52c91c28608403db4a0ffb50ec6",
-          "label": "0x6e4141d3",
-          "totalUsd": 0,
-          "txCount": 7,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x668035c440606da01e788991bfbba5c0d24133ab",
-          "label": "0x668035c4",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "label": "0x9008d19f",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x2522d717ba90f0383d302b75ce20be472d2a9677",
-          "label": "0x2522d717",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
             "DUSD"
           ],
           "type": "normal"
@@ -3933,250 +1907,6 @@
           ]
         },
         {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x4c381d4fda7afc274f53a6f48e7c2a703dee0191",
-          "totalUsd": 4.968260014183555,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x4ab12e7ce31857ee022f273e8580f73335a73c0b",
-          "totalUsd": 4.141251991484166,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x5b5a0580bcfd3673820bb249514234afad33e209",
-          "totalUsd": 3.5049451339790596,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0xd683b81c2608980db90a6fd730153e04629ff1a3",
-          "totalUsd": 3.0048825896798377,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0xe08d97e151473a848c3d9ca3f323cb720472d015",
-          "totalUsd": 7.20919390105782,
-          "count": 2,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x49bc3cec1fb7978746f742a4e485d0d601831cea",
-          "totalUsd": 2.6047525282281714,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x74e2b8eee3ea8f4639b81e1e9b230cc9c06e5f6a",
-          "totalUsd": 2.011754325368892,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x5968ada261a84e19a6c85830e655647752585ed4",
-          "totalUsd": 1.788524154353629,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x03cd656b6559b534700e487166f175eb5cd40e11",
-          "totalUsd": 1.6005111661847513,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0xee5fae63ae253eb96942215d48def642519b716c",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "FMT"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x01ba19143476a8bc4b27c450a8d46b29ec35a7e5",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "FMT"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0x4e7a12532f1c4b5ed6bb6420914bb0ba82a1fc7f",
-          "totalUsd": 3.9658244969334495,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0xbd32122bad41a09f2405bb374a83877d8245079c",
-          "totalUsd": 2.8617661798044685,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xd176a9e2663bc48aca8983a4c072025eb81daeb3",
-          "to": "0xb3445d5413abf63df1112a4a517de2602f249785",
-          "totalUsd": 3.3464808081169517,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0x2df9a59cd29faa8c02a7a84f6b223b8d9f231f12",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "?"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0x4675c7e5baafbffbca748158becba61ef3b0a263",
-          "totalUsd": 255.39433640097013,
-          "count": 3,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0x388c818ca8b9251b393131c08a736a67ccb19297",
-          "totalUsd": 251.67605757110246,
-          "count": 3,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0xfd39d21c258a35f25fdec0b174f9ae915cc63622",
-          "totalUsd": 36.80989714537315,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0xcbfa884044546d5569e2abff3fb429301b61562a",
-          "totalUsd": 37.51813923819414,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0xf588c58f467db3711b558f5294de4900b535ce69",
-          "totalUsd": 86.05175282334221,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0x0d22e6a9a418f04b8b6296878439f68fa5abfac6",
-          "totalUsd": 65.16187735617955,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0xffd22b84fb1d46ef74ed6530b2635be61340f347",
-          "totalUsd": 54.11313400409811,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0x4e71f9debec9117f1facc7eeb490758af45806a7",
-          "totalUsd": 58.847545054411825,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0xde12c3d2257fc9bb1c1a00d409f292eecd55ffaf",
-          "totalUsd": 27.147063058101583,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-          "to": "0x6b333b20fbae3c5c0969dd02176e30802e2fbbdb",
-          "totalUsd": 136.3567811929044,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0x089775364ea24957da94348cf740375826ed3330",
-          "totalUsd": 189.15521681964407,
-          "count": 3,
-          "tokens": [
-            "BAL",
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0xdf330ccb1d8fe97d176850bc127d0101cbe4e932",
-          "totalUsd": 240.51439483441405,
-          "count": 2,
-          "tokens": [
-            "WBTC"
-          ]
-        },
-        {
           "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
           "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
           "totalUsd": 474.39614484375,
@@ -4187,74 +1917,9 @@
         },
         {
           "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0xdb38ae75c5f44276803345f7f02e95a0aeef5944",
-          "totalUsd": 120.72990807359409,
-          "count": 2,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0x22cd4027b8af39de8eb8809588a60b8ef067ef76",
-          "totalUsd": 0.06694456292527524,
-          "count": 2,
-          "tokens": [
-            "DAI",
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
           "to": "0x0000000000000000000000000000000000000000",
           "totalUsd": 0.04444054077148438,
           "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
-          "to": "0x701902858a6a9b6f36603244622732d9ec57a82a",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DPI"
-          ]
-        },
-        {
-          "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
-          "to": "0x728f1bc2c3170fa9fd9baaa4105781ac4af6c35f",
-          "totalUsd": 6054.16936889075,
-          "count": 2,
-          "tokens": [
-            "RITUAL",
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
-          "to": "0xbc2053df37acd48a36a6d6b1b70a47aafc020c1c",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "RITUAL"
-          ]
-        },
-        {
-          "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
-          "to": "0x1fcee8efa91c36c528e23ac0e63490dcbd780946",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "RITUAL"
-          ]
-        },
-        {
-          "from": "0x4dc2a406011ef1118aed54687583a48e5b297503",
-          "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
-          "totalUsd": 160.34029485640954,
-          "count": 11,
           "tokens": [
             "WETH"
           ]
@@ -4279,15 +1944,6 @@
           ]
         },
         {
-          "from": "0x76e4ad4a6b04d99e7ed47580007bd9382a380857",
-          "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
           "from": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
           "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
           "totalUsd": 6797.528767585754,
@@ -4298,103 +1954,12 @@
           ]
         },
         {
-          "from": "0x1f2f10d1c40777ae1da742455c65828ff36df387",
-          "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
           "from": "0x37bab29dafe65278552bc74adbbabc15904b5502",
           "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
           "totalUsd": 2673.0883600436105,
           "count": 2,
           "tokens": [
             "USDC",
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x81463b0f960f247f704377661ec81c1fd65b5128",
-          "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0x4e4e6779ac4e8766d483bc934e2751353c791e52",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0x45036c10e37de2fef7f7b2d4b7298ba4c3bcf7b7",
-          "totalUsd": 466498.01099428267,
-          "count": 3,
-          "tokens": [
-            "DUSD",
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0xd855d04d31556575e6597ca78e58fe2e86a48ab1",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0xcf5540fffcdc3d510b18bfca6d2b9987b0772559",
-          "totalUsd": 0,
-          "count": 4,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0x6e4141d33021b52c91c28608403db4a0ffb50ec6",
-          "totalUsd": 0,
-          "count": 7,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0x668035c440606da01e788991bfbba5c0d24133ab",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DUSD"
-          ]
-        },
-        {
-          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "to": "0x2522d717ba90f0383d302b75ce20be472d2a9677",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
             "DUSD"
           ]
         }
@@ -4429,7 +1994,7 @@
             "MATIC",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
@@ -4439,7 +2004,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
@@ -4451,7 +2016,7 @@
             "taffy",
             "UNI-V2"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xffabef19f5ee5f620db6cd34bb26f4b159c93a05",
@@ -4482,7 +2047,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x21ea7c581a3a7258e4df33c1140c993f4d237592",
@@ -4512,7 +2077,7 @@
           "tokens": [
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xd60247c6848b7ca29eddf63aa924e53db6ddd8ec",
@@ -4532,7 +2097,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x8519cdd8b5dc49a2cc68e914a9750d05d7ad2834",
@@ -4565,77 +2130,6 @@
           "type": "normal"
         },
         {
-          "address": "0x4aa42145aa6ebf72e164c9bbc74fbd3788045016",
-          "label": "0x4aa42145",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
-          "label": "0xdef171fe",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
-          "label": "0xd9e1ce17",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x552008c0f6870c2f77e5cc1d2eb9bdff03e30ea0",
-          "label": "0x552008c0",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "MATIC",
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x88ad09518695c6c3712ac10a214be5109a655671",
-          "label": "0x88ad0951",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "MATIC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1",
-          "label": "0x99c9fc46",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-          "label": "0x11111112",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x4d9079bb4165aeb4084c526a32695dcfd2f77381",
           "label": "0x4d9079bb",
           "totalUsd": 0,
@@ -4644,17 +2138,7 @@
             "USDC",
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5ce50407b614daff085522d476c5ec5e93a00afb",
-          "label": "0x5ce50407",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x4d58d36e46cf9af14e416061fe5d0074780b4099",
@@ -4664,7 +2148,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936",
@@ -4674,17 +2158,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x07687e702b410fa43f4cb4af7fa097918ffd2730",
-          "label": "0x07687e70",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
@@ -4694,17 +2168,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x23773e65ed146a459791799d01336db287f25334",
-          "label": "0x23773e65",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xa160cdab225685da1d56aa342ad8841c3b53f291",
@@ -4714,18 +2178,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1268f45373a16fa91b45d0a3214f23687b27e1ce",
-          "label": "0x1268f453",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "taffy",
-            "UNI-V2"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
@@ -4735,48 +2188,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc7a408b91efead218d33822892a0d071d9aeb248",
-          "label": "0xc7a408b9",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "taffy",
-            "UNI-V2"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xe27420b0a322b7643a1184a9f237e64cdd20a1a7",
-          "label": "0xe27420b0",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "taffy"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xbeef02961503351625926ea9a11ae13b29f5c555",
-          "label": "0xbeef0296",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "taffy"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x6e650ece1adf8bd90978e7a37ce6dbbd7292dcd2",
-          "label": "0x6e650ece",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ROME"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
@@ -4823,26 +2235,6 @@
           "type": "normal"
         },
         {
-          "address": "0xd44ddb201afce9ae09c08833de78fa1f2a3c962d",
-          "label": "0xd44ddb20",
-          "totalUsd": 335.0717115011397,
-          "txCount": 1,
-          "tokens": [
-            "CRV"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x31282f58201ac9fe30195ba0db659b30d87af5e1",
-          "label": "0x31282f58",
-          "totalUsd": 18.905798763557158,
-          "txCount": 1,
-          "tokens": [
-            "CRV"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0xc6d252fe5624d7656bed08dc7c7e507af390100e",
           "label": "0xc6d252fe",
           "totalUsd": 5382.466167211533,
@@ -4879,90 +2271,6 @@
           "txCount": 1,
           "tokens": [
             "CRV"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x069e5799672eb663dd6dcc6d9800c763dae1488f",
-          "label": "0x069e5799",
-          "totalUsd": 117.41533453590459,
-          "txCount": 1,
-          "tokens": [
-            "CRV"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x1a4dc9e7ce3b4ad0ae0d4c42282624c2a39951c2",
-          "label": "0x1a4dc9e7",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4400671b8238b5e0c7c9d7572746d236cd292845",
-          "label": "0x4400671b",
-          "totalUsd": 0,
-          "txCount": 10,
-          "tokens": [
-            "USDC",
-            "USDT",
-            "TUSD"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x795076b0f5cea89e45a493acd2721f330fd79b73",
-          "label": "0x795076b0",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "USDC",
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x01f99e527454d8bc2835aa662ccf52cea2c9be3d",
-          "label": "0x01f99e52",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "TUSD",
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xab3e1de5019471fd978ab8c97d3f57168a929b11",
-          "label": "0xab3e1de5",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa1ca15b5099c81f23b6865f1cbbcf608e36f8902",
-          "label": "0xa1ca15b5",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x8f73455e195c1346233f324ec8f7d8d6cd0812d8",
-          "label": "0x8f73455e",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDT"
           ],
           "type": "normal"
         }
@@ -5096,85 +2404,12 @@
         },
         {
           "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0x4aa42145aa6ebf72e164c9bbc74fbd3788045016",
-          "totalUsd": 3.34418600076137,
-          "count": 3,
-          "tokens": [
-            "DAI"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
-          "totalUsd": 1.3476623535156251,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
-          "totalUsd": 30.6949755859375,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0x552008c0f6870c2f77e5cc1d2eb9bdff03e30ea0",
-          "totalUsd": 50.082011815259335,
-          "count": 2,
-          "tokens": [
-            "MATIC",
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0x88ad09518695c6c3712ac10a214be5109a655671",
-          "totalUsd": 1.469742132362744,
-          "count": 2,
-          "tokens": [
-            "MATIC"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1",
-          "totalUsd": 15.469835205078125,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0x1111111254fb6c44bac0bed2854e76f90643097d",
-          "totalUsd": 20.285087646484374,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
           "to": "0x4d9079bb4165aeb4084c526a32695dcfd2f77381",
           "totalUsd": 209.40065383663773,
           "count": 2,
           "tokens": [
             "USDC",
             "ETH"
-          ]
-        },
-        {
-          "from": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-          "to": "0x5ce50407b614daff085522d476c5ec5e93a00afb",
-          "totalUsd": 1.0002741813659668,
-          "count": 1,
-          "tokens": [
-            "DAI"
           ]
         },
         {
@@ -5197,27 +2432,9 @@
         },
         {
           "from": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
-          "to": "0x07687e702b410fa43f4cb4af7fa097918ffd2730",
-          "totalUsd": 26.097224124243162,
-          "count": 2,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
           "to": "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc",
           "totalUsd": 1053.1611328125,
           "count": 4,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
-          "to": "0x23773e65ed146a459791799d01336db287f25334",
-          "totalUsd": 26.669889675,
-          "count": 1,
           "tokens": [
             "ETH"
           ]
@@ -5242,49 +2459,11 @@
         },
         {
           "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
-          "to": "0x1268f45373a16fa91b45d0a3214f23687b27e1ce",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "taffy",
-            "UNI-V2"
-          ]
-        },
-        {
-          "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
           "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
           "totalUsd": 6070.039892578125,
           "count": 3,
           "tokens": [
             "ETH"
-          ]
-        },
-        {
-          "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
-          "to": "0xc7a408b91efead218d33822892a0d071d9aeb248",
-          "totalUsd": 0,
-          "count": 3,
-          "tokens": [
-            "taffy",
-            "UNI-V2"
-          ]
-        },
-        {
-          "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
-          "to": "0xe27420b0a322b7643a1184a9f237e64cdd20a1a7",
-          "totalUsd": 0,
-          "count": 4,
-          "tokens": [
-            "taffy"
-          ]
-        },
-        {
-          "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
-          "to": "0xbeef02961503351625926ea9a11ae13b29f5c555",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "taffy"
           ]
         },
         {
@@ -5294,15 +2473,6 @@
           "count": 1,
           "tokens": [
             "ETH"
-          ]
-        },
-        {
-          "from": "0x6e650ece1adf8bd90978e7a37ce6dbbd7292dcd2",
-          "to": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "ROME"
           ]
         },
         {
@@ -5327,24 +2497,6 @@
           "from": "0x750e9a7b449904f47b793b805db469fa6e025e33",
           "to": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
           "totalUsd": 1124.3044822719194,
-          "count": 1,
-          "tokens": [
-            "CRV"
-          ]
-        },
-        {
-          "from": "0xd44ddb201afce9ae09c08833de78fa1f2a3c962d",
-          "to": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "totalUsd": 335.0717115011397,
-          "count": 1,
-          "tokens": [
-            "CRV"
-          ]
-        },
-        {
-          "from": "0x31282f58201ac9fe30195ba0db659b30d87af5e1",
-          "to": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "totalUsd": 18.905798763557158,
           "count": 1,
           "tokens": [
             "CRV"
@@ -5385,82 +2537,6 @@
           "tokens": [
             "CRV"
           ]
-        },
-        {
-          "from": "0x069e5799672eb663dd6dcc6d9800c763dae1488f",
-          "to": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "totalUsd": 117.41533453590459,
-          "count": 1,
-          "tokens": [
-            "CRV"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0x1a4dc9e7ce3b4ad0ae0d4c42282624c2a39951c2",
-          "totalUsd": 76.22268281136131,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0x4400671b8238b5e0c7c9d7572746d236cd292845",
-          "totalUsd": 0,
-          "count": 10,
-          "tokens": [
-            "USDC",
-            "USDT",
-            "TUSD"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0x795076b0f5cea89e45a493acd2721f330fd79b73",
-          "totalUsd": 5505.998110906003,
-          "count": 2,
-          "tokens": [
-            "USDC",
-            "USDT"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0x01f99e527454d8bc2835aa662ccf52cea2c9be3d",
-          "totalUsd": 6949.053461814896,
-          "count": 2,
-          "tokens": [
-            "TUSD",
-            "USDT"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0xab3e1de5019471fd978ab8c97d3f57168a929b11",
-          "totalUsd": 9831.758521655442,
-          "count": 3,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0xa1ca15b5099c81f23b6865f1cbbcf608e36f8902",
-          "totalUsd": 15.025921060608507,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
-        },
-        {
-          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
-          "to": "0x8f73455e195c1346233f324ec8f7d8d6cd0812d8",
-          "totalUsd": 15.994523183074476,
-          "count": 1,
-          "tokens": [
-            "USDT"
-          ]
         }
       ]
     },
@@ -5500,7 +2576,7 @@
             "DAI",
             "ĖTḨ"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xa446f18610f4fd4fd85ebe5668d950f2711fa859",
@@ -5551,7 +2627,7 @@
             "ETH",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x7f54f05635d15cde17a49502fedb9d1803a3be8a",
@@ -5562,7 +2638,7 @@
             "USDT",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x4c3ccc98c01103be72bcfd29e1d2454c98d1a6e3",
@@ -5572,7 +2648,7 @@
           "tokens": [
             "ENA"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x5703b683c7f928b721ca95da988d73a3299d4757",
@@ -5582,7 +2658,7 @@
           "tokens": [
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xe12e0f117d23a5ccc57f8935cd8c4e80cd91ff01",
@@ -5592,7 +2668,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xa4476e73ecc83ca82171b954fff17e302bb64859",
@@ -5605,46 +2681,6 @@
           "type": "normal"
         },
         {
-          "address": "0x7c8acf2550b5a0073b6e57aa20972569e0ad3bb8",
-          "label": "0x7c8acf25",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "ĖTḨ"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7c8ee777632156f7b8f2a08371c684ef44a23bb8",
-          "label": "0x7c8ee777",
-          "totalUsd": 0,
-          "txCount": 6,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7c82a7f17d923ca10f9fe7af22181cedccbd3bb8",
-          "label": "0x7c82a7f1",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ĖTḨ"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7c82a0f0d51f14dc92167474b87c4a05db2c3bb8",
-          "label": "0x7c82a0f0",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "ĖTḨ"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x41328fdba556c8c969418ccccb077b7b8d932aa5",
           "label": "0x41328fdb",
           "totalUsd": 0,
@@ -5652,7 +2688,7 @@
           "tokens": [
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xb54872859733a3dfbb2c5401ac68cd9ca84b3cd1",
@@ -5662,58 +2698,7 @@
           "tokens": [
             "GNO"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x3fd4cf9303c4bc9e13772618828712c8eac7dd2f",
-          "label": "0x3fd4cf93",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "BNT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7b2e78d4dfaaba045a167a70da285e30e8fca196",
-          "label": "0x7b2e78d4",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x2ad95483ac838e2884563ad278e933fba96bc242",
-          "label": "0x2ad95483",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x424a46612794dbb8000194937834250dc723ffa5",
-          "label": "0x424a4661",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "DAI",
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xfa19de406e8f5b9100e4dd5cad8a503a6d686efe",
-          "label": "0xfa19de40",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ANT"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x8bc0fe84022542e1611ff252090028df741ad670",
@@ -5723,7 +2708,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x0000000000000000000000000000000000000000",
@@ -5733,17 +2718,7 @@
           "tokens": [
             "WETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
-          "label": "0xa478c297",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DAI"
-          ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
@@ -5753,7 +2728,7 @@
           "tokens": [
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x577fe2ff999ebd166fbbe21eb121ec413bbdbd3f",
@@ -5809,7 +2784,7 @@
             "ĖTḨ",
             "USDT"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x0988d2c23df0ede1ed8d7be36151231fef68ed05",
@@ -5874,7 +2849,7 @@
             "ETH",
             "ꓰΤꓧ"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xff9b21c3bfa4bce9b20b55fed56d102ced48b0f6",
@@ -5885,7 +2860,7 @@
             "ETH",
             "USDT"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x00ffb41480e264df6629a2b0a0bca5dc1f4d00ff",
@@ -5896,7 +2871,7 @@
             "ETH",
             "USDT"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x00ffc035205c53ad3c2ef98ff3a75e1592d400ff",
@@ -5956,247 +2931,6 @@
           "txCount": 1,
           "tokens": [
             "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
-          "label": "0x7a250d56",
-          "totalUsd": 0,
-          "txCount": 5,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x64bcad2f401167313e48b223694724522b0c78dc",
-          "label": "0x64bcad2f",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "FROST",
-            "UNI-V2"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x8cffbac1104bd407f4fa63051e0d458e6e74012d",
-          "label": "0x8cffbac1",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "FROST"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xff0138daef94f5d519c369589b622022ace2487f",
-          "label": "0xff0138da",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x9ad60a01fb72eecc756f2ceade3521de370aedf0",
-          "label": "0x9ad60a01",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "AstrdWhale"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x55ea681fec38b5520ac66c3708337c234b8fd7f2",
-          "label": "0x55ea681f",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "⚙️VPRT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x577f2520e1898b57ddfa795ec249516f129fbd3f",
-          "label": "0x577f2520",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            " ethereum "
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x09820e8804cb6d8e734d6b2136d46a3be6cea7aa",
-          "label": "0x09820e88",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ĖTḨ"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
-          "label": "0x4c82d1fb",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x000ff372ed082b47f3c9e76202282eea298000ff",
-          "label": "0x000ff372",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x000fd9e8284a73fb53c59a5b13f063979da400ff",
-          "label": "0x000fd9e8",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ĖTḨ"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x597e0fe0e9ec19eddfb2b2250dfc5c48a8e10f7c",
-          "label": "0x597e0fe0",
-          "totalUsd": 0,
-          "txCount": 6,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xbaf629c181d8fae50e3b0d87669a51b296cdc838",
-          "label": "0xbaf629c1",
-          "totalUsd": 0,
-          "txCount": 6,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xe99664c0782bf3162cf0811bbd9de02a0de9a623",
-          "label": "0xe99664c0",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xed368aa9d3ef6b52d9b35896c8a883d41d30e417",
-          "label": "0xed368aa9",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xfb36cb43cbef3ce51c47cb8f97820f6bbda91a05",
-          "label": "0xfb36cb43",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x619d1170bbf8f35f8e52a4d9fec7688b242384e4",
-          "label": "0x619d1170",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x8d4e57644fc3cc4985862f174994a4bdf872c436",
-          "label": "0x8d4e5764",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x463a4a6d8d82223665aae85f3eb7b82672e26b61",
-          "label": "0x463a4a6d",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x15a9c909cc98dac9dce5210f559e8aeec5245cbe",
-          "label": "0x15a9c909",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc2d54edd0f6ad33731b317fad9954ce4378d30fb",
-          "label": "0xc2d54edd",
-          "totalUsd": 0,
-          "txCount": 2,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc7abb8706bdf532681825e6640fcb0ca40bdf721",
-          "label": "0xc7abb870",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xdac6e01a86c8c85bc825fe5aeebbef098f003e3b",
-          "label": "0xdac6e01a",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xfe370842719c6c4bd5b42a1c25d9c12edef3baf1",
-          "label": "0xfe370842",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
           ],
           "type": "normal"
         }
@@ -6308,42 +3042,6 @@
           ]
         },
         {
-          "from": "0xa447f71782135ab96a71374271a749ff7aa54859",
-          "to": "0x7c8acf2550b5a0073b6e57aa20972569e0ad3bb8",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "ĖTḨ"
-          ]
-        },
-        {
-          "from": "0xa447f71782135ab96a71374271a749ff7aa54859",
-          "to": "0x7c8ee777632156f7b8f2a08371c684ef44a23bb8",
-          "totalUsd": 0,
-          "count": 6,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xa447f71782135ab96a71374271a749ff7aa54859",
-          "to": "0x7c82a7f17d923ca10f9fe7af22181cedccbd3bb8",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "ĖTḨ"
-          ]
-        },
-        {
-          "from": "0xa447f71782135ab96a71374271a749ff7aa54859",
-          "to": "0x7c82a0f0d51f14dc92167474b87c4a05db2c3bb8",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "ĖTḨ"
-          ]
-        },
-        {
           "from": "0xa4460a1b7dc7448f6333bb44abd9f56e5fa54859",
           "to": "0x7c82cb4b2909c50c7c0f2b696eee7565e0a23bb8",
           "totalUsd": 0.000020991400878906252,
@@ -6372,52 +3070,6 @@
         },
         {
           "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "to": "0x3fd4cf9303c4bc9e13772618828712c8eac7dd2f",
-          "totalUsd": 48.589346270899334,
-          "count": 1,
-          "tokens": [
-            "BNT"
-          ]
-        },
-        {
-          "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "to": "0x7b2e78d4dfaaba045a167a70da285e30e8fca196",
-          "totalUsd": 47.162645141593345,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "to": "0x2ad95483ac838e2884563ad278e933fba96bc242",
-          "totalUsd": 26.14342041015625,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "to": "0x424a46612794dbb8000194937834250dc723ffa5",
-          "totalUsd": 38.31278697831881,
-          "count": 2,
-          "tokens": [
-            "DAI",
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "to": "0xfa19de406e8f5b9100e4dd5cad8a503a6d686efe",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "ANT"
-          ]
-        },
-        {
-          "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
           "to": "0x8bc0fe84022542e1611ff252090028df741ad670",
           "totalUsd": 117.84743953043017,
           "count": 2,
@@ -6432,15 +3084,6 @@
           "count": 3,
           "tokens": [
             "WETH"
-          ]
-        },
-        {
-          "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-          "to": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
-          "totalUsd": 50.28308540559238,
-          "count": 1,
-          "tokens": [
-            "DAI"
           ]
         },
         {
@@ -6617,45 +3260,8 @@
         },
         {
           "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
-          "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
-          "totalUsd": 5.522322387695313,
-          "count": 5,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
-          "to": "0x64bcad2f401167313e48b223694724522b0c78dc",
-          "totalUsd": 0,
-          "count": 3,
-          "tokens": [
-            "FROST",
-            "UNI-V2"
-          ]
-        },
-        {
-          "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
-          "to": "0x8cffbac1104bd407f4fa63051e0d458e6e74012d",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "FROST"
-          ]
-        },
-        {
-          "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
           "to": "0x098208928fa353fc70079c4783ae386499d3a7aa",
           "totalUsd": 18.02063670045145,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
-          "to": "0xff0138daef94f5d519c369589b622022ace2487f",
-          "totalUsd": 6.9624169921875,
           "count": 1,
           "tokens": [
             "ETH"
@@ -6671,24 +3277,6 @@
           ]
         },
         {
-          "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
-          "to": "0x9ad60a01fb72eecc756f2ceade3521de370aedf0",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "AstrdWhale"
-          ]
-        },
-        {
-          "from": "0xdbea2f21c5d3fad86013ccd55455fb55df7b5e0d",
-          "to": "0x55ea681fec38b5520ac66c3708337c234b8fd7f2",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "⚙️VPRT"
-          ]
-        },
-        {
           "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
           "to": "0x577fe2ff999ebd166fbbe21eb121ec413bbdbd3f",
           "totalUsd": 430.6939870761365,
@@ -6699,36 +3287,9 @@
         },
         {
           "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
-          "to": "0x577f2520e1898b57ddfa795ec249516f129fbd3f",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            " ethereum "
-          ]
-        },
-        {
-          "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
           "to": "0x098208928fa353fc70079c4783ae386499d3a7aa",
           "totalUsd": 2466.1747276272163,
           "count": 2,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
-          "to": "0x09820e8804cb6d8e734d6b2136d46a3be6cea7aa",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "ĖTḨ"
-          ]
-        },
-        {
-          "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
-          "to": "0x4c82d1fbfe28c977cbb58d8c7ff8fcf9f70a2cca",
-          "totalUsd": 23.14892333984375,
-          "count": 1,
           "tokens": [
             "ETH"
           ]
@@ -6751,24 +3312,6 @@
           "tokens": [
             "ETH",
             "USDT"
-          ]
-        },
-        {
-          "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
-          "to": "0x000ff372ed082b47f3c9e76202282eea298000ff",
-          "totalUsd": 21.751840820312502,
-          "count": 1,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x0988b8f57812c39b6fb31a2f81c3458fef68ed05",
-          "to": "0x000fd9e8284a73fb53c59a5b13f063979da400ff",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "ĖTḨ"
           ]
         },
         {
@@ -6815,123 +3358,6 @@
           "tokens": [
             "ETH"
           ]
-        },
-        {
-          "from": "0x597e0fe0e9ec19eddfb2b2250dfc5c48a8e10f7c",
-          "to": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "totalUsd": 0,
-          "count": 6,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0xbaf629c181d8fae50e3b0d87669a51b296cdc838",
-          "to": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "totalUsd": 0,
-          "count": 6,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0xe99664c0782bf3162cf0811bbd9de02a0de9a623",
-          "to": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0xed368aa9d3ef6b52d9b35896c8a883d41d30e417",
-          "totalUsd": 0,
-          "count": 3,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0xfb36cb43cbef3ce51c47cb8f97820f6bbda91a05",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0x619d1170bbf8f35f8e52a4d9fec7688b242384e4",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0x8d4e57644fc3cc4985862f174994a4bdf872c436",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0x463a4a6d8d82223665aae85f3eb7b82672e26b61",
-          "totalUsd": 0,
-          "count": 3,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0x15a9c909cc98dac9dce5210f559e8aeec5245cbe",
-          "totalUsd": 0,
-          "count": 3,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0xc2d54edd0f6ad33731b317fad9954ce4378d30fb",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0xc7abb8706bdf532681825e6640fcb0ca40bdf721",
-          "totalUsd": 0,
-          "count": 3,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0xdac6e01a86c8c85bc825fe5aeebbef098f003e3b",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x1f1d37a3bf840e35c6a860c7c2da71fe555123ca",
-          "to": "0xfe370842719c6c4bd5b42a1c25d9c12edef3baf1",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "WETH"
-          ]
         }
       ]
     },
@@ -6964,7 +3390,7 @@
             "USDC",
             "WETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x6e54115de254805365c2d9c8a2eeb9b52e54668f",
@@ -6991,7 +3417,7 @@
             "weETH8DS-2",
             "weETH8CT-2"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
@@ -7039,7 +3465,7 @@
             "WETH",
             "stETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x2d5805a423d6ce771f06972ad4499f120902631a",
@@ -7049,7 +3475,7 @@
           "tokens": [
             "wstETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x5141b82f5ffda4c6fe1e372978f1c5427640a190",
@@ -7059,7 +3485,7 @@
           "tokens": [
             "wstETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x00000688768803bbd44095770895ad27ad6b0d95",
@@ -7069,7 +3495,7 @@
           "tokens": [
             "wstETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xfc0a6de0abd0985e7a910f8874c3abf23f1cdff4",
@@ -7079,7 +3505,7 @@
           "tokens": [
             "ETH"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xfc0aa44fe8d285dd55c20941d898152885a1dff4",
@@ -7098,56 +3524,6 @@
           "txCount": 2,
           "tokens": [
             "ЕTН"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x27213e28d7fda5c57fe9e5dd923818dbccf71c47",
-          "label": "0x27213e28",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x4423b0d6955af39b48cf215577a79ce574299d3f",
-          "label": "0x4423b0d6",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "USDC"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
-          "label": "0x88e6a0c2",
-          "totalUsd": 0,
-          "txCount": 4,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-          "label": "0xc02aaa39",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "ETH"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x95ac5d754174735c22e03f48735bebd38cc665c5",
-          "label": "0x95ac5d75",
-          "totalUsd": 0,
-          "txCount": 3,
-          "tokens": [
-            "USDC"
           ],
           "type": "normal"
         },
@@ -7174,57 +3550,6 @@
           "type": "normal"
         },
         {
-          "address": "0x55b90b37416dc0bd936045a8110d1af3b6bf0fc3",
-          "label": "0x55b90b37",
-          "totalUsd": 0,
-          "txCount": 24,
-          "tokens": [
-            "wstETH",
-            "USDe5DS-1",
-            "USDT5DS-1",
-            "wstETH5DS-1",
-            "weETH5DS-1",
-            "USDT5DS-2",
-            "wstETH5DS-2"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5287e8915445aee78e10190559d8dd21e0e9ea88",
-          "label": "0x5287e891",
-          "totalUsd": 0,
-          "txCount": 9,
-          "tokens": [
-            "MTK"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x0000000000000000000000000000000000000000",
-          "label": "0x00000000",
-          "totalUsd": 0,
-          "txCount": 6,
-          "tokens": [
-            "wstETH5DS-3",
-            "wstETH5CT-3",
-            "weETH8DS-2",
-            "weETH8CT-2",
-            "rseth.org Genesis NFT",
-            "Earn rewards at usdena.com"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x47e42e361a51ca3c68e60a0e19a3350dbeae3de1",
-          "label": "0x47e42e36",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "wstETH"
-          ],
-          "type": "normal"
-        },
-        {
           "address": "0x42d403ab9b0603442ac991c0cfe124105dde0811",
           "label": "0x42d403ab",
           "totalUsd": 0,
@@ -7232,7 +3557,7 @@
           "tokens": [
             "PSYOP"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
@@ -7242,7 +3567,7 @@
           "tokens": [
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x11b815efb8f581194ae79006d24e0d814b7697f6",
@@ -7252,7 +3577,7 @@
           "tokens": [
             "USDT"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0xa88800cd213da5ae406ce248380802bd53b47647",
@@ -7264,7 +3589,7 @@
             "USDT",
             "USDC"
           ],
-          "type": "normal"
+          "type": "trail"
         },
         {
           "address": "0x1136b25047e142fa3018184793aec68fbb173ce4",
@@ -7274,57 +3599,7 @@
           "tokens": [
             "stETH"
           ],
-          "type": "normal"
-        },
-        {
-          "address": "0x432a35ccda851790e99d24f254c96ff4a60c5c29",
-          "label": "0x432a35cc",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "DIXT"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x9a6d7d0c04585232d4a554f0e9cc57ae82c29b7a",
-          "label": "0x9a6d7d0c",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "FAM"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0xa9c2fcbf6ea679b295b2e95fdd450b0390116be5",
-          "label": "0xa9c2fcbf",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "YFIVE"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x5135274b1381af848a6ced31512007a576de0582",
-          "label": "0x5135274b",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "ESTHER"
-          ],
-          "type": "normal"
-        },
-        {
-          "address": "0x777777727073e72fbb3c81f9a8b88cc49feae2f5",
-          "label": "0x77777772",
-          "totalUsd": 0,
-          "txCount": 1,
-          "tokens": [
-            "WETH"
-          ],
-          "type": "normal"
+          "type": "trail"
         }
       ],
       "edges": [
@@ -7437,51 +3712,6 @@
           ]
         },
         {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x27213e28d7fda5c57fe9e5dd923818dbccf71c47",
-          "totalUsd": 0.21210961267262698,
-          "count": 4,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x4423b0d6955af39b48cf215577a79ce574299d3f",
-          "totalUsd": 33.875033407495025,
-          "count": 1,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
-          "totalUsd": 84.9299206542969,
-          "count": 4,
-          "tokens": [
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-          "totalUsd": 67.93888916015625,
-          "count": 3,
-          "tokens": [
-            "ETH"
-          ]
-        },
-        {
-          "from": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
-          "to": "0x95ac5d754174735c22e03f48735bebd38cc665c5",
-          "totalUsd": 50.7576230017209,
-          "count": 3,
-          "tokens": [
-            "USDC"
-          ]
-        },
-        {
           "from": "0x6e54115de254805365c2d9c8a2eeb9b52e54668f",
           "to": "0xea6f30e360192bae715599e15e2f765b49e4da98",
           "totalUsd": 21.12388763510889,
@@ -7511,36 +3741,6 @@
           ]
         },
         {
-          "from": "0x6e54115de254805365c2d9c8a2eeb9b52e54668f",
-          "to": "0x55b90b37416dc0bd936045a8110d1af3b6bf0fc3",
-          "totalUsd": 10.918871089868093,
-          "count": 1,
-          "tokens": [
-            "wstETH"
-          ]
-        },
-        {
-          "from": "0x6e54115de254805365c2d9c8a2eeb9b52e54668f",
-          "to": "0x5287e8915445aee78e10190559d8dd21e0e9ea88",
-          "totalUsd": 0,
-          "count": 9,
-          "tokens": [
-            "MTK"
-          ]
-        },
-        {
-          "from": "0x9af3dce0813fd7428c47f57a39da2f6dd7c9bb09",
-          "to": "0x0000000000000000000000000000000000000000",
-          "totalUsd": 0,
-          "count": 4,
-          "tokens": [
-            "wstETH5DS-3",
-            "wstETH5CT-3",
-            "weETH8DS-2",
-            "weETH8CT-2"
-          ]
-        },
-        {
           "from": "0x9af3dce0813fd7428c47f57a39da2f6dd7c9bb09",
           "to": "0x000000000004444c5dc75cb358380d2e3de08a90",
           "totalUsd": 0,
@@ -7548,15 +3748,6 @@
           "tokens": [
             "wstETH5CT-3",
             "weETH8DS-2"
-          ]
-        },
-        {
-          "from": "0x9af3dce0813fd7428c47f57a39da2f6dd7c9bb09",
-          "to": "0x47e42e361a51ca3c68e60a0e19a3350dbeae3de1",
-          "totalUsd": 0.009549998573924825,
-          "count": 1,
-          "tokens": [
-            "wstETH"
           ]
         },
         {
@@ -7592,18 +3783,6 @@
             "WETH",
             "wstETH",
             "weETH5CT-1"
-          ]
-        },
-        {
-          "from": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "to": "0x55b90b37416dc0bd936045a8110d1af3b6bf0fc3",
-          "totalUsd": 0,
-          "count": 18,
-          "tokens": [
-            "USDe5DS-1",
-            "USDT5DS-1",
-            "wstETH5DS-1",
-            "weETH5DS-1"
           ]
         },
         {
@@ -7654,24 +3833,6 @@
           ]
         },
         {
-          "from": "0x432a35ccda851790e99d24f254c96ff4a60c5c29",
-          "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "DIXT"
-          ]
-        },
-        {
-          "from": "0x9a6d7d0c04585232d4a554f0e9cc57ae82c29b7a",
-          "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "FAM"
-          ]
-        },
-        {
           "from": "0x000000000004444c5dc75cb358380d2e3de08a90",
           "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
           "totalUsd": 33099.52509454638,
@@ -7680,53 +3841,6 @@
             "sUSDe",
             "USDT5CT-2",
             "wstETH5CT-2",
-            "WETH"
-          ]
-        },
-        {
-          "from": "0x55b90b37416dc0bd936045a8110d1af3b6bf0fc3",
-          "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "totalUsd": 0,
-          "count": 5,
-          "tokens": [
-            "USDT5DS-2",
-            "wstETH5DS-2"
-          ]
-        },
-        {
-          "from": "0x0000000000000000000000000000000000000000",
-          "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "totalUsd": 0,
-          "count": 2,
-          "tokens": [
-            "rseth.org Genesis NFT",
-            "Earn rewards at usdena.com"
-          ]
-        },
-        {
-          "from": "0xa9c2fcbf6ea679b295b2e95fdd450b0390116be5",
-          "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "YFIVE"
-          ]
-        },
-        {
-          "from": "0x5135274b1381af848a6ced31512007a576de0582",
-          "to": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "totalUsd": 0,
-          "count": 1,
-          "tokens": [
-            "ESTHER"
-          ]
-        },
-        {
-          "from": "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9",
-          "to": "0x777777727073e72fbb3c81f9a8b88cc49feae2f5",
-          "totalUsd": 1.2239824531250001e-12,
-          "count": 1,
-          "tokens": [
             "WETH"
           ]
         }
