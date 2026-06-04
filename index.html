@@ -1188,37 +1188,67 @@ function buildNetworkFromTxs(txList, hack) {
     }
   });
 
-  // Load logo as sprite on victim node — draw to canvas first (handles SVG data URIs)
+  // Load logo as sprite on victim node
   if (hackLogo && victimNodes.length > 0) {
+    const vPos = positions.get(victimNodes[0].address);
+    if (!vPos) return;
+
+    function addLogoSprite(texture) {
+      const spriteMat = new THREE.SpriteMaterial({ map: texture, transparent: true, opacity: 0.9 });
+      const sprite = new THREE.Sprite(spriteMat);
+      sprite.position.copy(vPos);
+      sprite.position.z += 0.3;
+      sprite.scale.set(1.4, 1.4, 1);
+      networkGroup.add(sprite);
+    }
+
+    // Draw logo onto a canvas (works for all image types including SVG data URIs)
     const img = new Image();
     img.crossOrigin = 'anonymous';
     img.onload = () => {
       const cvs = document.createElement('canvas');
       cvs.width = 128; cvs.height = 128;
       const ctx = cvs.getContext('2d');
-      // Dark circle background
       ctx.beginPath();
-      ctx.arc(64, 64, 60, 0, Math.PI * 2);
-      ctx.fillStyle = 'rgba(10,10,20,0.7)';
+      ctx.arc(64, 64, 62, 0, Math.PI * 2);
+      ctx.fillStyle = '#0a0a14';
       ctx.fill();
-      ctx.strokeStyle = 'rgba(68,136,255,0.4)';
-      ctx.lineWidth = 2;
+      ctx.strokeStyle = 'rgba(68,136,255,0.5)';
+      ctx.lineWidth = 3;
       ctx.stroke();
-      // Draw logo centered
-      const s = 64;
+      const s = 72;
       ctx.drawImage(img, (128 - s) / 2, (128 - s) / 2, s, s);
-      const texture = new THREE.CanvasTexture(cvs);
-      const spriteMat = new THREE.SpriteMaterial({ map: texture, transparent: true, opacity: 0.85 });
-      const sprite = new THREE.Sprite(spriteMat);
-      const vPos = positions.get(victimNodes[0].address);
-      if (vPos) {
-        sprite.position.copy(vPos);
-        sprite.position.z += 0.3;
-        sprite.scale.set(1.2, 1.2, 1);
-        networkGroup.add(sprite);
-      }
+      addLogoSprite(new THREE.CanvasTexture(cvs));
     };
-    img.src = hackLogo;
+    img.onerror = () => {
+      // Fallback: draw protocol name as text
+      const cvs = document.createElement('canvas');
+      cvs.width = 128; cvs.height = 128;
+      const ctx = cvs.getContext('2d');
+      ctx.beginPath();
+      ctx.arc(64, 64, 62, 0, Math.PI * 2);
+      ctx.fillStyle = '#0a0a14';
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(68,136,255,0.5)';
+      ctx.lineWidth = 3;
+      ctx.stroke();
+      ctx.fillStyle = '#4488ff';
+      ctx.font = 'bold 28px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(hack.name.split(' ')[0].slice(0, 4), 64, 64);
+      addLogoSprite(new THREE.CanvasTexture(cvs));
+    };
+    // For SVG data URIs: create blob URL to ensure Image can load it
+    if (hackLogo.startsWith('data:image/svg+xml')) {
+      try {
+        const svgText = decodeURIComponent(hackLogo.split(',')[1]);
+        const blob = new Blob([svgText], { type: 'image/svg+xml' });
+        img.src = URL.createObjectURL(blob);
+      } catch { img.src = hackLogo; }
+    } else {
+      img.src = hackLogo;
+    }
   }
 
   // Detection pulse on victim nodes
