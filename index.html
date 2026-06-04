@@ -639,7 +639,7 @@ const HACKS = [
     fp: "1.7%",
     signals: ["G2: Gas exceeds max", "G2: Logs > max", "G3: Transfers > max"],
     txs: [
-      { hash: "0x03182d3f0956a91c", from: "0xd4266f8f82", selector: "0x75e42e6f", gas: "13,805,887", logs: 277, xfers: 130, detected: true, signals: ["G2: Gas > max", "G2: 277 logs", "G3: 130 transfers"], verdict: "ALERT" },
+      { hash: "0x03182d3f0956a91c", from: "0xd4266f8f82", selector: "0x75e42e6f", gas: "13,805,887", logs: 277, xfers: 130, detected: true, signals: ["G2: Gas outlier", "G2: Log count outlier", "G3: Transfer count outlier"], verdict: "ALERT" },
     ],
     nodes: [
       { id: "attacker", label: "0xd4266f", type: "attacker", x: 3, y: 0 },
