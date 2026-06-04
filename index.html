@@ -595,6 +595,7 @@ footer {
 const HACKS = [
   {
     name: "Balancer V2",
+    logo: "https://cryptologos.cc/logos/balancer-bal-logo.svg",
     amount: "$128M",
     amountNum: 128,
     date: "Nov 2025",
@@ -627,6 +628,7 @@ const HACKS = [
   },
   {
     name: "GMX V1",
+    logo: "https://cryptologos.cc/logos/gmx-gmx-logo.svg",
     amount: "$42M",
     amountNum: 42,
     date: "Jul 2025",
@@ -654,6 +656,7 @@ const HACKS = [
   },
   {
     name: "Verus Bridge",
+    logo: "https://assets.coingecko.com/coins/images/12835/standard/verus.png",
     amount: "$11.6M",
     amountNum: 11.6,
     date: "May 2026",
@@ -683,6 +686,7 @@ const HACKS = [
   },
   {
     name: "Cork Protocol",
+    logo: "https://assets.coingecko.com/coins/images/39392/standard/cork.png",
     amount: "$12M",
     amountNum: 12,
     date: "May 2025",
@@ -710,6 +714,7 @@ const HACKS = [
   },
   {
     name: "Makina Finance",
+    logo: "https://pbs.twimg.com/profile_images/1851271032736071680/MAKINA.jpg",
     amount: "$4.1M",
     amountNum: 4.1,
     date: "Jan 2026",
@@ -737,6 +742,7 @@ const HACKS = [
   },
   {
     name: "NMT Module",
+    logo: "https://pbs.twimg.com/profile_images/1764001913519702016/nmt.jpg",
     amount: "$3.2M",
     amountNum: 3.2,
     date: "May 2026",
@@ -771,6 +777,7 @@ const HACKS = [
   },
   {
     name: "CrossCurve",
+    logo: "https://cryptologos.cc/logos/curve-dao-token-crv-logo.svg",
     amount: "$3M",
     amountNum: 3,
     date: "Feb 2026",
@@ -879,8 +886,13 @@ HACKS.forEach((hack, i) => {
   card.className = 'hack-card';
   card.onclick = () => selectHack(i);
   card.innerHTML = `
-    <div class="hack-amount">${hack.amount}</div>
-    <div class="hack-name">${hack.name}</div>
+    <div style="display:flex;align-items:center;gap:1rem;margin-bottom:0.5rem">
+      <img src="${hack.logo}" alt="" style="width:36px;height:36px;border-radius:6px;background:rgba(255,255,255,0.05);padding:2px" onerror="this.style.display='none'">
+      <div>
+        <div class="hack-amount">${hack.amount}</div>
+        <div class="hack-name">${hack.name}</div>
+      </div>
+    </div>
     <div class="hack-meta">
       <span>${hack.date}</span>
       <span>${hack.chain}</span>
@@ -1054,6 +1066,9 @@ function buildNetworkFromTxs(txList, hack) {
   const trailNodes = nodes.filter(n => n.type === 'trail');
   const normalNodes = nodes.filter(n => n.type === 'normal');
 
+  // Store hack logo for victim sprite
+  const hackLogo = hack.logo;
+
   // Victim(s) at center
   victimNodes.forEach((n, i) => {
     positions.set(n.address, new THREE.Vector3(0, i * 0.5, 0));
@@ -1170,6 +1185,23 @@ function buildNetworkFromTxs(txList, hack) {
       }
     }
   });
+
+  // Load logo as sprite on victim node
+  if (hackLogo && victimNodes.length > 0) {
+    const loader = new THREE.TextureLoader();
+    loader.setCrossOrigin('anonymous');
+    loader.load(hackLogo, (texture) => {
+      const spriteMat = new THREE.SpriteMaterial({ map: texture, transparent: true, opacity: 0.7 });
+      const sprite = new THREE.Sprite(spriteMat);
+      const vPos = positions.get(victimNodes[0].address);
+      if (vPos) {
+        sprite.position.copy(vPos);
+        sprite.position.z -= 0.5;
+        sprite.scale.set(1, 1, 1);
+        networkGroup.add(sprite);
+      }
+    }, undefined, () => {}); // silently fail if logo can't load
+  }
 
   // Detection pulse on victim nodes
   victimNodes.forEach(n => {
