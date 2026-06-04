@@ -1448,7 +1448,7 @@
         {
           "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
           "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
-          "totalUsd": 9003143.61310204,
+          "totalUsd": 17440894.50479944,
           "count": 6,
           "tokens": [
             "USDC",
@@ -1573,7 +1573,7 @@
         {
           "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
           "to": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
-          "totalUsd": 18983027.28537664,
+          "totalUsd": 56915074.58632634,
           "count": 4,
           "tokens": [
             "LINK",
@@ -4467,7 +4467,7 @@
         {
           "from": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
           "to": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
-          "totalUsd": 0,
+          "totalUsd": 219927157.16362,
           "count": 8,
           "tokens": [],
           "edgeType": "call",
@@ -5227,6 +5227,18 @@
           "count": 1,
           "tokens": [],
           "edgeType": "call",
+          "isHot": true
+        },
+        {
+          "from": "0x32e616f4f17d43f9a5cd9be0e294727187064cb3",
+          "to": "0x935bfb495e33f74d2e9735df1da66ace442ede48",
+          "totalUsd": 225034438.90575135,
+          "count": 6,
+          "tokens": [
+            "DUSD",
+            "USDC"
+          ],
+          "edgeType": "transfer",
           "isHot": true
         }
       ]
@@ -6471,6 +6483,17 @@
           "tokens": [],
           "edgeType": "call",
           "isHot": false
+        },
+        {
+          "from": "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
+          "to": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
+          "totalUsd": 1288492.8164276467,
+          "count": 1,
+          "tokens": [
+            "EYWA"
+          ],
+          "edgeType": "transfer",
+          "isHot": true
         }
       ]
     }
