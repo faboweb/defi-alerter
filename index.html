@@ -1020,134 +1020,94 @@ scene.add(networkGroup);
 let particles = [];
 let alertPulses = [];
 let time = 0;
+let graphDataCache = null;
+
+// Load real graph data
+fetch('graph-data/all-graphs.json')
+  .then(r => r.json())
+  .then(data => {
+    graphDataCache = {};
+    data.forEach(d => { graphDataCache[d.name] = d.graph; });
+    console.log('Loaded graph data:', Object.keys(graphDataCache).join(', '));
+    buildNetworkFromTxs(null, HACKS[0]); // rebuild with real data
+  })
+  .catch(e => console.warn('No graph data:', e));
 
 function buildNetworkFromTxs(txList, hack) {
   while (networkGroup.children.length) networkGroup.remove(networkGroup.children[0]);
   particles = [];
   alertPulses = [];
 
-  // Build graph from tx list
-  const nodeMap = new Map(); // address → { count, type, isAttacker }
-  const edgeMap = new Map(); // "from→to" → { count, attack, detected }
+  // Use real graph data if available
+  const realGraph = graphDataCache?.[hack.name];
+  if (!realGraph) return;
 
-  // Contract address (victim) is the central node
-  const victim = hack.name;
-  nodeMap.set(victim, { count: 0, type: 'victim' });
+  const nodes = realGraph.nodes;
+  const edges = realGraph.edges;
+  const rng = mulberry32(hashStr(hack.name + 'vis'));
 
-  // Generate transfer addresses for baseline txs
-  const rng = mulberry32(hashStr(hack.name + 'net'));
-  const knownTokens = ['WETH', 'USDC', 'USDT', 'WBTC', 'DAI', 'wstETH', 'tBTC', 'LBTC'];
-  const tokenAddrs = knownTokens.map((t, i) => ({ label: t, addr: '0x_tok_' + i }));
+  // Position nodes using force-directed-ish layout
+  const positions = new Map();
+  const attackerNodes = nodes.filter(n => n.type === 'attacker');
+  const victimNodes = nodes.filter(n => n.type === 'victim');
+  const normalNodes = nodes.filter(n => n.type === 'normal');
 
-  const txs = txList || generateBaselineTxs(hack);
-
-  txs.forEach(tx => {
-    const caller = tx.from.slice(0, 10);
-    // Add caller node
-    if (!nodeMap.has(caller)) {
-      nodeMap.set(caller, { count: 0, type: tx.type === 'detected' || tx.type === 'attack' ? 'attacker' : 'normal' });
-    }
-    const node = nodeMap.get(caller);
-    node.count++;
-    if (tx.type === 'detected' || tx.type === 'attack') node.type = 'attacker';
-
-    // Edge: caller → contract
-    const eKey = caller + '→' + victim;
-    if (!edgeMap.has(eKey)) edgeMap.set(eKey, { count: 0, attack: false, detected: false });
-    const edge = edgeMap.get(eKey);
-    edge.count++;
-    if (tx.type === 'attack') edge.attack = true;
-    if (tx.type === 'detected') { edge.attack = true; edge.detected = true; }
-
-    // Simulate transfers: contract → random token destinations
-    const numXfers = Math.min(tx.xfers || 0, 3);
-    for (let t = 0; t < numXfers; t++) {
-      const tok = tokenAddrs[Math.floor(rng() * tokenAddrs.length)];
-      const tKey = victim + '→' + tok.label;
-      if (!edgeMap.has(tKey)) edgeMap.set(tKey, { count: 0, attack: false, detected: false });
-      edgeMap.get(tKey).count++;
-      if (!nodeMap.has(tok.label)) nodeMap.set(tok.label, { count: 0, type: 'token' });
-      nodeMap.get(tok.label).count++;
-
-      if (tx.type === 'detected' || tx.type === 'attack') {
-        // Attack transfers go to attacker-linked address
-        const drainDest = 'drain_' + caller;
-        const dKey = tok.label + '→' + drainDest;
-        if (!edgeMap.has(dKey)) edgeMap.set(dKey, { count: 0, attack: true, detected: tx.type === 'detected' });
-        edgeMap.get(dKey).count++;
-        if (!nodeMap.has(drainDest)) nodeMap.set(drainDest, { count: 0, type: 'attacker' });
-        nodeMap.get(drainDest).count++;
-      }
-    }
+  // Victim(s) at center
+  victimNodes.forEach((n, i) => {
+    positions.set(n.address, new THREE.Vector3(0, i * 0.5, 0));
   });
 
-  // Position nodes with a simple radial layout
-  const nodeList = [...nodeMap.entries()];
-  const positions = new Map();
-
-  // Victim at center
-  positions.set(victim, new THREE.Vector3(0, 0, 0));
-
-  // Separate by type
-  const attackers = nodeList.filter(([_, n]) => n.type === 'attacker');
-  const normals = nodeList.filter(([_, n]) => n.type === 'normal');
-  const tokens = nodeList.filter(([_, n]) => n.type === 'token');
-
-  // Attackers on the right
-  attackers.forEach(([id], i) => {
-    const angle = -Math.PI / 3 + (Math.PI * 2 / 3) * (i / Math.max(attackers.length - 1, 1));
-    const r = 3 + (i % 3) * 0.8;
-    positions.set(id, new THREE.Vector3(
-      Math.cos(angle) * r + 2,
-      Math.sin(angle) * r * 0.6,
+  // Attackers clustered on the right, spread by USD volume
+  attackerNodes.forEach((n, i) => {
+    const angle = -0.8 + (i / Math.max(attackerNodes.length - 1, 1)) * 1.6;
+    const r = 3 + (rng() * 1.5);
+    positions.set(n.address, new THREE.Vector3(
+      Math.cos(angle) * r + 2.5,
+      Math.sin(angle) * r * 0.7,
       (rng() - 0.5) * 2
     ));
   });
 
-  // Normal callers on the left
-  normals.forEach(([id], i) => {
-    if (id === victim) return;
-    const angle = Math.PI / 2 + Math.PI * (i / Math.max(normals.length - 1, 1));
-    const r = 2.5 + (i % 4) * 0.5;
-    positions.set(id, new THREE.Vector3(
-      Math.cos(angle) * r - 1.5,
-      Math.sin(angle) * r * 0.5,
-      (rng() - 0.5) * 1.5
+  // Normal nodes spread on the left
+  normalNodes.forEach((n, i) => {
+    const angle = Math.PI * 0.3 + (i / Math.max(normalNodes.length - 1, 1)) * Math.PI * 1.4;
+    const r = 2 + rng() * 2.5;
+    positions.set(n.address, new THREE.Vector3(
+      Math.cos(angle) * r - 1,
+      Math.sin(angle) * r * 0.6,
+      (rng() - 0.5) * 2.5
     ));
   });
 
-  // Tokens below
-  tokens.forEach(([id], i) => {
-    const x = -3 + (i / Math.max(tokens.length - 1, 1)) * 6;
-    positions.set(id, new THREE.Vector3(x, -3 - rng() * 0.5, (rng() - 0.5)));
-  });
-
   // Render nodes
-  const maxCount = Math.max(...nodeList.map(([_, n]) => n.count), 1);
-  nodeList.forEach(([id, node]) => {
-    if (!positions.has(id)) return;
-    const pos = positions.get(id);
-    const color = node.type === 'attacker' ? 0xff3344 :
-                  node.type === 'victim' ? 0x4488ff :
-                  node.type === 'token' ? 0x226644 : 0x222838;
-    const size = node.type === 'victim' ? 0.3 :
-                 node.type === 'attacker' ? 0.12 + Math.min(node.count / maxCount, 1) * 0.12 :
-                 node.type === 'token' ? 0.1 :
-                 0.05 + Math.min(node.count / maxCount, 1) * 0.08;
+  const maxUsd = Math.max(...nodes.map(n => n.totalUsd || 0), 1);
 
-    const geo = new THREE.SphereGeometry(size, 12, 12);
+  nodes.forEach(node => {
+    const pos = positions.get(node.address);
+    if (!pos) return;
+
+    const isAttacker = node.type === 'attacker';
+    const isVictim = node.type === 'victim';
+    const color = isAttacker ? 0xff3344 : isVictim ? 0x4488ff : 0x222838;
+    const usdRatio = Math.min((node.totalUsd || 0) / maxUsd, 1);
+    const size = isVictim ? 0.35 :
+                 isAttacker ? 0.1 + usdRatio * 0.2 :
+                 0.04 + usdRatio * 0.06;
+
+    const geo = new THREE.SphereGeometry(size, 14, 14);
     const mat = new THREE.MeshPhongMaterial({
       color, emissive: color,
-      emissiveIntensity: node.type === 'attacker' ? 0.5 : node.type === 'victim' ? 0.3 : 0.1,
-      transparent: true, opacity: node.type === 'normal' ? 0.4 : 0.85,
+      emissiveIntensity: isAttacker ? 0.5 : isVictim ? 0.35 : 0.05,
+      transparent: true,
+      opacity: isAttacker || isVictim ? 0.9 : 0.25 + usdRatio * 0.3,
     });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
     networkGroup.add(mesh);
 
-    // Glow rings for attacker + victim
-    if (node.type === 'attacker' || node.type === 'victim') {
-      const ringGeo = new THREE.RingGeometry(size + 0.06, size + 0.09, 24);
+    // Glow rings
+    if (isAttacker || isVictim) {
+      const ringGeo = new THREE.RingGeometry(size + 0.06, size + 0.1, 24);
       const ringMat = new THREE.MeshBasicMaterial({
         color, transparent: true, opacity: 0.2, side: THREE.DoubleSide,
       });
@@ -1159,50 +1119,53 @@ function buildNetworkFromTxs(txList, hack) {
   });
 
   // Render edges
-  const maxEdge = Math.max(...[...edgeMap.values()].map(e => e.count), 1);
-  edgeMap.forEach((edge, key) => {
-    const [fromId, toId] = key.split('→');
-    const fromPos = positions.get(fromId);
-    const toPos = positions.get(toId);
+  const maxEdgeUsd = Math.max(...edges.map(e => e.totalUsd || 0), 1);
+
+  edges.forEach(edge => {
+    const fromPos = positions.get(edge.from);
+    const toPos = positions.get(edge.to);
     if (!fromPos || !toPos) return;
 
-    const isAlert = edge.attack;
-    const isDetected = edge.detected;
-    const lineColor = isDetected ? 0x00ff88 : isAlert ? 0xff3344 : 0x151a2a;
-    const opacity = isAlert ? 0.5 : 0.06 + Math.min(edge.count / maxEdge, 1) * 0.08;
+    const fromNode = nodes.find(n => n.address === edge.from);
+    const toNode = nodes.find(n => n.address === edge.to);
+    const isAttackerEdge = fromNode?.type === 'attacker' || toNode?.type === 'attacker';
+    const usdRatio = Math.min((edge.totalUsd || 0) / maxEdgeUsd, 1);
+
+    const lineColor = isAttackerEdge ? 0xff3344 : 0x151a2a;
+    const opacity = isAttackerEdge ? 0.25 + usdRatio * 0.5 : 0.03 + usdRatio * 0.06;
 
     const geo = new THREE.BufferGeometry().setFromPoints([fromPos.clone(), toPos.clone()]);
     const mat = new THREE.LineBasicMaterial({ color: lineColor, transparent: true, opacity });
     networkGroup.add(new THREE.Line(geo, mat));
 
-    // Particles on attack/detected edges
-    if (isAlert) {
-      const pCount = isDetected ? 4 : 3;
-      const pColor = isDetected ? 0x00ff88 : 0xff3344;
+    // Particles on attacker edges with significant USD value
+    if (isAttackerEdge && edge.totalUsd > 1000) {
+      const pCount = Math.min(6, 2 + Math.floor(usdRatio * 4));
       for (let j = 0; j < pCount; j++) {
-        const pGeo = new THREE.SphereGeometry(0.03, 6, 6);
-        const pMat = new THREE.MeshBasicMaterial({ color: pColor, transparent: true, opacity: 0.7 });
+        const pGeo = new THREE.SphereGeometry(0.025 + usdRatio * 0.02, 6, 6);
+        const pMat = new THREE.MeshBasicMaterial({
+          color: 0xff3344, transparent: true, opacity: 0.6,
+        });
         const particle = new THREE.Mesh(pGeo, pMat);
-        particle.userData = { from: fromPos.clone(), to: toPos.clone(), speed: 0.2 + rng() * 0.3, offset: j / pCount };
+        particle.userData = { from: fromPos.clone(), to: toPos.clone(), speed: 0.15 + rng() * 0.25, offset: j / pCount };
         networkGroup.add(particle);
         particles.push(particle);
       }
     }
   });
 
-  // Detection pulse on victim
-  if (txList) {
-    const vPos = positions.get(victim);
-    if (vPos) {
-      const pulseGeo = new THREE.RingGeometry(0.5, 0.55, 32);
-      const pulseMat = new THREE.MeshBasicMaterial({ color: 0x00ff88, transparent: true, opacity: 0, side: THREE.DoubleSide });
-      const pulse = new THREE.Mesh(pulseGeo, pulseMat);
-      pulse.position.copy(vPos);
-      pulse.userData = { type: 'alertPulse', time: 0 };
-      networkGroup.add(pulse);
-      alertPulses.push(pulse);
-    }
-  }
+  // Detection pulse on victim nodes
+  victimNodes.forEach(n => {
+    const pos = positions.get(n.address);
+    if (!pos) return;
+    const pulseGeo = new THREE.RingGeometry(0.5, 0.55, 32);
+    const pulseMat = new THREE.MeshBasicMaterial({ color: 0x00ff88, transparent: true, opacity: 0, side: THREE.DoubleSide });
+    const pulse = new THREE.Mesh(pulseGeo, pulseMat);
+    pulse.position.copy(pos);
+    pulse.userData = { type: 'alertPulse', time: rng() * 2 };
+    networkGroup.add(pulse);
+    alertPulses.push(pulse);
+  });
 }
 
 function animate() {
