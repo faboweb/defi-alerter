@@ -24,7 +24,9 @@
           "PORT",
           "ORX",
           "UNI-V4-POSM"
-        ]
+        ],
+        "direction": "attacker",
+        "hop": 0
       },
       {
         "address": "0xb2185950f5a0a46687ac331916508aada202e063",
@@ -115,23 +117,27 @@
       },
       {
         "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
-        "label": "LiFi",
-        "type": "trail",
+        "label": "LiFi Diamond",
+        "type": "bridge",
         "callCount": 1,
-        "totalUsd": 141.56316085330616,
+        "totalUsd": 3610.1539913069096,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
-        "label": "Tornado Cash",
-        "type": "trail",
+        "label": "Tornado Cash Router",
+        "type": "mixer",
         "callCount": 1,
-        "totalUsd": 90733.73337402343,
+        "totalUsd": 1507750,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
@@ -141,38 +147,46 @@
         "totalUsd": 13920.844946289062,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xffabef19f5ee5f620db6cd34bb26f4b159c93a05",
         "label": "0xffabef19",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 0.000294251416015625,
+        "totalUsd": 1,
         "tokens": [
           "EꓔH",
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xffa79c8d6c4abbe983ef5cf3469075014a029a05",
         "label": "0xffa79c8d",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 0,
+        "totalUsd": 2500,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
         "label": "0xcaa23147",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 2762.4669140625,
+        "totalUsd": 3455.7769876779894,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x21ea7c581a3a7258e4df33c1140c993f4d237592",
@@ -187,67 +201,79 @@
       {
         "address": "0x7d0047b9d66bcdeb3c16e788336b2ab66601d857",
         "label": "0x7d0047b9",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
         "totalUsd": 30.9601196289076,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
         "label": "CoW Protocol",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 9996.881945114135,
+        "totalUsd": 10000.01,
         "tokens": [
           "USDC"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xd60247c6848b7ca29eddf63aa924e53db6ddd8ec",
         "label": "0xd60247c6",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 24.592291664954832,
+        "totalUsd": 26.2923625,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x851c01d014b1ad2b1266ca48a4b5578b67194834",
         "label": "0x851c01d0",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 1321771.9467773438,
+        "totalUsd": 1432500,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x8519cdd8b5dc49a2cc68e914a9750d05d7ad2834",
         "label": "0x8519cdd8",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 0,
+        "totalUsd": 573,
         "tokens": [
           "EꓔH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x851d3514509166fd8586e784f5659ae7bc194834",
         "label": "0x851d3514",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 0,
+        "totalUsd": 1432500,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
-        "label": "0x4e5b2e1d",
-        "type": "normal",
+        "label": "FixedFloat",
+        "type": "cex",
         "callCount": 1,
         "totalUsd": 168.32627882964846,
         "tokens": [
@@ -580,6 +606,357 @@
         "tokens": [
           "USDT"
         ]
+      },
+      {
+        "address": "0x851ca41569de9b252cacef45984bf3b2e0804834",
+        "label": "0x851ca415",
+        "type": "trail",
+        "totalUsd": 1432500,
+        "totalEth": 573,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd90ebf0229d9b6a45626c6ebf28bf4a1d1e4f31b",
+        "label": "0xd90ebf02",
+        "type": "trail",
+        "totalUsd": 1389007.516561,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x1268f45373a16fa91b45d0a3214f23687b27e1ce",
+        "label": "0x1268f453",
+        "type": "trail",
+        "totalUsd": 800800,
+        "totalEth": 0,
+        "tokens": [
+          "taffy",
+          "UNI-V2"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "label": "Uniswap V2 Router",
+        "type": "defi",
+        "totalUsd": 6137.5,
+        "totalEth": 2.4549999999999987,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc7a408b91efead218d33822892a0d071d9aeb248",
+        "label": "0xc7a408b9",
+        "type": "trail",
+        "totalUsd": 9583668.822128136,
+        "totalEth": 0,
+        "tokens": [
+          "taffy",
+          "UNI-V2"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe27420b0a322b7643a1184a9f237e64cdd20a1a7",
+        "label": "0xe27420b0",
+        "type": "trail",
+        "totalUsd": 445000,
+        "totalEth": 0,
+        "tokens": [
+          "taffy"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbeef02961503351625926ea9a11ae13b29f5c555",
+        "label": "0xbeef0296",
+        "type": "trail",
+        "totalUsd": 70000,
+        "totalEth": 0,
+        "tokens": [
+          "taffy"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
+        "label": "0x83928768",
+        "type": "trail",
+        "totalUsd": 60000,
+        "totalEth": 0,
+        "tokens": [
+          "taffy"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x00000000ecfb25b63e2bc620a08e2c0272c551d8",
+        "label": "0x00000000",
+        "type": "trail",
+        "totalUsd": 30000,
+        "totalEth": 0,
+        "tokens": [
+          "taffy"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x00000011f84b9aa48e5f8aa8b9897600006289be",
+        "label": "0x00000011",
+        "type": "trail",
+        "totalUsd": 175.62738331048934,
+        "totalEth": 0.07025095332419573,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8bc0fe84022542e1611ff252090028df741ad670",
+        "label": "0x8bc0fe84",
+        "type": "unknown",
+        "totalUsd": 109.96889368209263,
+        "totalEth": 0.04398755747283705,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+        "label": "0xa478c297",
+        "type": "unknown",
+        "totalUsd": 50.22500871580746,
+        "totalEth": 0,
+        "tokens": [
+          "DAI"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "label": "Balancer Vault",
+        "type": "defi",
+        "totalUsd": 1240.5810609999999,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe2a4dfc3cab6dcdb198c83066b93110d62d95f09",
+        "label": "0xe2a4dfc3",
+        "type": "unknown",
+        "totalUsd": 172.49292347214572,
+        "totalEth": 0,
+        "tokens": [
+          "EDEN"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xba6329eae69707d6a0f273bd082f4a0807a6b011",
+        "label": "0xba6329ea",
+        "type": "unknown",
+        "totalUsd": 80.06607285632315,
+        "totalEth": 0,
+        "tokens": [
+          "OWL"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x574206e63e9e8ea91121d1267c4aae20184305dd",
+        "label": "0x574206e6",
+        "type": "unknown",
+        "totalUsd": 893.5008805550243,
+        "totalEth": 0.3574003522220097,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "label": "WETH",
+        "type": "token",
+        "totalUsd": 64160.80013955661,
+        "totalEth": 25.664320055822646,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+        "label": "SushiSwap Router",
+        "type": "defi",
+        "totalUsd": 3750,
+        "totalEth": 1.5,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "label": "Uniswap V3 Router",
+        "type": "defi",
+        "totalUsd": 3750,
+        "totalEth": 1.5,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x07f320a506844533c46b2d362d92d90e3e64d945",
+        "label": "0x07f320a5",
+        "type": "unknown",
+        "totalUsd": 1250,
+        "totalEth": 0.5,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa4a30de50f2b988dcaefa565111ba00eabd5d85f",
+        "label": "0xa4a30de5",
+        "type": "unknown",
+        "totalUsd": 1190.9063957473768,
+        "totalEth": 0.4763625582989507,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa805442e59a1034d4b2c8886f95a49065623f884",
+        "label": "0xa805442e",
+        "type": "trail",
+        "totalUsd": 4001000,
+        "totalEth": 0.4,
+        "tokens": [
+          "kululu",
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x615bd8367967c4466df13e7c111b4116eb3a7571",
+        "label": "0x615bd836",
+        "type": "trail",
+        "totalUsd": 3098256.594535815,
+        "totalEth": 0,
+        "tokens": [
+          "kululu"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "label": "0x00000000",
+        "type": "trail",
+        "totalUsd": 999998.4577685068,
+        "totalEth": 0,
+        "tokens": [
+          "kululu"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+        "label": "0xbd216513",
+        "type": "trail",
+        "totalUsd": 250.0625234472699,
+        "totalEth": 0.10002500937890796,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9d6b911199b891c55a93e4bc635bf59e33d002d8",
+        "label": "0x9d6b9111",
+        "type": "trail",
+        "totalUsd": 225.1305389081644,
+        "totalEth": 0.09005221556326576,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x22a956c4755d8c4294b358dc346e74250e175622",
+        "label": "0x22a956c4",
+        "type": "trail",
+        "totalUsd": 23.09841304039205,
+        "totalEth": 0.00923936521615682,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8a99586472711f0b7148bb503bb23eb6b30f2325",
+        "label": "0x8a995864",
+        "type": "unknown",
+        "totalUsd": 5837.234965563746,
+        "totalEth": 2.3348939862254987,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x85686a6bfa27508d5e890e459d14e7cc63e1a2da",
+        "label": "0x85686a6b",
+        "type": "unknown",
+        "totalUsd": 537.1952856585395,
+        "totalEth": 0.2148781142634158,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
       }
     ],
     "edges": [
@@ -592,7 +969,9 @@
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 0.054061596522763815,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
@@ -603,7 +982,9 @@
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 30.1,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
@@ -614,29 +995,34 @@
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 4.7,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0xffabef19f5ee5f620db6cd34bb26f4b159c93a05",
-        "totalUsd": 0,
+        "totalUsd": 1,
         "count": 1,
         "tokens": [
           "EꓔH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0xffa79c8d6c4abbe983ef5cf3469075014a029a05",
-        "totalUsd": 0,
+        "totalUsd": 2500,
         "count": 1,
         "tokens": [
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 1,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
@@ -647,7 +1033,9 @@
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 0.93,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
@@ -669,62 +1057,72 @@
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 0.011,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
-        "totalUsd": 9996.881945114135,
+        "totalUsd": 10000.01,
         "count": 1,
         "tokens": [
           "USDC"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0xd60247c6848b7ca29eddf63aa924e53db6ddd8ec",
-        "totalUsd": 24.592291664954832,
+        "totalUsd": 26.2923625,
         "count": 1,
         "tokens": [
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 0.010516945,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0x851c01d014b1ad2b1266ca48a4b5578b67194834",
-        "totalUsd": 1321771.9467773438,
+        "totalUsd": 1432500,
         "count": 1,
         "tokens": [
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 573,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0x8519cdd8b5dc49a2cc68e914a9750d05d7ad2834",
-        "totalUsd": 0,
+        "totalUsd": 573,
         "count": 1,
         "tokens": [
           "EꓔH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
         "to": "0x851d3514509166fd8586e784f5659ae7bc194834",
-        "totalUsd": 0,
+        "totalUsd": 1432500,
         "count": 1,
         "tokens": [
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 573,
+        "direction": "destination"
       },
       {
         "from": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
@@ -1237,7 +1635,447 @@
         "tokens": [],
         "edgeType": "call",
         "isHot": false
+      },
+      {
+        "from": "0x632400f42e96a5deb547a179ca46b02c22cd25cd",
+        "to": "0x851ca41569de9b252cacef45984bf3b2e0804834",
+        "totalUsd": 1432500,
+        "totalEth": 573,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x851c01d014b1ad2b1266ca48a4b5578b67194834",
+        "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "totalUsd": 1432500,
+        "totalEth": 573,
+        "count": 15,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x851c01d014b1ad2b1266ca48a4b5578b67194834",
+        "to": "0xd90ebf0229d9b6a45626c6ebf28bf4a1d1e4f31b",
+        "totalUsd": 1389007.516561,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+        "totalUsd": 3475,
+        "totalEth": 1.3900000000000001,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0x1268f45373a16fa91b45d0a3214f23687b27e1ce",
+        "totalUsd": 800800,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "taffy",
+          "UNI-V2"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "totalUsd": 5250,
+        "totalEth": 2.1,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0xc7a408b91efead218d33822892a0d071d9aeb248",
+        "totalUsd": 9583668.822128136,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "taffy",
+          "UNI-V2"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0xe27420b0a322b7643a1184a9f237e64cdd20a1a7",
+        "totalUsd": 445000,
+        "totalEth": 0,
+        "count": 15,
+        "tokens": [
+          "taffy"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0xbeef02961503351625926ea9a11ae13b29f5c555",
+        "totalUsd": 70000,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "taffy"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0x8392876883cf0e9e7ee24d9b1f606ed88644f23b",
+        "totalUsd": 60000,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "taffy"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xffabb3caf9e897d0de4dd2625806c96998029a05",
+        "to": "0x00000000ecfb25b63e2bc620a08e2c0272c551d8",
+        "totalUsd": 30000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "taffy"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe27420b0a322b7643a1184a9f237e64cdd20a1a7",
+        "to": "0x00000011f84b9aa48e5f8aa8b9897600006289be",
+        "totalUsd": 11.986801953021802,
+        "totalEth": 0.004794720781208721,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xbeef02961503351625926ea9a11ae13b29f5c555",
+        "to": "0x00000011f84b9aa48e5f8aa8b9897600006289be",
+        "totalUsd": 163.6405813574675,
+        "totalEth": 0.065456232542987,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "to": "0x8bc0fe84022542e1611ff252090028df741ad670",
+        "totalUsd": 109.96889368209263,
+        "totalEth": 0.04398755747283705,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "to": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+        "totalUsd": 50.22500871580746,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "DAI"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "totalUsd": 1240.5810609999999,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "to": "0xe2a4dfc3cab6dcdb198c83066b93110d62d95f09",
+        "totalUsd": 172.49292347214572,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "EDEN"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "to": "0xba6329eae69707d6a0f273bd082f4a0807a6b011",
+        "totalUsd": 80.06607285632315,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "OWL"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "to": "0x574206e63e9e8ea91121d1267c4aae20184305dd",
+        "totalUsd": 893.5008805550243,
+        "totalEth": 0.3574003522220097,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 525,
+        "totalEth": 0.21000000000000002,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": false
+      },
+      {
+        "from": "0x574206e63e9e8ea91121d1267c4aae20184305dd",
+        "to": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+        "totalUsd": 3750,
+        "totalEth": 1.5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": false
+      },
+      {
+        "from": "0x574206e63e9e8ea91121d1267c4aae20184305dd",
+        "to": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "totalUsd": 3750,
+        "totalEth": 1.5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": false
+      },
+      {
+        "from": "0x574206e63e9e8ea91121d1267c4aae20184305dd",
+        "to": "0x07f320a506844533c46b2d362d92d90e3e64d945",
+        "totalUsd": 1250,
+        "totalEth": 0.5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": false
+      },
+      {
+        "from": "0x574206e63e9e8ea91121d1267c4aae20184305dd",
+        "to": "0xa4a30de50f2b988dcaefa565111ba00eabd5d85f",
+        "totalUsd": 1190.9063957473768,
+        "totalEth": 0.4763625582989507,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": false
+      },
+      {
+        "from": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
+        "to": "0xa805442e59a1034d4b2c8886f95a49065623f884",
+        "totalUsd": 4001000,
+        "totalEth": 0.4,
+        "count": 4,
+        "tokens": [
+          "kululu",
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
+        "to": "0x615bd8367967c4466df13e7c111b4116eb3a7571",
+        "totalUsd": 3098256.594535815,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "kululu"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
+        "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "totalUsd": 887.5,
+        "totalEth": 0.35500000000000004,
+        "count": 12,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
+        "to": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "totalUsd": 999998.4577685068,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "kululu"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
+        "to": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+        "totalUsd": 250.0625234472699,
+        "totalEth": 0.10002500937890796,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xa805442e59a1034d4b2c8886f95a49065623f884",
+        "to": "0xcaa23147f112f36bd8f39e1a5ba604c76aa7f7ca",
+        "totalUsd": 1130.7769876779892,
+        "totalEth": 0.45231079507119565,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "to": "0x9d6b911199b891c55a93e4bc635bf59e33d002d8",
+        "totalUsd": 225.1305389081644,
+        "totalEth": 0.09005221556326576,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "to": "0x22a956c4755d8c4294b358dc346e74250e175622",
+        "totalUsd": 23.09841304039205,
+        "totalEth": 0.00923936521615682,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "to": "0x8a99586472711f0b7148bb503bb23eb6b30f2325",
+        "totalUsd": 5837.234965563746,
+        "totalEth": 2.3348939862254987,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "to": "0x85686a6bfa27508d5e890e459d14e7cc63e1a2da",
+        "totalUsd": 537.1952856585395,
+        "totalEth": 0.2148781142634158,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 63635.80013955661,
+        "totalEth": 25.454320055822645,
+        "count": 8,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
       }
     ]
+  },
+  "meta": {
+    "mixers": [
+      {
+        "label": "Tornado Cash Router",
+        "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b"
+      }
+    ],
+    "cexes": [],
+    "bridges": [
+      {
+        "label": "LiFi Diamond",
+        "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
+      }
+    ],
+    "fundingSources": 0,
+    "maxHop": 3
   }
 }

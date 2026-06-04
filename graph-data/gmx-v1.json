@@ -10,7 +10,9 @@
         "totalUsd": 55235.563751851914,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "attacker",
+        "hop": 0
       },
       {
         "address": "0x75e42e6f01baf1d6022bea862a28774a9f8a4a0c",
@@ -33,7 +35,9 @@
           "WETH",
           "WBTC",
           "USD₮0"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
@@ -116,8 +120,12 @@
         "label": "0x82af4944",
         "type": "protocol",
         "callCount": 22,
-        "totalUsd": 0,
-        "tokens": []
+        "totalUsd": 7625,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "hop": 3
       },
       {
         "address": "0x8b194beae1d3e0788a1a35173978001acdfba668",
@@ -143,7 +151,9 @@
           "LINK",
           "WETH",
           "WBTC"
-        ]
+        ],
+        "direction": "attacker",
+        "hop": 0
       },
       {
         "address": "0x3963ffc9dff443c2a94f21b129d429891e32ec18",
@@ -174,8 +184,12 @@
         "label": "0xc6962004",
         "type": "protocol",
         "callCount": 7,
-        "totalUsd": 0,
-        "tokens": []
+        "totalUsd": 7542336.90338,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
@@ -332,12 +346,14 @@
       {
         "address": "0x4e971a87900b931ff39d1aad67697f49835400b6",
         "label": "0x4e971a87",
-        "type": "normal",
+        "type": "trail",
         "callCount": 60,
-        "totalUsd": 0,
+        "totalUsd": 44872143.48447947,
         "tokens": [
           "GLP"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x5c04a12eb54a093c396f61355c6da0b15890150d",
@@ -350,12 +366,14 @@
       {
         "address": "0x1addd80e6039594ee970e5872d247bf0414c8903",
         "label": "0x1addd80e",
-        "type": "normal",
+        "type": "trail",
         "callCount": 45,
-        "totalUsd": 0,
+        "totalUsd": 44872143.48447947,
         "tokens": [
           "fGLP"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0x60519b48ec4183a61ca2b8e37869e675fd203b34",
@@ -466,20 +484,24 @@
         "label": "0x2d1545d6",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 15347.354248046875,
+        "totalUsd": 22500,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
         "label": "0xf031e4f9",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 39876.57897949219,
+        "totalUsd": 89000,
         "tokens": [
           "ETH"
-        ]
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868",
@@ -507,13 +529,23 @@
       {
         "address": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
         "label": "0xdf3340a4",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 3535.541038167953,
+        "totalUsd": 31272884.013887815,
         "tokens": [
           "USDC",
-          "ETH"
-        ]
+          "ETH",
+          "WBTC",
+          "WETH",
+          "USDC.e",
+          "LINK",
+          "UNI",
+          "USDT",
+          "FRAX",
+          "DAI"
+        ],
+        "direction": "destination",
+        "hop": 1
       },
       {
         "address": "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1",
@@ -538,12 +570,17 @@
       {
         "address": "0xbb00f2e53888e60974110d68f1060e5eaab34790",
         "label": "0xbb00f2e5",
-        "type": "normal",
+        "type": "trail",
         "callCount": 1,
-        "totalUsd": 10.020103454589844,
+        "totalUsd": 159.5254138153441,
         "tokens": [
-          "USDC"
-        ]
+          "USDC",
+          "GLP",
+          "fGLP",
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "hop": 2
       },
       {
         "address": "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba",
@@ -562,34 +599,725 @@
         "label": "0x5f799f36",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 165.83696152279737,
+        "totalUsd": 26984.33397200672,
+        "tokens": [
+          "USDC",
+          "ETH",
+          "GLP",
+          "esGMX",
+          "fGLP",
+          "USDC.e"
+        ],
+        "direction": "funding",
+        "hop": 1
+      },
+      {
+        "address": "0x891f8e531f89465cf7b6b4cd3e6323ffb07ebf23",
+        "label": "0x891f8e53",
+        "type": "funding_source",
+        "totalUsd": 22500,
+        "totalEth": 9,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x49b373d422bda4c6bfcdd5ec1e48a9a26fda2f8b",
+        "label": "0x49b373d4",
+        "type": "funding_source",
+        "totalUsd": 13250,
+        "totalEth": 5.3,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x17f1463089c763f8769787ce42d5876ce3a9c114",
+        "label": "0x17f14630",
+        "type": "funding_source",
+        "totalUsd": 788000,
+        "totalEth": 0,
+        "tokens": [
+          "IDO"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x15adb6ed164250bfdf8ea2873c81495d59e2a6ad",
+        "label": "0x15adb6ed",
+        "type": "funding_source",
+        "totalUsd": 1,
+        "totalEth": 0,
+        "tokens": [
+          "AMC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3621e3b909f5ea59bdf0017e58f0adb4f191e4b1",
+        "label": "0x3621e3b9",
+        "type": "funding_source",
+        "totalUsd": 0.1,
+        "totalEth": 0,
+        "tokens": [
+          "RICE"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xf3fc178157fb3c87548baa86f9d24ba38e649b58",
+        "label": "0xf3fc1781",
+        "type": "funding_source",
+        "totalUsd": 75000,
+        "totalEth": 0,
+        "tokens": [
+          "Visit https://gpepe.xyz to claim rewards."
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+        "label": "0xec70dcb4",
+        "type": "funding_source",
+        "totalUsd": 1.64,
+        "totalEth": 0,
+        "tokens": [
+          "lrETH"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xb5c75d991a12abdd7dfbde2da5877acc2b6d6e28",
+        "label": "0xb5c75d99",
+        "type": "funding_source",
+        "totalUsd": 2664,
+        "totalEth": 0,
+        "tokens": [
+          "ARBUNKS.COM"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xeddf9d75b0794d1ae55b50bb7a8eebda72cd2fee",
+        "label": "0xeddf9d75",
+        "type": "funding_source",
+        "totalUsd": 250,
+        "totalEth": 0,
+        "tokens": [
+          "AISP"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9",
+        "label": "0x67a24ce4",
+        "type": "funding_source",
+        "totalUsd": 106706,
+        "totalEth": 0,
+        "tokens": [
+          "ARB",
+          "Visit ab-drops.com to claim rewards",
+          "Visit https://abi-finance.com to claim rewards"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x1fccbe3369eada96887a3b2857b57bba65e83dc1",
+        "label": "0x1fccbe33",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x26beb6ed164250bfdf8ea2873c81495d59e2b7be",
+        "label": "0x26beb6ed",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xafbe66947a21960b4d8a2c8f4534983c5dcbc56f",
+        "label": "0xafbe6694",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5",
+        "label": "0x9b642038",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe1e2d927514cc8257342e97c458921f06f2d3262",
+        "label": "0xe1e2d927",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9f169c2189a2d975c18965de985936361b4a9de9",
+        "label": "0x9f169c21",
+        "type": "trail",
+        "totalUsd": 32.006513999999996,
+        "totalEth": 0,
+        "tokens": [
+          "GLP",
+          "fGLP",
+          "USDC.e"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x94446fc7b099ac0f2177ae40eb1eb4d11bae6536",
+        "label": "0x94446fc7",
+        "type": "trail",
+        "totalUsd": 2923.385646556551,
+        "totalEth": 0,
+        "tokens": [
+          "GLP",
+          "fGLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "label": "0x8568e1a8",
+        "type": "trail",
+        "totalUsd": 8716.25762497463,
+        "totalEth": 0,
+        "tokens": [
+          "GLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xce8d6b801adbc0099d3fe61a4fde9e49e8551d93",
+        "label": "0xce8d6b80",
+        "type": "trail",
+        "totalUsd": 29.57366458901503,
+        "totalEth": 0,
+        "tokens": [
+          "GLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x95be4adf7f8c69852317301a5a77a4998277200d",
+        "label": "0x95be4adf",
+        "type": "trail",
+        "totalUsd": 5879.145803508202,
+        "totalEth": 0,
+        "tokens": [
+          "GLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x48e4dd3e356823070d9d1b7d162d072ae9efe0cb",
+        "label": "0x48e4dd3e",
+        "type": "trail",
+        "totalUsd": 7332.753801915129,
+        "totalEth": 0,
+        "tokens": [
+          "GLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x827da37d280f640ce0d137339d03a48f7bac4a1e",
+        "label": "0x827da37d",
+        "type": "trail",
+        "totalUsd": 446792.6282756122,
+        "totalEth": 0,
+        "tokens": [
+          "GLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc524ed0fd1af56ce04becfa8ffbc73ffc085be3a",
+        "label": "0xc524ed0f",
+        "type": "trail",
+        "totalUsd": 130000,
+        "totalEth": 0,
+        "tokens": [
+          "GLP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x000000000000000000000000000000000000006e",
+        "label": "0x00000000",
+        "type": "trail",
+        "totalUsd": 533787.2238893218,
+        "totalEth": 213.51488955572873,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc73d553473dc65ce56db96c58e6a091c20980fba",
+        "label": "0xc73d5534",
+        "type": "trail",
+        "totalUsd": 498104.35792588844,
+        "totalEth": 199.2417431703554,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x0000000000000000000000000000000000000064",
+        "label": "0x00000000",
+        "type": "trail",
+        "totalUsd": 379400,
+        "totalEth": 151.76,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+        "label": "0x1b02da8c",
+        "type": "trail",
+        "totalUsd": 21943.008752196904,
+        "totalEth": 8.777203500878763,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x4e819f1c4b5ddbeddb92aee384cacf4b6566d69c",
+        "label": "0x4e819f1c",
+        "type": "trail",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6a000f20005980200259b80c5102003040001068",
+        "label": "0x6a000f20",
+        "type": "trail",
+        "totalUsd": 3000,
+        "totalEth": 1.2,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7d3bacacd4e4ac47ae181eeb58de66ef9270c355",
+        "label": "0x7d3bacac",
+        "type": "trail",
+        "totalUsd": 15005,
+        "totalEth": 0,
+        "tokens": [
+          "ꓴꓢꓓС"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7d3b7d095215d49684b24d66807a8b8eb103c355",
+        "label": "0x7d3b7d09",
+        "type": "trail",
+        "totalUsd": 9003,
+        "totalEth": 0,
+        "tokens": [
+          "UЅDС"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7d3bc276099f042ed15d9a5b03262e40b59fc355",
+        "label": "0x7d3bc276",
+        "type": "trail",
+        "totalUsd": 3001,
+        "totalEth": 0,
+        "tokens": [
+          "‍U‎S‍D‍С⁪⁫"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+        "label": "0xe35e9842",
+        "type": "trail",
+        "totalUsd": 1001000,
+        "totalEth": 0,
+        "tokens": [
+          "WETH",
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8442d68524217601ed126f6859694e4b0c7c66a1",
+        "label": "0x8442d685",
+        "type": "trail",
+        "totalUsd": 6000000,
+        "totalEth": 0,
         "tokens": [
           "USDC"
-        ]
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+        "label": "0x337685fd",
+        "type": "trail",
+        "totalUsd": 1000000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x00c600b30fb0400701010f4b080409018b9006e0",
+        "label": "0x00c600b3",
+        "type": "trail",
+        "totalUsd": 187343.427631,
+        "totalEth": 0,
+        "tokens": [
+          "USDC.e"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "label": "CoW Protocol",
+        "type": "defi",
+        "totalUsd": 1343601.991557,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x1dc662d3d7de14a57cd369e3a9e774f8f80d4214",
+        "label": "0x1dc662d3",
+        "type": "trail",
+        "totalUsd": 10.231442,
+        "totalEth": 0,
+        "tokens": [
+          "USDC.e"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x432af553927e974bff4b5bfea0a9b86a9a88b530",
+        "label": "0x432af553",
+        "type": "trail",
+        "totalUsd": 195.656338,
+        "totalEth": 0,
+        "tokens": [
+          "USDC.e"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "label": "0xc7e27f39",
+        "type": "trail",
+        "totalUsd": 1316.630307,
+        "totalEth": 0,
+        "tokens": [
+          "USDC.e"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xf20d10e306e34f9d830715eeef577ac16b5ea72e",
+        "label": "0xf20d10e3",
+        "type": "trail",
+        "totalUsd": 242.5,
+        "totalEth": 0.097,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x3b6067d4caa8a14c63fdbe6318f27a0bbc9f9237",
+        "label": "0x3b6067d4",
+        "type": "trail",
+        "totalUsd": 3250,
+        "totalEth": 1.3,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "label": "Uniswap V3 Router",
+        "type": "defi",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc326e36691604f65aaeea5d74ccd45ce03755234",
+        "label": "0xc326e366",
+        "type": "trail",
+        "totalUsd": 18.308543,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa21850565930bf896ab37cd74ed8aa71f4e579c4",
+        "label": "0xa2185056",
+        "type": "trail",
+        "totalUsd": 45.963003,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb8222e4ffc2dff3b1e481be36351593bfcf8be2f",
+        "label": "0xb8222e4f",
+        "type": "trail",
+        "totalUsd": 87.58025,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "label": "0xc36442b4",
+        "type": "trail",
+        "totalUsd": 27.558395,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xcc568ece6f1db9c387049db4711a16c0d56a9f64",
+        "label": "0xcc568ece",
+        "type": "trail",
+        "totalUsd": 12.882473,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9c1bd19b3a6820fe6b4f0aeaaae7e786d44a3c82",
+        "label": "0x9c1bd19b",
+        "type": "trail",
+        "totalUsd": 338.11321,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x56b0b11b518f4cecc052ddc8723b7092b1168851",
+        "label": "0x56b0b11b",
+        "type": "trail",
+        "totalUsd": 53,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7879e4523907bdaaf94416442d6a63a841181c91",
+        "label": "0x7879e452",
+        "type": "trail",
+        "totalUsd": 87.959072,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd44004b0643e528a4beea3583a02446e01cebd5a",
+        "label": "0xd44004b0",
+        "type": "trail",
+        "totalUsd": 771.044675,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb4315e873dbcf96ffd0acd8ea43f689d8c20fb30",
+        "label": "0xb4315e87",
+        "type": "trail",
+        "totalUsd": 6625,
+        "totalEth": 2.6500000000000004,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x4c60051384bd2d3c01bfc845cf5f4b44bcbe9de5",
+        "label": "0x4c600513",
+        "type": "trail",
+        "totalUsd": 1012.75,
+        "totalEth": 0.4051,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "label": "0x00000000",
+        "type": "trail",
+        "totalUsd": 250000,
+        "totalEth": 100,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xfd78ee919681417d192449715b2594ab58f5d002",
+        "label": "0xfd78ee91",
+        "type": "trail",
+        "totalUsd": 96854.71356,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x10d8b8daa26d307489803e10477de69c0492b610",
+        "label": "0x10d8b8da",
+        "type": "trail",
+        "totalUsd": 297500,
+        "totalEth": 119,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
       }
     ],
     "edges": [
       {
         "from": "0xd4266f8f82f7405429ee18559e548979d49160f3",
         "to": "0x2d1545d6dedce867fca3091f49b29d16b230a6e4",
-        "totalUsd": 15347.354248046875,
+        "totalUsd": 22500,
         "count": 2,
         "tokens": [
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 9,
+        "direction": "destination"
       },
       {
         "from": "0xd4266f8f82f7405429ee18559e548979d49160f3",
         "to": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
-        "totalUsd": 39876.57897949219,
+        "totalUsd": 51250,
         "count": 1,
         "tokens": [
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 20.5,
+        "direction": "destination"
       },
       {
         "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
@@ -605,14 +1333,15 @@
       {
         "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
         "to": "0x489ee077994b6658eafa855c308275ead8097c4a",
-        "totalUsd": 9003143.61310204,
+        "totalUsd": 26961808.845867,
         "count": 6,
         "tokens": [
           "USDC",
           "FRAX"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
@@ -641,24 +1370,26 @@
       {
         "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
         "to": "0x1addd80e6039594ee970e5872d247bf0414c8903",
-        "totalUsd": 0,
+        "totalUsd": 44872143.48447947,
         "count": 1,
         "tokens": [
           "fGLP"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
         "to": "0x4e971a87900b931ff39d1aad67697f49835400b6",
-        "totalUsd": 0,
+        "totalUsd": 44872143.48447947,
         "count": 2,
         "tokens": [
           "GLP"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
@@ -681,7 +1412,9 @@
           "ETH"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "totalEth": 0.2003,
+        "direction": "destination"
       },
       {
         "from": "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb",
@@ -837,10 +1570,12 @@
         "totalUsd": 155.81703569004895,
         "count": 1,
         "tokens": [
-          "USDC"
+          "USDC",
+          "USDC.e"
         ],
         "edgeType": "transfer",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
@@ -1047,11 +1782,14 @@
       {
         "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
         "to": "0xc6962004f452be9203591991d15f6b388e09e8d0",
-        "totalUsd": 0,
+        "totalUsd": 7542336.90338,
         "count": 1,
-        "tokens": [],
+        "tokens": [
+          "USDC"
+        ],
         "edgeType": "call",
-        "isHot": true
+        "isHot": true,
+        "direction": "destination"
       },
       {
         "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
@@ -1529,7 +2267,998 @@
         "tokens": [],
         "edgeType": "call",
         "isHot": false
+      },
+      {
+        "from": "0x891f8e531f89465cf7b6b4cd3e6323ffb07ebf23",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 22500,
+        "totalEth": 9,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 26750,
+        "totalEth": 10.7,
+        "count": 8,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x49b373d422bda4c6bfcdd5ec1e48a9a26fda2f8b",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 13250,
+        "totalEth": 5.3,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x17f1463089c763f8769787ce42d5876ce3a9c114",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 788000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "IDO"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x15adb6ed164250bfdf8ea2873c81495d59e2a6ad",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 1,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "AMC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3621e3b909f5ea59bdf0017e58f0adb4f191e4b1",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 0.1,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "RICE"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xf3fc178157fb3c87548baa86f9d24ba38e649b58",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 75000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "Visit https://gpepe.xyz to claim rewards."
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 1.64,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "lrETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb5c75d991a12abdd7dfbde2da5877acc2b6d6e28",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 2664,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "ARBUNKS.COM"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeddf9d75b0794d1ae55b50bb7a8eebda72cd2fee",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 250,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "AISP"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9",
+        "to": "0xd4266f8f82f7405429ee18559e548979d49160f3",
+        "totalUsd": 106706,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "ARB",
+          "Visit ab-drops.com to claim rewards",
+          "Visit https://abi-finance.com to claim rewards"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "to": "0x891f8e531f89465cf7b6b4cd3e6323ffb07ebf23",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x1fccbe3369eada96887a3b2857b57bba65e83dc1",
+        "to": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "totalUsd": 1000,
+        "totalEth": 0.4,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "to": "0x49b373d422bda4c6bfcdd5ec1e48a9a26fda2f8b",
+        "totalUsd": 5050,
+        "totalEth": 2.02,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x26beb6ed164250bfdf8ea2873c81495d59e2b7be",
+        "to": "0x15adb6ed164250bfdf8ea2873c81495d59e2a6ad",
+        "totalUsd": 2332.928857543192,
+        "totalEth": 0.9331715430172767,
+        "count": 6,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xafbe66947a21960b4d8a2c8f4534983c5dcbc56f",
+        "to": "0xb5c75d991a12abdd7dfbde2da5877acc2b6d6e28",
+        "totalUsd": 217.3346,
+        "totalEth": 0.08693384,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9b64203878f24eb0cdf55c8c6fa7d08ba0cf77e5",
+        "to": "0xeddf9d75b0794d1ae55b50bb7a8eebda72cd2fee",
+        "totalUsd": 1395.3000000000002,
+        "totalEth": 0.55812,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe1e2d927514cc8257342e97c458921f06f2d3262",
+        "to": "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9",
+        "totalUsd": 208.94517000000002,
+        "totalEth": 0.083578068,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7d3bd50336f64b7a473c51f54e7f0bd6771cc355",
+        "to": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "totalUsd": 31272884.013887815,
+        "totalEth": 3205.499178565922,
+        "count": 9,
+        "tokens": [
+          "WBTC",
+          "WETH",
+          "USDC.e",
+          "LINK",
+          "UNI",
+          "USDT",
+          "FRAX",
+          "DAI",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "totalUsd": 48.009215279658676,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0xbb00f2e53888e60974110d68f1060e5eaab34790",
+        "totalUsd": 59.50988940767205,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x9f169c2189a2d975c18965de985936361b4a9de9",
+        "totalUsd": 10,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x94446fc7b099ac0f2177ae40eb1eb4d11bae6536",
+        "totalUsd": 1461.6928232782755,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "totalUsd": 8716.25762497463,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0xce8d6b801adbc0099d3fe61a4fde9e49e8551d93",
+        "totalUsd": 29.57366458901503,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x95be4adf7f8c69852317301a5a77a4998277200d",
+        "totalUsd": 5879.145803508202,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x48e4dd3e356823070d9d1b7d162d072ae9efe0cb",
+        "totalUsd": 7332.753801915129,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0x827da37d280f640ce0d137339d03a48f7bac4a1e",
+        "totalUsd": 446792.6282756122,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x4e971a87900b931ff39d1aad67697f49835400b6",
+        "to": "0xc524ed0fd1af56ce04becfa8ffbc73ffc085be3a",
+        "totalUsd": 130000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "GLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x827da37d280f640ce0d137339d03a48f7bac4a1e",
+        "to": "0x000000000000000000000000000000000000006e",
+        "totalUsd": 377500,
+        "totalEth": 151,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x827da37d280f640ce0d137339d03a48f7bac4a1e",
+        "to": "0xc73d553473dc65ce56db96c58e6a091c20980fba",
+        "totalUsd": 380000,
+        "totalEth": 152,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x827da37d280f640ce0d137339d03a48f7bac4a1e",
+        "to": "0x0000000000000000000000000000000000000064",
+        "totalUsd": 379400,
+        "totalEth": 151.76,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc524ed0fd1af56ce04becfa8ffbc73ffc085be3a",
+        "to": "0x000000000000000000000000000000000000006e",
+        "totalUsd": 118625,
+        "totalEth": 47.45,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc524ed0fd1af56ce04becfa8ffbc73ffc085be3a",
+        "to": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+        "totalUsd": 18568.008752196904,
+        "totalEth": 7.427203500878762,
+        "count": 11,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc524ed0fd1af56ce04becfa8ffbc73ffc085be3a",
+        "to": "0xc73d553473dc65ce56db96c58e6a091c20980fba",
+        "totalUsd": 110604.35792588847,
+        "totalEth": 44.241743170355385,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "to": "0x000000000000000000000000000000000000006e",
+        "totalUsd": 18750,
+        "totalEth": 7.5,
+        "count": 6,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "to": "0x000000000000000000000000000000000000006e",
+        "totalUsd": 15662.2238893218,
+        "totalEth": 6.26488955572872,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "to": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "totalUsd": 7500,
+        "totalEth": 3,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "to": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "to": "0x4e819f1c4b5ddbeddb92aee384cacf4b6566d69c",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8568e1a8082b442ae9be089a3b3888a25ae55f8c",
+        "to": "0xc73d553473dc65ce56db96c58e6a091c20980fba",
+        "totalUsd": 7500,
+        "totalEth": 3,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8",
+        "totalUsd": 119.87181872706341,
+        "totalEth": 0,
+        "count": 5,
+        "tokens": [
+          "esGMX",
+          "fGLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0xbb00f2e53888e60974110d68f1060e5eaab34790",
+        "totalUsd": 59.50988940767205,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "fGLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x9f169c2189a2d975c18965de985936361b4a9de9",
+        "totalUsd": 10,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "fGLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x1addd80e6039594ee970e5872d247bf0414c8903",
+        "to": "0x94446fc7b099ac0f2177ae40eb1eb4d11bae6536",
+        "totalUsd": 1461.6928232782755,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "fGLP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x94446fc7b099ac0f2177ae40eb1eb4d11bae6536",
+        "to": "0x000000000000000000000000000000000000006e",
+        "totalUsd": 750,
+        "totalEth": 0.3,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x94446fc7b099ac0f2177ae40eb1eb4d11bae6536",
+        "to": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+        "totalUsd": 875,
+        "totalEth": 0.35000000000000003,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x6a000f20005980200259b80c5102003040001068",
+        "totalUsd": 3000,
+        "totalEth": 1.2,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x7d3bacacd4e4ac47ae181eeb58de66ef9270c355",
+        "totalUsd": 15005,
+        "totalEth": 0,
+        "count": 5,
+        "tokens": [
+          "ꓴꓢꓓС"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x7d3b7d095215d49684b24d66807a8b8eb103c355",
+        "totalUsd": 9003,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "UЅDС"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x7d3bc276099f042ed15d9a5b03262e40b59fc355",
+        "totalUsd": 3001,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "‍U‎S‍D‍С⁪⁫"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+        "totalUsd": 1001000,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "WETH",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x8442d68524217601ed126f6859694e4b0c7c66a1",
+        "totalUsd": 6000000,
+        "totalEth": 0,
+        "count": 6,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+        "totalUsd": 1000000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x00c600b30fb0400701010f4b080409018b9006e0",
+        "totalUsd": 187343.427631,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xdf3340a436c27655ba62f8281565c9925c3a5221",
+        "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "totalUsd": 1343601.991557,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0xbb00f2e53888e60974110d68f1060e5eaab34790",
+        "totalUsd": 40.505635,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0x1dc662d3d7de14a57cd369e3a9e774f8f80d4214",
+        "totalUsd": 10.231442,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0x432af553927e974bff4b5bfea0a9b86a9a88b530",
+        "totalUsd": 195.656338,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0x9f169c2189a2d975c18965de985936361b4a9de9",
+        "totalUsd": 12.006514,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x489ee077994b6658eafa855c308275ead8097c4a",
+        "to": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "totalUsd": 1316.630307,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC.e"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "to": "0x000000000000000000000000000000000000006e",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "to": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "totalUsd": 125,
+        "totalEth": 0.05,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "to": "0xf20d10e306e34f9d830715eeef577ac16b5ea72e",
+        "totalUsd": 242.5,
+        "totalEth": 0.097,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "to": "0x3b6067d4caa8a14c63fdbe6318f27a0bbc9f9237",
+        "totalUsd": 3250,
+        "totalEth": 1.3,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc7e27f39829b36f3fc749d78ecead2525e328717",
+        "to": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0xc326e36691604f65aaeea5d74ccd45ce03755234",
+        "totalUsd": 18.308543,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0xa21850565930bf896ab37cd74ed8aa71f4e579c4",
+        "totalUsd": 45.963003,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0xb8222e4ffc2dff3b1e481be36351593bfcf8be2f",
+        "totalUsd": 87.58025,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "totalUsd": 27.558395,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0xcc568ece6f1db9c387049db4711a16c0d56a9f64",
+        "totalUsd": 12.882473,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0x9c1bd19b3a6820fe6b4f0aeaaae7e786d44a3c82",
+        "totalUsd": 338.11321,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0x56b0b11b518f4cecc052ddc8723b7092b1168851",
+        "totalUsd": 53,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0x7879e4523907bdaaf94416442d6a63a841181c91",
+        "totalUsd": 87.959072,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc6962004f452be9203591991d15f6b388e09e8d0",
+        "to": "0xd44004b0643e528a4beea3583a02446e01cebd5a",
+        "totalUsd": 771.044675,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xd44004b0643e528a4beea3583a02446e01cebd5a",
+        "to": "0xb4315e873dbcf96ffd0acd8ea43f689d8c20fb30",
+        "totalUsd": 6625,
+        "totalEth": 2.6500000000000004,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xd44004b0643e528a4beea3583a02446e01cebd5a",
+        "to": "0x4c60051384bd2d3c01bfc845cf5f4b44bcbe9de5",
+        "totalUsd": 1012.75,
+        "totalEth": 0.4051,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0x0000000000001ff3684f28c67538d4d072c22734",
+        "totalUsd": 250000,
+        "totalEth": 100,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0xfd78ee919681417d192449715b2594ab58f5d002",
+        "totalUsd": 96854.71356,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "to": "0x10d8b8daa26d307489803e10477de69c0492b610",
+        "totalUsd": 297500,
+        "totalEth": 119,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x2d1545d6dedce867fca3091f49b29d16b230a6e4",
+        "to": "0xf031e4f9d20c1fc9b367539e4c08dcd9975cd39a",
+        "totalUsd": 37750,
+        "totalEth": 15.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
       }
     ]
+  },
+  "meta": {
+    "mixers": [],
+    "cexes": [],
+    "bridges": [],
+    "fundingSources": 16,
+    "maxHop": 3
   }
 }

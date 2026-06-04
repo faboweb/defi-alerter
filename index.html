@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DeFi Alerter — Real-Time Exploit Detection</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/3d-force-graph@1"></script>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -543,11 +543,14 @@ footer {
 <!-- NETWORK VISUALIZATION -->
 <section class="network-section">
   <div class="network-label">Live Threat Network — <span>Monitoring</span></div>
-  <canvas id="network-canvas"></canvas>
+  <div id="network-canvas"></div>
   <div class="network-legend">
     <div class="legend-item"><div class="legend-dot red"></div>Attacker</div>
     <div class="legend-item"><div class="legend-dot" style="background:#cc4422"></div>Fund Trail</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#ff00ff"></div>Mixer/Bridge</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ff00ff"></div>Mixer</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ff8800"></div>Bridge</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ffcc00"></div>CEX</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#8844ff"></div>Funding Source</div>
     <div class="legend-item"><div class="legend-dot blue"></div>Protocol</div>
     <div class="legend-item"><div class="legend-dot" style="background:#00bbcc"></div>DeFi</div>
     <div class="legend-item"><div class="legend-dot green"></div>Other</div>
@@ -1012,28 +1015,81 @@ function closeDetail() {
   buildNetworkFromTxs(null, HACKS[0]);
 }
 
-// ─── THREE.JS NETWORK ───
-const canvas = document.getElementById('network-canvas');
-const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
-renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-renderer.setClearColor(0x060610, 1);
-
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(50, canvas.clientWidth / canvas.clientHeight, 0.1, 100);
-camera.position.set(0, 0, 12);
-
-const ambientLight = new THREE.AmbientLight(0x222244, 0.5);
-scene.add(ambientLight);
-const pointLight = new THREE.PointLight(0x00ff88, 0.5, 50);
-pointLight.position.set(5, 5, 10);
-scene.add(pointLight);
-
-let networkGroup = new THREE.Group();
-scene.add(networkGroup);
-let particles = [];
-let alertPulses = [];
-let time = 0;
+// ─── 3D FORCE GRAPH NETWORK ───
+const graphContainer = document.getElementById('network-canvas');
 let graphDataCache = null;
+let forceGraph = null;
+
+const NODE_COLORS = {
+  attacker: '#ff3344',
+  victim: '#00ff88',
+  trail: '#cc4422',
+  mixer: '#ff00ff',
+  bridge: '#ff8800',
+  cex: '#ffcc00',
+  funding_source: '#8844ff',
+  protocol: '#2288ff',
+  defi: '#00bbcc',
+  normal: '#1a5533',
+  unknown: '#1a5533',
+  token: '#336655',
+  null: '#333333',
+};
+
+const EDGE_COLORS = {
+  mixer: 'rgba(255,0,255,0.6)',
+  cex: 'rgba(255,204,0,0.5)',
+  bridge: 'rgba(255,136,0,0.5)',
+  funding: 'rgba(136,68,255,0.4)',
+  attacker: 'rgba(255,51,68,0.5)',
+  trail: 'rgba(204,68,34,0.35)',
+  protocol: 'rgba(68,153,255,0.25)',
+  normal: 'rgba(0,255,136,0.08)',
+};
+
+function getNodeSize(node) {
+  const base = node.type === 'attacker' ? 6 :
+               node.type === 'victim' ? 8 :
+               node.type === 'mixer' ? 5 :
+               node.type === 'bridge' ? 4 :
+               node.type === 'cex' ? 4 :
+               node.type === 'funding_source' ? 2.5 :
+               node.type === 'trail' ? 2 :
+               node.type === 'protocol' ? 2.5 :
+               node.type === 'defi' ? 3 :
+               1.5;
+  const usdBoost = Math.min(Math.log10(Math.max(node.totalUsd || 1, 1)) / 8, 1);
+  return base + usdBoost * 3;
+}
+
+function getEdgeColor(edge, nodes) {
+  const fromNode = nodes.find(n => n.address === edge.from || n.id === edge.from);
+  const toNode = nodes.find(n => n.address === edge.to || n.id === edge.to);
+  if (fromNode?.type === 'mixer' || toNode?.type === 'mixer') return EDGE_COLORS.mixer;
+  if (fromNode?.type === 'cex' || toNode?.type === 'cex') return EDGE_COLORS.cex;
+  if (fromNode?.type === 'bridge' || toNode?.type === 'bridge') return EDGE_COLORS.bridge;
+  if (edge.direction === 'funding' || fromNode?.type === 'funding_source') return EDGE_COLORS.funding;
+  if (fromNode?.type === 'attacker' || toNode?.type === 'attacker') return EDGE_COLORS.attacker;
+  if (fromNode?.type === 'trail' || toNode?.type === 'trail') return EDGE_COLORS.trail;
+  if (fromNode?.type === 'protocol' || toNode?.type === 'protocol') return EDGE_COLORS.protocol;
+  return EDGE_COLORS.normal;
+}
+
+function getEdgeWidth(edge) {
+  if (edge.totalUsd > 1000000) return 3;
+  if (edge.totalUsd > 100000) return 2;
+  if (edge.totalUsd > 10000) return 1.2;
+  if (edge.isHot) return 0.8;
+  return 0.3;
+}
+
+function isHotEdge(edge, nodes) {
+  if (edge.isHot) return true;
+  const fromNode = nodes.find(n => n.address === edge.from || n.id === edge.from);
+  const toNode = nodes.find(n => n.address === edge.to || n.id === edge.to);
+  const hotTypes = ['attacker', 'trail', 'mixer', 'bridge', 'cex', 'funding_source'];
+  return hotTypes.includes(fromNode?.type) || hotTypes.includes(toNode?.type);
+}
 
 // Load real graph data
 fetch('graph-data/all-graphs.json')
@@ -1042,332 +1098,87 @@ fetch('graph-data/all-graphs.json')
     graphDataCache = {};
     data.forEach(d => { graphDataCache[d.name] = d.graph; });
     console.log('Loaded graph data:', Object.keys(graphDataCache).join(', '));
-    buildNetworkFromTxs(null, HACKS[0]); // rebuild with real data
+    buildNetworkFromTxs(null, HACKS[0]);
   })
   .catch(e => console.warn('No graph data:', e));
 
 function buildNetworkFromTxs(txList, hack) {
-  while (networkGroup.children.length) networkGroup.remove(networkGroup.children[0]);
-  particles = [];
-  alertPulses = [];
-
-  // Use real graph data if available
   const realGraph = graphDataCache?.[hack.name];
   if (!realGraph) return;
 
-  const nodes = realGraph.nodes;
-  const edges = realGraph.edges;
-  const rng = mulberry32(hashStr(hack.name + 'vis'));
+  const nodes = realGraph.nodes.map(n => ({
+    ...n,
+    id: n.address,
+    __size: getNodeSize(n),
+    __color: NODE_COLORS[n.type] || NODE_COLORS.normal,
+  }));
 
-  // Position nodes using force-directed-ish layout
-  const positions = new Map();
-  const attackerNodes = nodes.filter(n => n.type === 'attacker');
-  const victimNodes = nodes.filter(n => n.type === 'victim');
-  const trailNodes = nodes.filter(n => n.type === 'trail');
-  const protocolNodes = nodes.filter(n => n.type === 'protocol');
-  const defiNodes = nodes.filter(n => n.type === 'defi');
-  const mixerNodes = nodes.filter(n => n.type === 'mixer' || n.type === 'bridge');
-  const normalNodes = nodes.filter(n => n.type === 'normal');
+  const nodeSet = new Set(nodes.map(n => n.id));
+  const edges = realGraph.edges
+    .filter(e => nodeSet.has(e.from) && nodeSet.has(e.to))
+    .map(e => ({
+      ...e,
+      source: e.from,
+      target: e.to,
+      __color: getEdgeColor(e, nodes),
+      __width: getEdgeWidth(e),
+      __particles: isHotEdge(e, nodes) ? Math.min(4, 1 + Math.floor((e.totalUsd || 0) / 500000)) : 0,
+    }));
 
-  const hackLogo = hack.logo;
+  const graphData = { nodes, links: edges };
 
-  // Victim at center
-  victimNodes.forEach((n, i) => {
-    positions.set(n.address, new THREE.Vector3(0, i * 0.5, 0));
-  });
+  if (forceGraph) {
+    forceGraph.graphData(graphData);
+  } else {
+    forceGraph = ForceGraph3D({ controlType: 'orbit' })(graphContainer)
+      .backgroundColor('#060610')
+      .nodeId('id')
+      .nodeVal(n => n.__size * n.__size)
+      .nodeColor(n => n.__color)
+      .nodeOpacity(0.85)
+      .nodeLabel(n => {
+        const usd = n.totalUsd ? `$${(n.totalUsd > 1e6 ? (n.totalUsd/1e6).toFixed(1)+'M' : n.totalUsd > 1e3 ? (n.totalUsd/1e3).toFixed(0)+'K' : Math.round(n.totalUsd))}` : '';
+        const tokens = n.tokens?.length ? ` [${n.tokens.slice(0,3).join(', ')}]` : '';
+        return `<div style="background:rgba(6,6,16,0.9);border:1px solid ${n.__color};padding:6px 10px;border-radius:4px;font:12px monospace;color:#c8d0e0">
+          <b style="color:${n.__color}">${n.label}</b><br/>
+          <span style="color:#5a6278">${n.type} ${usd}${tokens}</span><br/>
+          <span style="color:#333;font-size:10px">${n.address}</span>
+        </div>`;
+      })
+      .linkSource('source')
+      .linkTarget('target')
+      .linkColor(l => l.__color)
+      .linkWidth(l => l.__width)
+      .linkOpacity(0.7)
+      .linkDirectionalParticles(l => l.__particles)
+      .linkDirectionalParticleWidth(l => l.__width + 0.5)
+      .linkDirectionalParticleColor(l => l.__color.replace(/[\d.]+\)$/, '1)'))
+      .linkDirectionalParticleSpeed(0.006)
+      .linkDirectionalArrowLength(l => l.__width > 1 ? 3 : 0)
+      .linkDirectionalArrowRelPos(1)
+      .linkDirectionalArrowColor(l => l.__color)
+      .linkLabel(l => {
+        const usd = l.totalUsd ? `$${(l.totalUsd > 1e6 ? (l.totalUsd/1e6).toFixed(1)+'M' : l.totalUsd > 1e3 ? (l.totalUsd/1e3).toFixed(0)+'K' : Math.round(l.totalUsd))}` : '';
+        const tokens = l.tokens?.length ? l.tokens.slice(0,3).join(', ') : '';
+        return `${usd} ${tokens} (${l.count || 1} txs)`;
+      })
+      .warmupTicks(100)
+      .cooldownTicks(200)
+      .graphData(graphData);
 
-  // Protocol infra — tight ring around victim
-  protocolNodes.forEach((n, i) => {
-    const angle = (i / Math.max(protocolNodes.length, 1)) * Math.PI * 2;
-    const r = 1.5 + rng() * 0.8;
-    positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r,
-      Math.sin(angle) * r * 0.7,
-      (rng() - 0.5) * 1
-    ));
-  });
+    // Tune the default forces
+    forceGraph.d3Force('charge').strength(-60);
+    forceGraph.d3Force('link').distance(40);
 
-  // DeFi protocols — wider ring
-  defiNodes.forEach((n, i) => {
-    const angle = (i / Math.max(defiNodes.length, 1)) * Math.PI * 2 + 0.5;
-    const r = 2.5 + rng() * 0.5;
-    positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r - 1,
-      Math.sin(angle) * r * 0.6,
-      (rng() - 0.5) * 1.5
-    ));
-  });
-
-  // Attackers — top right cluster
-  attackerNodes.forEach((n, i) => {
-    const angle = -0.5 + (i / Math.max(attackerNodes.length - 1, 1)) * 1;
-    const r = 3.5 + rng() * 0.8;
-    positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r + 2.5,
-      Math.sin(angle) * r * 0.5 + 1.5,
-      (rng() - 0.5) * 1
-    ));
-  });
-
-  // Mixers — prominent, between attacker and trail
-  mixerNodes.forEach((n, i) => {
-    const angle = -0.3 + (i / Math.max(mixerNodes.length, 1)) * 0.6;
-    positions.set(n.address, new THREE.Vector3(3.5 + rng() * 0.5, -0.5 + i * 1, (rng() - 0.5)));
-  });
-
-  // Trail — fan below/right of attackers
-  trailNodes.forEach((n, i) => {
-    const angle = -0.8 + (i / Math.max(trailNodes.length - 1, 1)) * 1.8;
-    const r = 3 + rng() * 1.5;
-    positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r + 1,
-      Math.sin(angle) * r * 0.4 - 2,
-      (rng() - 0.5) * 2
-    ));
-  });
-
-  // Normal — outer ring, dim
-  normalNodes.forEach((n, i) => {
-    const angle = Math.PI * 0.5 + (i / Math.max(normalNodes.length, 1)) * Math.PI * 1.5;
-    const r = 3 + rng() * 2;
-    positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r - 1.5,
-      Math.sin(angle) * r * 0.5,
-      (rng() - 0.5) * 2.5
-    ));
-  });
-
-  // Render nodes
-  const maxUsd = Math.max(...nodes.map(n => n.totalUsd || 0), 1);
-
-  nodes.forEach(node => {
-    const pos = positions.get(node.address);
-    if (!pos) return;
-
-    const isAttacker = node.type === 'attacker';
-    const isVictim = node.type === 'victim';
-    const isTrail = node.type === 'trail';
-
-    if (isVictim) return; // rendered as logo sprite
-
-    const isProtocol = node.type === 'protocol';
-    const isDefi = node.type === 'defi';
-    const isMixer = node.type === 'mixer';
-    const color = isAttacker ? 0xff3344 :
-                  isMixer ? 0xff00ff :
-                  isTrail ? 0xcc4422 :
-                  isProtocol ? 0x2288ff :
-                  isDefi ? 0x00bbcc :
-                  0x00ff88;
-    const usdRatio = Math.min((node.totalUsd || 0) / maxUsd, 1);
-    const countRatio = Math.min((node.callCount || 0) / 50, 1);
-    const size = isAttacker ? 0.1 + usdRatio * 0.18 :
-                 isMixer ? 0.15 :
-                 isTrail ? 0.06 + usdRatio * 0.1 :
-                 isProtocol ? 0.06 + countRatio * 0.1 :
-                 isDefi ? 0.08 :
-                 0.04 + countRatio * 0.04;
-
-    const geo = new THREE.SphereGeometry(size, 14, 14);
-    const mat = new THREE.MeshPhongMaterial({
-      color, emissive: color,
-      emissiveIntensity: isAttacker ? 0.5 : isMixer ? 0.6 : isTrail ? 0.3 : isProtocol ? 0.3 : 0.2,
-      transparent: true,
-      opacity: isAttacker || isTrail || isProtocol || isDefi || isMixer ? 0.9 : 0.5,
-    });
-    const mesh = new THREE.Mesh(geo, mat);
-    mesh.position.copy(pos);
-    networkGroup.add(mesh);
-
-    // Glow rings
-    if (isMixer || isAttacker) {
-      const ringGeo = new THREE.RingGeometry(size + 0.06, size + 0.1, 24);
-      const ringMat = new THREE.MeshBasicMaterial({
-        color, transparent: true, opacity: 0.2, side: THREE.DoubleSide,
-      });
-      const ring = new THREE.Mesh(ringGeo, ringMat);
-      ring.position.copy(pos);
-      ring.userData = { type: 'ring', node };
-      networkGroup.add(ring);
-    }
-  });
-
-  // Render edges
-  const maxEdgeUsd = Math.max(...edges.map(e => e.totalUsd || 0), 1);
-
-  edges.forEach(edge => {
-    const fromPos = positions.get(edge.from);
-    const toPos = positions.get(edge.to);
-    if (!fromPos || !toPos) return;
-
-    const fromNode = nodes.find(n => n.address === edge.from);
-    const toNode = nodes.find(n => n.address === edge.to);
-    const isHotEdge = edge.isHot;
-    const isAttackerEdge = fromNode?.type === 'attacker' || toNode?.type === 'attacker';
-    const isTrailEdge = fromNode?.type === 'trail' || toNode?.type === 'trail';
-    const isProtocolEdge = fromNode?.type === 'protocol' || toNode?.type === 'protocol';
-    const usdRatio = Math.min((edge.totalUsd || 0) / (maxEdgeUsd || 1), 1);
-
-    const lineColor = isAttackerEdge ? 0xff3344 :
-                      isTrailEdge ? 0xcc4422 :
-                      isProtocolEdge ? 0x4499ff :
-                      0x115533;
-    const countRatio = Math.min((edge.count || 1) / 20, 1);
-    const opacity = isHotEdge ? 0.35 + usdRatio * 0.5 :
-                    isProtocolEdge ? 0.25 + countRatio * 0.35 :
-                    0.08 + countRatio * 0.1;
-
-    const geo = new THREE.BufferGeometry().setFromPoints([fromPos.clone(), toPos.clone()]);
-    const mat = new THREE.LineBasicMaterial({ color: lineColor, transparent: true, opacity });
-    networkGroup.add(new THREE.Line(geo, mat));
-
-    // Particles ONLY on attacker/trail edges
-    if ((isAttackerEdge || isTrailEdge) && (edge.totalUsd > 1000 || edge.count > 5)) {
-      const pCount = Math.min(6, 2 + Math.floor(usdRatio * 4));
-      for (let j = 0; j < pCount; j++) {
-        const pGeo = new THREE.SphereGeometry(0.025 + usdRatio * 0.02, 6, 6);
-        const pMat = new THREE.MeshBasicMaterial({
-          color: 0xff3344, transparent: true, opacity: 0.6,
-        });
-        const particle = new THREE.Mesh(pGeo, pMat);
-        particle.userData = { from: fromPos.clone(), to: toPos.clone(), speed: 0.15 + rng() * 0.25, offset: j / pCount };
-        networkGroup.add(particle);
-        particles.push(particle);
-      }
-    }
-  });
-
-  // Load logo as sprite on victim node
-  if (hackLogo && victimNodes.length > 0) {
-    const vPos = positions.get(victimNodes[0].address);
-    if (!vPos) return;
-
-    function addLogoSprite(texture) {
-      const spriteMat = new THREE.SpriteMaterial({ map: texture, transparent: true, opacity: 0.9 });
-      const sprite = new THREE.Sprite(spriteMat);
-      sprite.position.copy(vPos);
-      sprite.position.z += 0.3;
-      sprite.scale.set(1.4, 1.4, 1);
-      networkGroup.add(sprite);
-    }
-
-    // Draw logo onto a canvas (works for all image types including SVG data URIs)
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => {
-      const cvs = document.createElement('canvas');
-      cvs.width = 128; cvs.height = 128;
-      const ctx = cvs.getContext('2d');
-      ctx.beginPath();
-      ctx.arc(64, 64, 62, 0, Math.PI * 2);
-      ctx.fillStyle = '#0a0a14';
-      ctx.fill();
-      ctx.strokeStyle = 'rgba(68,136,255,0.5)';
-      ctx.lineWidth = 3;
-      ctx.stroke();
-      const s = 72;
-      ctx.drawImage(img, (128 - s) / 2, (128 - s) / 2, s, s);
-      addLogoSprite(new THREE.CanvasTexture(cvs));
-    };
-    img.onerror = () => {
-      // Fallback: draw protocol name as text
-      const cvs = document.createElement('canvas');
-      cvs.width = 128; cvs.height = 128;
-      const ctx = cvs.getContext('2d');
-      ctx.beginPath();
-      ctx.arc(64, 64, 62, 0, Math.PI * 2);
-      ctx.fillStyle = '#0a0a14';
-      ctx.fill();
-      ctx.strokeStyle = 'rgba(68,136,255,0.5)';
-      ctx.lineWidth = 3;
-      ctx.stroke();
-      ctx.fillStyle = '#4488ff';
-      ctx.font = 'bold 28px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(hack.name.split(' ')[0].slice(0, 4), 64, 64);
-      addLogoSprite(new THREE.CanvasTexture(cvs));
-    };
-    // For SVG data URIs: create blob URL to ensure Image can load it
-    if (hackLogo.startsWith('data:image/svg+xml')) {
-      try {
-        const svgText = decodeURIComponent(hackLogo.split(',')[1]);
-        const blob = new Blob([svgText], { type: 'image/svg+xml' });
-        img.src = URL.createObjectURL(blob);
-      } catch { img.src = hackLogo; }
-    } else {
-      img.src = hackLogo;
-    }
+    // Set camera distance based on node count
+    setTimeout(() => {
+      forceGraph.cameraPosition({ z: Math.max(200, nodes.length * 2.5) });
+    }, 500);
   }
-
-  // Detection pulse on victim nodes
-  victimNodes.forEach(n => {
-    const pos = positions.get(n.address);
-    if (!pos) return;
-    const pulseGeo = new THREE.RingGeometry(0.5, 0.55, 32);
-    const pulseMat = new THREE.MeshBasicMaterial({ color: 0x00ff88, transparent: true, opacity: 0, side: THREE.DoubleSide });
-    const pulse = new THREE.Mesh(pulseGeo, pulseMat);
-    pulse.position.copy(pos);
-    pulse.userData = { type: 'alertPulse', time: rng() * 2 };
-    networkGroup.add(pulse);
-    alertPulses.push(pulse);
-  });
-}
-
-function animate() {
-  requestAnimationFrame(animate);
-  time += 0.016;
-
-  // Rotate network slowly
-  networkGroup.rotation.y = Math.sin(time * 0.15) * 0.15;
-  networkGroup.rotation.x = Math.sin(time * 0.1) * 0.05;
-
-  // Animate particles
-  particles.forEach(p => {
-    const { from, to, speed, offset } = p.userData;
-    const t = ((time * speed + offset) % 1);
-    p.position.lerpVectors(from, to, t);
-    p.material.opacity = Math.sin(t * Math.PI) * 0.8;
-  });
-
-  // Animate rings (pulse)
-  networkGroup.children.forEach(child => {
-    if (child.userData?.type === 'ring') {
-      const node = child.userData.node;
-      if (node.type === 'attacker') {
-        child.material.opacity = 0.15 + Math.sin(time * 3) * 0.15;
-        child.scale.setScalar(1 + Math.sin(time * 3) * 0.1);
-      }
-    }
-  });
-
-  // Alert pulses
-  alertPulses.forEach(p => {
-    p.userData.time += 0.016;
-    const t = (p.userData.time * 0.8) % 2;
-    if (t < 1) {
-      p.scale.setScalar(1 + t * 3);
-      p.material.opacity = (1 - t) * 0.5;
-    } else {
-      p.material.opacity = 0;
-    }
-  });
-
-  // Resize
-  const w = canvas.clientWidth;
-  const h = canvas.clientHeight;
-  if (canvas.width !== w || canvas.height !== h) {
-    renderer.setSize(w, h, false);
-    camera.aspect = w / h;
-    camera.updateProjectionMatrix();
-  }
-
-  renderer.render(scene, camera);
 }
 
 // Init
 buildNetworkFromTxs(null, HACKS[0]);
-animate();
 </script>
 
 </body>
