@@ -1210,8 +1210,8 @@ function buildNetworkFromTxs(txList, hack) {
     const mat = new THREE.LineBasicMaterial({ color: lineColor, transparent: true, opacity });
     networkGroup.add(new THREE.Line(geo, mat));
 
-    // Particles on hot edges with significant USD value
-    if (isHotEdge && edge.totalUsd > 1000) {
+    // Particles ONLY on attacker/trail edges
+    if ((isAttackerEdge || isTrailEdge) && (edge.totalUsd > 1000 || edge.count > 5)) {
       const pCount = Math.min(6, 2 + Math.floor(usdRatio * 4));
       for (let j = 0; j < pCount; j++) {
         const pGeo = new THREE.SphereGeometry(0.025 + usdRatio * 0.02, 6, 6);
