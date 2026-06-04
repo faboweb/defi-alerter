@@ -1165,8 +1165,8 @@ function buildNetworkFromTxs(txList, hack) {
     const isHotEdge = isAttackerEdge || isTrailEdge;
     const usdRatio = Math.min((edge.totalUsd || 0) / maxEdgeUsd, 1);
 
-    const lineColor = isAttackerEdge ? 0xff3344 : isTrailEdge ? 0x993322 : 0x151a2a;
-    const opacity = isHotEdge ? 0.15 + usdRatio * 0.5 : 0.03 + usdRatio * 0.06;
+    const lineColor = isAttackerEdge ? 0xff3344 : isTrailEdge ? 0xcc4422 : 0x00ff88;
+    const opacity = isHotEdge ? 0.3 + usdRatio * 0.5 : 0.15 + usdRatio * 0.25;
 
     const geo = new THREE.BufferGeometry().setFromPoints([fromPos.clone(), toPos.clone()]);
     const mat = new THREE.LineBasicMaterial({ color: lineColor, transparent: true, opacity });
