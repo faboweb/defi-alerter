@@ -926,8 +926,8 @@ function selectHack(i) {
     });
   });
 
-  // Sort by day then gas
-  allTxs.sort((a, b) => a.day - b.day || a.gas - b.gas);
+  // Sort: attack day first (day 0), then recent baseline days descending
+  allTxs.sort((a, b) => b.day - a.day || b.gas - a.gas);
 
   // Stats
   const blCount = allTxs.filter(t => t.type === 'baseline').length;
