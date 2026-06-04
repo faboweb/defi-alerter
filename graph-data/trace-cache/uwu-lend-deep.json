@@ -1,0 +1,2332 @@
+{
+  "name": "UwU Lend",
+  "graph": {
+    "nodes": [
+      {
+        "address": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "label": "ATTACKER: EOA",
+        "type": "attacker",
+        "totalUsd": 12500,
+        "totalEth": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 0,
+        "direction": "attacker"
+      },
+      {
+        "address": "0x632e6b5eec0e52f54bdd62814d8e242bc3291ee7",
+        "label": "0x632e6b5e",
+        "type": "funding_source",
+        "totalUsd": 2463.945729220965,
+        "totalEth": 0.985578291688386,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936",
+        "label": "Tornado Cash 1 ETH",
+        "type": "mixer",
+        "totalUsd": 12356.760666750877,
+        "totalEth": 4.94270426670035,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "label": "0x48d7c1dd",
+        "type": "trail",
+        "totalUsd": 3894723.922304169,
+        "totalEth": 1557.8895689216677,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x48d7525afaf674b2b76edc76b72f561333a55eb6",
+        "label": "0x48d7525a",
+        "type": "trail",
+        "totalUsd": 25000,
+        "totalEth": 10,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "label": "0x58d6cbf5",
+        "type": "trail",
+        "totalUsd": 356960.1127759264,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x3e48df436b427c77aad1bae3536404af27233682",
+        "label": "0x3e48df43",
+        "type": "trail",
+        "totalUsd": 130000,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xcb31317c97892b094d8302e0fb357e893bed5ad5",
+        "label": "0xcb31317c",
+        "type": "trail",
+        "totalUsd": 12000,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "label": "0xf0d4c12a",
+        "type": "trail",
+        "totalUsd": 840627.8520640098,
+        "totalEth": 0,
+        "tokens": [
+          "CRVUSD"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "label": "0x88e6a0c2",
+        "type": "trail",
+        "totalUsd": 756306.876047,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+        "label": "0x3416cf6c",
+        "type": "trail",
+        "totalUsd": 80000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "label": "0x050c7e9c",
+        "type": "trail",
+        "totalUsd": 10025000,
+        "totalEth": 4010,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x050c89261e1499e2e15b03af1b2116a18f73eb70",
+        "label": "0x050c8926",
+        "type": "trail",
+        "totalUsd": 2500000,
+        "totalEth": 1000,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x050c63c6c5175258cb8ddfcc57ede00eadeceb70",
+        "label": "0x050c63c6",
+        "type": "trail",
+        "totalUsd": 250000,
+        "totalEth": 100,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x050184279d8b0dbee62171357bc1a506d43feb70",
+        "label": "0x05018427",
+        "type": "trail",
+        "totalUsd": 4000,
+        "totalEth": 0,
+        "tokens": [
+          "ЕТН"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x48d595917b1d5b80c53d301ebf603b9cb31c5eb6",
+        "label": "0x48d59591",
+        "type": "trail",
+        "totalUsd": 1557.8895689216674,
+        "totalEth": 0,
+        "tokens": [
+          "ЕТН"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x77fbae63ddaefc367616cd4d51b682bf4cd0441b",
+        "label": "0x77fbae63",
+        "type": "trail",
+        "totalUsd": 5862224.946906945,
+        "totalEth": 2344.889978762778,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x77fba8696de4f79daa3be64c7f127121fcb1441b",
+        "label": "0x77fba869",
+        "type": "trail",
+        "totalUsd": 602,
+        "totalEth": 0,
+        "tokens": [
+          "ЕТН"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x81c92fa38c9e6fba05be6a66d592bad4bd92ffd7",
+        "label": "0x81c92fa3",
+        "type": "trail",
+        "totalUsd": 10015000,
+        "totalEth": 4006,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x81c95559112dc5f1fad8f6e95c6d14973859ffd7",
+        "label": "0x81c95559",
+        "type": "trail",
+        "totalUsd": 12500000,
+        "totalEth": 5000,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x81c98ede63e9f368471dad0bdaacac14747dffd7",
+        "label": "0x81c98ede",
+        "type": "trail",
+        "totalUsd": 10000,
+        "totalEth": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x81c975bb507ab64b814e4411378424bb067dffd7",
+        "label": "0x81c975bb",
+        "type": "trail",
+        "totalUsd": 2000,
+        "totalEth": 0,
+        "tokens": [
+          "EТH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb4d04e56d1386b1d06b885dc2f7805a1ef3d26dd",
+        "label": "0xb4d04e56",
+        "type": "trail",
+        "totalUsd": 6269992.90527514,
+        "totalEth": 2507.997162110056,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "label": "Tornado Cash Router",
+        "type": "mixer",
+        "totalUsd": 19957500,
+        "totalEth": 7983,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x841db4e6a3b85aaebb6fb7b5128cd6fc11cb1f47",
+        "label": "0x841db4e6",
+        "type": "trail",
+        "totalUsd": 12500,
+        "totalEth": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x77fbfe36d85700083ff09c0257b6aed6761d441b",
+        "label": "0x77fbfe36",
+        "type": "trail",
+        "totalUsd": 1751368,
+        "totalEth": 700,
+        "tokens": [
+          "ETH",
+          "ET H"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x77ffb692b6a1e964e65f78491da2833c1dd0441b",
+        "label": "0x77ffb692",
+        "type": "trail",
+        "totalUsd": 1542.889978762778,
+        "totalEth": 0,
+        "tokens": [
+          "ЕТН",
+          "Е Т  Н",
+          "ET H"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x77fcc546c7cc6ef3988a70e661b9730ea6d0441b",
+        "label": "0x77fcc546",
+        "type": "trail",
+        "totalUsd": 1250000,
+        "totalEth": 500,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6040ad7b97207cb0eefc6aa7085081764a57012e",
+        "label": "0x6040ad7b",
+        "type": "trail",
+        "totalUsd": 4012.345739,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
+        "label": "0x7f86bf17",
+        "type": "trail",
+        "totalUsd": 39850,
+        "totalEth": 15.94,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        "label": "0xbebc4478",
+        "type": "trail",
+        "totalUsd": 312079.848393,
+        "totalEth": 0,
+        "tokens": [
+          "USDT",
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x649f9a588819938b1cb4f10c4dc4280aee1d006b",
+        "label": "0x649f9a58",
+        "type": "trail",
+        "totalUsd": 300046.009056,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x87782db506841632615d810ea2b75e656eb22e38",
+        "label": "0x87782db5",
+        "type": "trail",
+        "totalUsd": 12002.190959,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x5a6a4d54456819380173272a5e8e9b9904bdf41b",
+        "label": "0x5a6a4d54",
+        "type": "trail",
+        "totalUsd": 434.593265568893,
+        "totalEth": 0,
+        "tokens": [
+          "3CRV"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbe426b0f37c112dd20d5866769c8034171567b31",
+        "label": "0xbe426b0f",
+        "type": "trail",
+        "totalUsd": 447.0818184360952,
+        "totalEth": 0,
+        "tokens": [
+          "MIM"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9dd7d26c9f58fc873a5ce8e4b08393279c8efaa0",
+        "label": "0x9dd7d26c",
+        "type": "trail",
+        "totalUsd": 71221.35893361062,
+        "totalEth": 0,
+        "tokens": [
+          "CRVUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x0cd6f267b2086bea681e922e19d40512511be538",
+        "label": "0x0cd6f267",
+        "type": "trail",
+        "totalUsd": 452.9242439512463,
+        "totalEth": 0,
+        "tokens": [
+          "FRAX"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc270b3b858c335b6ba5d5b10e2da8a09976005ad",
+        "label": "0xc270b3b8",
+        "type": "trail",
+        "totalUsd": 22124.59513,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8472d0125853de5e8447148d05798e7457ccc360",
+        "label": "0x8472d012",
+        "type": "trail",
+        "totalUsd": 22117.476359241595,
+        "totalEth": 0,
+        "tokens": [
+          "USDP"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+        "label": "0x4dece678",
+        "type": "trail",
+        "totalUsd": 70290.301682,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x80aa1a80a30055daa084e599836532f3e58c95e2",
+        "label": "0x80aa1a80",
+        "type": "trail",
+        "totalUsd": 99.36105041647154,
+        "totalEth": 0,
+        "tokens": [
+          "FIDU"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x67e8fa35e208cb0daecd29478a6f10622ad4db65",
+        "label": "0x67e8fa35",
+        "type": "trail",
+        "totalUsd": 79.817852,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x838af967537350d2c44abb8c010e49e32673ab94",
+        "label": "0x838af967",
+        "type": "trail",
+        "totalUsd": 123.79502427330195,
+        "totalEth": 0,
+        "tokens": [
+          "CNC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7af57d5dade98b1792eb50878f28566668aa8586",
+        "label": "0x7af57d5d",
+        "type": "trail",
+        "totalUsd": 150,
+        "totalEth": 0.060000000000000005,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "label": "Uniswap V3 Router",
+        "type": "defi",
+        "totalUsd": 6278.390991,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "label": "0xc36442b4",
+        "type": "trail",
+        "totalUsd": 2588.187276,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7858e59e0c01ea06df3af3d20ac7b0003275d4bf",
+        "label": "0x7858e59e",
+        "type": "trail",
+        "totalUsd": 200.10239,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6018887da486cdfed5baeebfbd1fbbb34f94c7ac",
+        "label": "0x6018887d",
+        "type": "trail",
+        "totalUsd": 404.588412,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xcca73b3d5abaa49c656753e789a4ae880d906f98",
+        "label": "0xcca73b3d",
+        "type": "trail",
+        "totalUsd": 2000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "label": "0x01f2c533",
+        "type": "trail",
+        "totalUsd": 3868.954138,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9328e61c641d946a6c971deb22ecc4c79aee19c7",
+        "label": "0x9328e61c",
+        "type": "trail",
+        "totalUsd": 972.148462,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd6a8a9eafaccef0e2f2e87941431712268f5dea1",
+        "label": "0xd6a8a9ea",
+        "type": "trail",
+        "totalUsd": 100,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x88ce2d4fb3cc542f0989d61a1c152fa137486d81",
+        "label": "0x88ce2d4f",
+        "type": "trail",
+        "totalUsd": 500,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6c6bc977e13df9b0de53b251522280bb72383700",
+        "label": "0x6c6bc977",
+        "type": "trail",
+        "totalUsd": 20.02323,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xfa5299dddeea594d62fbb35fff09443d13f8ff98",
+        "label": "0xfa5299dd",
+        "type": "trail",
+        "totalUsd": 771.965185,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x683a42e5b414ae5cf79ece7e369ca5937fdcdc11",
+        "label": "0x683a42e5",
+        "type": "trail",
+        "totalUsd": 161.157964,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x402fc615b80a4048c12b3f6369fa74a36e71c285",
+        "label": "0x402fc615",
+        "type": "trail",
+        "totalUsd": 215.218942,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "label": "WETH",
+        "type": "token",
+        "totalUsd": 3288.6126228936737,
+        "totalEth": 1.3154450491574692,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xdf3ae3b03f9c66a32940c3a91cd5f2b2335f6823",
+        "label": "0xdf3ae3b0",
+        "type": "trail",
+        "totalUsd": 25,
+        "totalEth": 0.01,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7e7adf33dbf4fa04b9e46637c9cc344eb546a885",
+        "label": "0x7e7adf33",
+        "type": "trail",
+        "totalUsd": 27775,
+        "totalEth": 11.11,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x689a7e6ffda628551bd4060c13bfa4c79c89c8b4",
+        "label": "0x689a7e6f",
+        "type": "trail",
+        "totalUsd": 7500,
+        "totalEth": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xcf41cd6c06bb1e78e6d0dec4c696b9a483d41561",
+        "label": "0xcf41cd6c",
+        "type": "trail",
+        "totalUsd": 27500,
+        "totalEth": 11,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xf48e8793dc02b5a5699d01b7f26fa644fe26bb7d",
+        "label": "0xf48e8793",
+        "type": "trail",
+        "totalUsd": 12500,
+        "totalEth": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa21bda8967a8f4de5036c68def04f28a7ecd1cd6",
+        "label": "0xa21bda89",
+        "type": "trail",
+        "totalUsd": 4750,
+        "totalEth": 1.9,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "label": "Uniswap V2 Router",
+        "type": "defi",
+        "totalUsd": 54582.7701914669,
+        "totalEth": 21.83310807658676,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x0475982fa9d58c6bb7b3bce3cd4055f0e5d0d7b2",
+        "label": "0x0475982f",
+        "type": "trail",
+        "totalUsd": 5000,
+        "totalEth": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x96246da89517bce9a2e56fb25feb3b01f146d512",
+        "label": "0x96246da8",
+        "type": "trail",
+        "totalUsd": 5000,
+        "totalEth": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x67dc0cad9f5a12a4e5faa368a6aa7cd7fb6259c2",
+        "label": "0x67dc0cad",
+        "type": "trail",
+        "totalUsd": 1215.944882,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "label": "0x00000000",
+        "type": "trail",
+        "totalUsd": 20494.948624339013,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD",
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x5275817b74021e97c980e95ede6bbac0d0d6f3a2",
+        "label": "0x5275817b",
+        "type": "trail",
+        "totalUsd": 21012.968211510775,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbf91f133e3c5b3ab052bcf87833fa200c159424d",
+        "label": "0xbf91f133",
+        "type": "trail",
+        "totalUsd": 871.6940996402544,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x93e28b313ad9010e4783be03efa647eb311b0022",
+        "label": "0x93e28b31",
+        "type": "trail",
+        "totalUsd": 726.1954266902287,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+        "label": "Uniswap V3 Router2",
+        "type": "defi",
+        "totalUsd": 15004.239457,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
+        "label": "1inch V5",
+        "type": "defi",
+        "totalUsd": 317.971887,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9c0d1f4a029c46265831d120dee9cdc72f0ab3c3",
+        "label": "0x9c0d1f4a",
+        "type": "trail",
+        "totalUsd": 407.77138431905007,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x5a5005833f3bbad1c12f0a1998cbd9a67393ae41",
+        "label": "0x5a500583",
+        "type": "trail",
+        "totalUsd": 27125.88029266618,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xf2bdcb1ec8810c35bf9b947371820c199bd775db",
+        "label": "0xf2bdcb1e",
+        "type": "trail",
+        "totalUsd": 51616.275721,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "label": "CoW Protocol",
+        "type": "defi",
+        "totalUsd": 50,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x53222470cdcfb8081c0e3a50fd106f0d69e63f20",
+        "label": "0x53222470",
+        "type": "trail",
+        "totalUsd": 4985.008639,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        "label": "0xdef171fe",
+        "type": "trail",
+        "totalUsd": 2260.186621,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x29dc80bcd28e91c9f4ce4c24a8cb42333641818c",
+        "label": "0x29dc80bc",
+        "type": "trail",
+        "totalUsd": 277.708575,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xf73352dd245b3b45a854b310af769d018a77fba6",
+        "label": "0xf73352dd",
+        "type": "trail",
+        "totalUsd": 2094.452254,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x94a0321182f95b4b54537a6dd78df5750df3513c",
+        "label": "0x94a03211",
+        "type": "trail",
+        "totalUsd": 6065.61247,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6fd6b8b675d42d3f3c306c07065cd9e5f8435be0",
+        "label": "0x6fd6b8b6",
+        "type": "trail",
+        "totalUsd": 12795.602063367876,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xfc6da9d2117fcea00a900f4fb9f56ff3f69e7863",
+        "label": "0xfc6da9d2",
+        "type": "trail",
+        "totalUsd": 1571.9543364276708,
+        "totalEth": 0,
+        "tokens": [
+          "BLUSD"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x690b9a9e9aa1c9db991c7721a92d351db4fac990",
+        "label": "0x690b9a9e",
+        "type": "trail",
+        "totalUsd": 42.03619097577774,
+        "totalEth": 0.016814476390311098,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6571d6be3d8460cf5f7d6711cd9961860029d85f",
+        "label": "Across SpokePool",
+        "type": "bridge",
+        "totalUsd": 10000,
+        "totalEth": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x1ad91ee08f21be3de0ba2ba6918e714da6b45836",
+        "label": "0x1ad91ee0",
+        "type": "trail",
+        "totalUsd": 337.74413415437664,
+        "totalEth": 0.13509765366175067,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb3b7874f13387d44a3398d298b075b7a3505d8d4",
+        "label": "0xb3b7874f",
+        "type": "trail",
+        "totalUsd": 238.84798971150337,
+        "totalEth": 0.09553919588460134,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x04668ec2f57cc15c381b461b9fedab5d451c8f7f",
+        "label": "0x04668ec2",
+        "type": "trail",
+        "totalUsd": 174.73825625237504,
+        "totalEth": 0.06989530250095001,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xea674fdde714fd979de3edf0f56aa9716b898ec8",
+        "label": "0xea674fdd",
+        "type": "trail",
+        "totalUsd": 1009.5071776107213,
+        "totalEth": 0.4038028710442885,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd224ca0c819e8e97ba0136b3b95ceff503b79f53",
+        "label": "0xd224ca0c",
+        "type": "trail",
+        "totalUsd": 737.819719442135,
+        "totalEth": 0.295127887776854,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      }
+    ],
+    "edges": [
+      {
+        "from": "0x632e6b5eec0e52f54bdd62814d8e242bc3291ee7",
+        "to": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "totalUsd": 2463.945729220965,
+        "totalEth": 0.985578291688386,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936",
+        "to": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "totalUsd": 12356.760666750877,
+        "totalEth": 4.94270426670035,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936",
+        "to": "0x632e6b5eec0e52f54bdd62814d8e242bc3291ee7",
+        "totalUsd": 2465.22710028225,
+        "totalEth": 0.9860908401129,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "totalUsd": 3894723.922304169,
+        "totalEth": 1557.8895689216677,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x48d7525afaf674b2b76edc76b72f561333a55eb6",
+        "totalUsd": 25000,
+        "totalEth": 10,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "totalUsd": 356960.1127759264,
+        "totalEth": 0,
+        "count": 6,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x3e48df436b427c77aad1bae3536404af27233682",
+        "totalUsd": 130000,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0xcb31317c97892b094d8302e0fb357e893bed5ad5",
+        "totalUsd": 12000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "totalUsd": 840627.8520640098,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "CRVUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "totalUsd": 756306.876047,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+        "totalUsd": 80000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "totalUsd": 10000000,
+        "totalEth": 4000,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x050c89261e1499e2e15b03af1b2116a18f73eb70",
+        "totalUsd": 2500000,
+        "totalEth": 1000,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x050c63c6c5175258cb8ddfcc57ede00eadeceb70",
+        "totalUsd": 250000,
+        "totalEth": 100,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x050184279d8b0dbee62171357bc1a506d43feb70",
+        "totalUsd": 4000,
+        "totalEth": 0,
+        "count": 5,
+        "tokens": [
+          "ЕТН"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x48d595917b1d5b80c53d301ebf603b9cb31c5eb6",
+        "totalUsd": 1557.8895689216674,
+        "totalEth": 0,
+        "count": 5,
+        "tokens": [
+          "ЕТН"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x77fbae63ddaefc367616cd4d51b682bf4cd0441b",
+        "totalUsd": 2005000,
+        "totalEth": 802,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "to": "0x77fba8696de4f79daa3be64c7f127121fcb1441b",
+        "totalUsd": 602,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "ЕТН"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "to": "0x81c92fa38c9e6fba05be6a66d592bad4bd92ffd7",
+        "totalUsd": 10015000,
+        "totalEth": 4006,
+        "count": 12,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "to": "0x81c95559112dc5f1fad8f6e95c6d14973859ffd7",
+        "totalUsd": 12500000,
+        "totalEth": 5000,
+        "count": 10,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "to": "0x81c98ede63e9f368471dad0bdaacac14747dffd7",
+        "totalUsd": 10000,
+        "totalEth": 4,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "to": "0x81c975bb507ab64b814e4411378424bb067dffd7",
+        "totalUsd": 2000,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "EТH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "to": "0xb4d04e56d1386b1d06b885dc2f7805a1ef3d26dd",
+        "totalUsd": 6269992.90527514,
+        "totalEth": 2507.997162110056,
+        "count": 7,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xb4d04e56d1386b1d06b885dc2f7805a1ef3d26dd",
+        "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "totalUsd": 5000000,
+        "totalEth": 2000,
+        "count": 20,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x81c92fa38c9e6fba05be6a66d592bad4bd92ffd7",
+        "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "totalUsd": 5000000,
+        "totalEth": 2000,
+        "count": 20,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x050c7e9c62bf991841827f37745ddadb563feb70",
+        "totalUsd": 25000,
+        "totalEth": 10,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x841ddf093f5188989fa1524e7b893de64b421f47",
+        "totalUsd": 12500,
+        "totalEth": 5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x841db4e6a3b85aaebb6fb7b5128cd6fc11cb1f47",
+        "totalUsd": 12500,
+        "totalEth": 5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x77fbae63ddaefc367616cd4d51b682bf4cd0441b",
+        "totalUsd": 3857224.9469069447,
+        "totalEth": 1542.889978762778,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x77fbfe36d85700083ff09c0257b6aed6761d441b",
+        "totalUsd": 1751368,
+        "totalEth": 700,
+        "count": 6,
+        "tokens": [
+          "ETH",
+          "ET H"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x77ffb692b6a1e964e65f78491da2833c1dd0441b",
+        "totalUsd": 1542.889978762778,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "ЕТН",
+          "Е Т  Н",
+          "ET H"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x48d7c1dd4214b41eda3301bca434348f8d1c5eb6",
+        "to": "0x77fcc546c7cc6ef3988a70e661b9730ea6d0441b",
+        "totalUsd": 1250000,
+        "totalEth": 500,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x77fbae63ddaefc367616cd4d51b682bf4cd0441b",
+        "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "totalUsd": 9957500,
+        "totalEth": 3983,
+        "count": 50,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x6040ad7b97207cb0eefc6aa7085081764a57012e",
+        "totalUsd": 4012.345739,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
+        "totalUsd": 39850,
+        "totalEth": 15.94,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        "totalUsd": 312079.848393,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "USDT",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x649f9a588819938b1cb4f10c4dc4280aee1d006b",
+        "totalUsd": 300046.009056,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x87782db506841632615d810ea2b75e656eb22e38",
+        "totalUsd": 12002.190959,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x5a6a4d54456819380173272a5e8e9b9904bdf41b",
+        "totalUsd": 434.593265568893,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "3CRV"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0xbe426b0f37c112dd20d5866769c8034171567b31",
+        "totalUsd": 447.0818184360952,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "MIM"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x9dd7d26c9f58fc873a5ce8e4b08393279c8efaa0",
+        "totalUsd": 71221.35893361062,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "CRVUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x0cd6f267b2086bea681e922e19d40512511be538",
+        "totalUsd": 452.9242439512463,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "FRAX"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0xc270b3b858c335b6ba5d5b10e2da8a09976005ad",
+        "totalUsd": 22124.59513,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x8472d0125853de5e8447148d05798e7457ccc360",
+        "totalUsd": 22117.476359241595,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "USDP"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+        "totalUsd": 70290.301682,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x80aa1a80a30055daa084e599836532f3e58c95e2",
+        "totalUsd": 99.36105041647154,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "FIDU"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x67e8fa35e208cb0daecd29478a6f10622ad4db65",
+        "totalUsd": 79.817852,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf0d4c12a5768d806021f80a262b4d39d26c58b8d",
+        "to": "0x838af967537350d2c44abb8c010e49e32673ab94",
+        "totalUsd": 123.79502427330195,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "CNC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x649f9a588819938b1cb4f10c4dc4280aee1d006b",
+        "to": "0x7af57d5dade98b1792eb50878f28566668aa8586",
+        "totalUsd": 150,
+        "totalEth": 0.060000000000000005,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "totalUsd": 6068.194216000001,
+        "totalEth": 0,
+        "count": 8,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "totalUsd": 2588.187276,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x7858e59e0c01ea06df3af3d20ac7b0003275d4bf",
+        "totalUsd": 200.10239,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x6018887da486cdfed5baeebfbd1fbbb34f94c7ac",
+        "totalUsd": 404.588412,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0xcca73b3d5abaa49c656753e789a4ae880d906f98",
+        "totalUsd": 2000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "totalUsd": 3868.954138,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x9328e61c641d946a6c971deb22ecc4c79aee19c7",
+        "totalUsd": 972.148462,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0xd6a8a9eafaccef0e2f2e87941431712268f5dea1",
+        "totalUsd": 100,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x88ce2d4fb3cc542f0989d61a1c152fa137486d81",
+        "totalUsd": 500,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x6c6bc977e13df9b0de53b251522280bb72383700",
+        "totalUsd": 20.02323,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0xfa5299dddeea594d62fbb35fff09443d13f8ff98",
+        "totalUsd": 771.965185,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x683a42e5b414ae5cf79ece7e369ca5937fdcdc11",
+        "totalUsd": 161.157964,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "to": "0x402fc615b80a4048c12b3f6369fa74a36e71c285",
+        "totalUsd": 215.218942,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 575,
+        "totalEth": 0.23,
+        "count": 10,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "to": "0xdf3ae3b03f9c66a32940c3a91cd5f2b2335f6823",
+        "totalUsd": 25,
+        "totalEth": 0.01,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "to": "0x7e7adf33dbf4fa04b9e46637c9cc344eb546a885",
+        "totalUsd": 27775,
+        "totalEth": 11.11,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "to": "0x689a7e6ffda628551bd4060c13bfa4c79c89c8b4",
+        "totalUsd": 7500,
+        "totalEth": 3,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "to": "0xcf41cd6c06bb1e78e6d0dec4c696b9a483d41561",
+        "totalUsd": 27500,
+        "totalEth": 11,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "to": "0xf48e8793dc02b5a5699d01b7f26fa644fe26bb7d",
+        "totalUsd": 12500,
+        "totalEth": 5,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x01f2c533bdb0e09ebfaeb85ac295c3b4d00feffe",
+        "to": "0xa21bda8967a8f4de5036c68def04f28a7ecd1cd6",
+        "totalUsd": 4750,
+        "totalEth": 1.9,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 2713.6126228936737,
+        "totalEth": 1.0854450491574692,
+        "count": 8,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcca73b3d5abaa49c656753e789a4ae880d906f98",
+        "to": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "totalUsd": 54582.7701914669,
+        "totalEth": 21.83310807658676,
+        "count": 10,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcca73b3d5abaa49c656753e789a4ae880d906f98",
+        "to": "0x0475982fa9d58c6bb7b3bce3cd4055f0e5d0d7b2",
+        "totalUsd": 5000,
+        "totalEth": 2,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xcca73b3d5abaa49c656753e789a4ae880d906f98",
+        "to": "0x96246da89517bce9a2e56fb25feb3b01f146d512",
+        "totalUsd": 5000,
+        "totalEth": 2,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "totalUsd": 210.196775,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x67dc0cad9f5a12a4e5faa368a6aa7cd7fb6259c2",
+        "totalUsd": 1215.944882,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "totalUsd": 20494.948624339013,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "BLUSD",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x5275817b74021e97c980e95ede6bbac0d0d6f3a2",
+        "totalUsd": 21012.968211510775,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0xbf91f133e3c5b3ab052bcf87833fa200c159424d",
+        "totalUsd": 871.6940996402544,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x93e28b313ad9010e4783be03efa647eb311b0022",
+        "totalUsd": 726.1954266902287,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+        "totalUsd": 15004.239457,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x1111111254eeb25477b68fb85ed929f73a960582",
+        "totalUsd": 317.971887,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x9c0d1f4a029c46265831d120dee9cdc72f0ab3c3",
+        "totalUsd": 407.77138431905007,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x5a5005833f3bbad1c12f0a1998cbd9a67393ae41",
+        "totalUsd": 27125.88029266618,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0xf2bdcb1ec8810c35bf9b947371820c199bd775db",
+        "totalUsd": 51616.275721,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "totalUsd": 50,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x53222470cdcfb8081c0e3a50fd106f0d69e63f20",
+        "totalUsd": 4985.008639,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        "totalUsd": 2260.186621,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x29dc80bcd28e91c9f4ce4c24a8cb42333641818c",
+        "totalUsd": 277.708575,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0xf73352dd245b3b45a854b310af769d018a77fba6",
+        "totalUsd": 2094.452254,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x94a0321182f95b4b54537a6dd78df5750df3513c",
+        "totalUsd": 6065.61247,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0x6fd6b8b675d42d3f3c306c07065cd9e5f8435be0",
+        "totalUsd": 12795.602063367876,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x58d6cbf523d132b2c34288a7819d00e28f92b148",
+        "to": "0xfc6da9d2117fcea00a900f4fb9f56ff3f69e7863",
+        "totalUsd": 1571.9543364276708,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BLUSD"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xf2bdcb1ec8810c35bf9b947371820c199bd775db",
+        "to": "0x690b9a9e9aa1c9db991c7721a92d351db4fac990",
+        "totalUsd": 42.03619097577774,
+        "totalEth": 0.016814476390311098,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x5a5005833f3bbad1c12f0a1998cbd9a67393ae41",
+        "to": "0x6571d6be3d8460cf5f7d6711cd9961860029d85f",
+        "totalUsd": 10000,
+        "totalEth": 4,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "to": "0x1ad91ee08f21be3de0ba2ba6918e714da6b45836",
+        "totalUsd": 337.74413415437664,
+        "totalEth": 0.13509765366175067,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "to": "0xb3b7874f13387d44a3398d298b075b7a3505d8d4",
+        "totalUsd": 238.84798971150337,
+        "totalEth": 0.09553919588460134,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "to": "0x04668ec2f57cc15c381b461b9fedab5d451c8f7f",
+        "totalUsd": 174.73825625237504,
+        "totalEth": 0.06989530250095001,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "to": "0xea674fdde714fd979de3edf0f56aa9716b898ec8",
+        "totalUsd": 1009.5071776107213,
+        "totalEth": 0.4038028710442885,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+        "to": "0xd224ca0c819e8e97ba0136b3b95ceff503b79f53",
+        "totalUsd": 737.819719442135,
+        "totalEth": 0.295127887776854,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      }
+    ]
+  },
+  "meta": {
+    "mixers": [
+      {
+        "label": "Tornado Cash 1 ETH",
+        "address": "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936"
+      },
+      {
+        "label": "Tornado Cash Router",
+        "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b"
+      }
+    ],
+    "cexes": [],
+    "bridges": [
+      {
+        "label": "Across SpokePool",
+        "address": "0x6571d6be3d8460cf5f7d6711cd9961860029d85f"
+      }
+    ],
+    "fundingSources": 2,
+    "maxHop": 3
+  }
+}

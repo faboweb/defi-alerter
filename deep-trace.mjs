@@ -605,6 +605,30 @@ const HACKS = [
       "0xccd90f6435dd78c4ecced1fa4db0d7242548a2a9": "Cork Vault",
     },
   },
+  {
+    id: "uwu-lend", name: "UwU Lend", network: "eth", rpcUrl: ALCHEMY_ETH,
+    attackBlock: 20061319,
+    victimContract: "0x67a3dE1b73367d7eE9aD0b386bADB2138d0FE048",
+    attackerAddresses: ["0x841dDf093f5188989fA1524e7B893de64B421f47"],
+    labels: {
+      "0x841ddf093f5188989fa1524e7b893de64b421f47": "ATTACKER: EOA",
+      "0x67a3de1b73367d7ee9ad0b386badb2138d0fe048": "UwU LendingPool",
+    },
+  },
+  {
+    id: "hedgey-finance", name: "Hedgey Finance", network: "eth", rpcUrl: ALCHEMY_ETH,
+    attackBlock: 19687887,
+    victimContract: "0xBc452fdC8F851d7c5B72e1Fe74DFB63bb793D511",
+    attackerAddresses: [
+      "0xDed2b1a426E1b7d415A40Bcad44e98F47181dda2",
+      "0xC793113F1548B97E37c409f39244EE44241bF2b3",
+    ],
+    labels: {
+      "0xded2b1a426e1b7d415a40bcad44e98f47181dda2": "ATTACKER: EOA",
+      "0xc793113f1548b97e37c409f39244ee44241bf2b3": "ATTACKER: Contract",
+      "0xbc452fdc8f851d7c5b72e1fe74dfb63bb793d511": "ClaimCampaigns",
+    },
+  },
 ];
 
 // ─────────────────────────────────────────────────────────────

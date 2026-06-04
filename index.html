@@ -805,6 +805,62 @@ const HACKS = [
       { from: "eywa", to: "portal", label: "reserves" },
     ]
   },
+  {
+    name: "UwU Lend",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/22073.png",
+    amount: "$19.4M",
+    amountNum: 19.4,
+    date: "Jun 2024",
+    chain: "ETH",
+    type: "Oracle Manipulation",
+    detection: "100%",
+    fp: "0.0%",
+    signals: ["G1: New caller + Tornado funded", "G2: Gas max + new selector", "G3: Massive outflow"],
+    txs: [
+      { hash: "0x242a0fb4fde9de0d", from: "0x841ddf093f", selector: "0x6dbf2fa0", gas: "11,342,867", logs: 892, xfers: 340, detected: true, signals: ["G1: Tornado-funded caller", "G2: Gas 10x max", "G3: $19.4M outflow"], verdict: "ALERT" },
+    ],
+    nodes: [
+      { id: "attacker", label: "0x841ddf", type: "attacker", x: 3, y: 0 },
+      { id: "pool", label: "UwU LendingPool", type: "victim", x: -1, y: 0 },
+      { id: "aave", label: "Aave V3 Flash", type: "normal", x: -2, y: 1.5 },
+      { id: "curve", label: "Curve sUSDE", type: "normal", x: -2, y: -1 },
+      { id: "oracle", label: "Price Oracle", type: "normal", x: 0, y: -1.5 },
+    ],
+    edges: [
+      { from: "aave", to: "attacker", label: "$3.8B flash" },
+      { from: "attacker", to: "curve", label: "manipulate" },
+      { from: "curve", to: "oracle", label: "skewed price" },
+      { from: "pool", to: "attacker", label: "$19.4M", alert: true },
+    ]
+  },
+  {
+    name: "Hedgey Finance",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/27620.png",
+    amount: "$44.7M",
+    amountNum: 44.7,
+    date: "Apr 2024",
+    chain: "ETH",
+    type: "Approval Exploit",
+    detection: "100%",
+    fp: "0.0%",
+    signals: ["G1: New caller", "G2: Gas max + deploy", "G3: Token outflow > max"],
+    txs: [
+      { hash: "0xa17fdb804728f226", from: "0xded2b1a426", selector: "0x7d694bcc", gas: "7,182,441", logs: 156, xfers: 84, detected: true, signals: ["G1: New caller", "G2: Deploy + gas outlier", "G3: $2.1M outflow"], verdict: "ALERT" },
+    ],
+    nodes: [
+      { id: "attacker", label: "0xded2b1", type: "attacker", x: 3, y: 0 },
+      { id: "contract", label: "Attack Contract", type: "attacker", x: 1.5, y: 1 },
+      { id: "claims", label: "ClaimCampaigns", type: "victim", x: -1, y: 0 },
+      { id: "balancer", label: "Balancer Flash", type: "normal", x: -2, y: 1.5 },
+      { id: "usdc", label: "USDC", type: "normal", x: -2, y: -1 },
+    ],
+    edges: [
+      { from: "balancer", to: "contract", label: "$1.3M flash" },
+      { from: "contract", to: "claims", label: "deposit" },
+      { from: "claims", to: "attacker", label: "double withdraw", alert: true },
+      { from: "usdc", to: "claims", label: "reserves" },
+    ]
+  },
 ];
 
 // Sort by amount
