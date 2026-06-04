@@ -547,9 +547,9 @@ footer {
   <div class="network-legend">
     <div class="legend-item"><div class="legend-dot red"></div>Attacker</div>
     <div class="legend-item"><div class="legend-dot" style="background:#cc4422"></div>Fund Trail</div>
-    <div class="legend-item"><div class="legend-dot blue"></div>Victim</div>
-    <div class="legend-item"><div class="legend-dot green"></div>Detection</div>
-    <div class="legend-item"><div class="legend-dot gray"></div>Protocol Infra</div>
+    <div class="legend-item"><div class="legend-dot blue"></div>Protocol</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#00bbcc"></div>DeFi</div>
+    <div class="legend-item"><div class="legend-dot green"></div>Other</div>
   </div>
 </section>
 
@@ -1063,46 +1063,69 @@ function buildNetworkFromTxs(txList, hack) {
   const attackerNodes = nodes.filter(n => n.type === 'attacker');
   const victimNodes = nodes.filter(n => n.type === 'victim');
   const trailNodes = nodes.filter(n => n.type === 'trail');
+  const protocolNodes = nodes.filter(n => n.type === 'protocol');
+  const defiNodes = nodes.filter(n => n.type === 'defi');
   const normalNodes = nodes.filter(n => n.type === 'normal');
 
-  // Store hack logo for victim sprite
   const hackLogo = hack.logo;
 
-  // Victim(s) at center
+  // Victim at center
   victimNodes.forEach((n, i) => {
     positions.set(n.address, new THREE.Vector3(0, i * 0.5, 0));
   });
 
-  // Attackers top-right
-  attackerNodes.forEach((n, i) => {
-    const angle = -0.6 + (i / Math.max(attackerNodes.length - 1, 1)) * 1.2;
-    const r = 3.5 + rng() * 1;
+  // Protocol infra — tight ring around victim
+  protocolNodes.forEach((n, i) => {
+    const angle = (i / Math.max(protocolNodes.length, 1)) * Math.PI * 2;
+    const r = 1.5 + rng() * 0.8;
     positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r + 2,
-      Math.sin(angle) * r * 0.6 + 1,
+      Math.cos(angle) * r,
+      Math.sin(angle) * r * 0.7,
+      (rng() - 0.5) * 1
+    ));
+  });
+
+  // DeFi protocols — wider ring
+  defiNodes.forEach((n, i) => {
+    const angle = (i / Math.max(defiNodes.length, 1)) * Math.PI * 2 + 0.5;
+    const r = 2.5 + rng() * 0.5;
+    positions.set(n.address, new THREE.Vector3(
+      Math.cos(angle) * r - 1,
+      Math.sin(angle) * r * 0.6,
       (rng() - 0.5) * 1.5
     ));
   });
 
-  // Trail nodes (attacker fund destinations) — fan out right and below attackers
-  trailNodes.forEach((n, i) => {
-    const angle = -1.2 + (i / Math.max(trailNodes.length - 1, 1)) * 2.4;
-    const r = 2 + rng() * 2;
+  // Attackers — top right cluster
+  attackerNodes.forEach((n, i) => {
+    const angle = -0.5 + (i / Math.max(attackerNodes.length - 1, 1)) * 1;
+    const r = 3.5 + rng() * 0.8;
     positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r + 1.5,
-      Math.sin(angle) * r * 0.5 - 1,
+      Math.cos(angle) * r + 2.5,
+      Math.sin(angle) * r * 0.5 + 1.5,
+      (rng() - 0.5) * 1
+    ));
+  });
+
+  // Trail — fan below/right of attackers
+  trailNodes.forEach((n, i) => {
+    const angle = -0.8 + (i / Math.max(trailNodes.length - 1, 1)) * 1.8;
+    const r = 3 + rng() * 1.5;
+    positions.set(n.address, new THREE.Vector3(
+      Math.cos(angle) * r + 1,
+      Math.sin(angle) * r * 0.4 - 2,
       (rng() - 0.5) * 2
     ));
   });
 
-  // Normal nodes (protocol infra) — spread on the left
+  // Normal — outer ring, dim
   normalNodes.forEach((n, i) => {
-    const angle = Math.PI * 0.3 + (i / Math.max(normalNodes.length - 1, 1)) * Math.PI * 1.2;
-    const r = 2 + rng() * 2;
+    const angle = Math.PI * 0.5 + (i / Math.max(normalNodes.length, 1)) * Math.PI * 1.5;
+    const r = 3 + rng() * 2;
     positions.set(n.address, new THREE.Vector3(
-      Math.cos(angle) * r - 2,
+      Math.cos(angle) * r - 1.5,
       Math.sin(angle) * r * 0.5,
-      (rng() - 0.5) * 2
+      (rng() - 0.5) * 2.5
     ));
   });
 
@@ -1117,21 +1140,29 @@ function buildNetworkFromTxs(txList, hack) {
     const isVictim = node.type === 'victim';
     const isTrail = node.type === 'trail';
 
-    // Victim node rendered as logo sprite instead of sphere
-    if (isVictim) return;
+    if (isVictim) return; // rendered as logo sprite
 
-    const color = isAttacker ? 0xff3344 : isTrail ? 0xcc4422 : 0x00ff88;
+    const isProtocol = node.type === 'protocol';
+    const isDefi = node.type === 'defi';
+    const color = isAttacker ? 0xff3344 :
+                  isTrail ? 0xcc4422 :
+                  isProtocol ? 0x2288ff :
+                  isDefi ? 0x00bbcc :
+                  0x00ff88;
     const usdRatio = Math.min((node.totalUsd || 0) / maxUsd, 1);
-    const size = isAttacker ? 0.12 + usdRatio * 0.2 :
+    const countRatio = Math.min((node.callCount || 0) / 50, 1);
+    const size = isAttacker ? 0.1 + usdRatio * 0.18 :
                  isTrail ? 0.06 + usdRatio * 0.1 :
-                 0.06 + usdRatio * 0.08;
+                 isProtocol ? 0.06 + countRatio * 0.1 :
+                 isDefi ? 0.08 :
+                 0.04 + countRatio * 0.04;
 
     const geo = new THREE.SphereGeometry(size, 14, 14);
     const mat = new THREE.MeshPhongMaterial({
       color, emissive: color,
-      emissiveIntensity: isAttacker ? 0.5 : isTrail ? 0.3 : 0.25,
+      emissiveIntensity: isAttacker ? 0.5 : isTrail ? 0.3 : isProtocol ? 0.3 : 0.2,
       transparent: true,
-      opacity: 0.9,
+      opacity: isAttacker || isTrail || isProtocol || isDefi ? 0.9 : 0.5,
     });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
@@ -1160,13 +1191,19 @@ function buildNetworkFromTxs(txList, hack) {
 
     const fromNode = nodes.find(n => n.address === edge.from);
     const toNode = nodes.find(n => n.address === edge.to);
+    const isHotEdge = edge.isHot;
     const isAttackerEdge = fromNode?.type === 'attacker' || toNode?.type === 'attacker';
     const isTrailEdge = fromNode?.type === 'trail' || toNode?.type === 'trail';
-    const isHotEdge = isAttackerEdge || isTrailEdge;
-    const usdRatio = Math.min((edge.totalUsd || 0) / maxEdgeUsd, 1);
+    const isProtocolEdge = fromNode?.type === 'protocol' || toNode?.type === 'protocol';
+    const usdRatio = Math.min((edge.totalUsd || 0) / (maxEdgeUsd || 1), 1);
 
-    const lineColor = isAttackerEdge ? 0xff3344 : isTrailEdge ? 0xcc4422 : 0x00ff88;
-    const opacity = isHotEdge ? 0.3 + usdRatio * 0.5 : 0.15 + usdRatio * 0.25;
+    const lineColor = isAttackerEdge ? 0xff3344 :
+                      isTrailEdge ? 0xcc4422 :
+                      isProtocolEdge ? 0x1155aa :
+                      0x114422;
+    const opacity = isHotEdge ? 0.3 + usdRatio * 0.5 :
+                    isProtocolEdge ? 0.15 + usdRatio * 0.2 :
+                    0.08 + usdRatio * 0.12;
 
     const geo = new THREE.BufferGeometry().setFromPoints([fromPos.clone(), toPos.clone()]);
     const mat = new THREE.LineBasicMaterial({ color: lineColor, transparent: true, opacity });
