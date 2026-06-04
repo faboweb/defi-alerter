@@ -577,7 +577,6 @@ footer {
           <th>Day</th>
           <th>TX Hash</th>
           <th>Signer</th>
-          <th>Signals</th>
           <th>Verdict</th>
         </tr>
       </thead>
@@ -628,7 +627,7 @@ const HACKS = [
   },
   {
     name: "GMX V1",
-    logo: "https://cryptologos.cc/logos/gmx-gmx-logo.svg",
+    logo: "https://gmx.io/favicon.svg",
     amount: "$42M",
     amountNum: 42,
     date: "Jul 2025",
@@ -656,7 +655,7 @@ const HACKS = [
   },
   {
     name: "Verus Bridge",
-    logo: "https://assets.coingecko.com/coins/images/12835/standard/verus.png",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/3816.png",
     amount: "$11.6M",
     amountNum: 11.6,
     date: "May 2026",
@@ -686,7 +685,7 @@ const HACKS = [
   },
   {
     name: "Cork Protocol",
-    logo: "https://assets.coingecko.com/coins/images/39392/standard/cork.png",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/18069.png",
     amount: "$12M",
     amountNum: 12,
     date: "May 2025",
@@ -714,7 +713,7 @@ const HACKS = [
   },
   {
     name: "Makina Finance",
-    logo: "https://pbs.twimg.com/profile_images/1851271032736071680/MAKINA.jpg",
+    logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/11857.png",
     amount: "$4.1M",
     amountNum: 4.1,
     date: "Jan 2026",
@@ -742,7 +741,7 @@ const HACKS = [
   },
   {
     name: "NMT Module",
-    logo: "https://pbs.twimg.com/profile_images/1764001913519702016/nmt.jpg",
+    logo: "",
     amount: "$3.2M",
     amountNum: 3.2,
     date: "May 2026",
@@ -777,7 +776,7 @@ const HACKS = [
   },
   {
     name: "CrossCurve",
-    logo: "https://cryptologos.cc/logos/curve-dao-token-crv-logo.svg",
+    logo: "https://app.crosscurve.fi/favicon.svg",
     amount: "$3M",
     amountNum: 3,
     date: "Feb 2026",
@@ -964,7 +963,7 @@ function selectHack(i) {
       const sep = document.createElement('tr');
       sep.className = 'day-sep';
       const dayLabel = tx.day === 0 ? '◆ Attack Day' : `Day ${tx.day}`;
-      sep.innerHTML = `<td colspan="5">${dayLabel}</td>`;
+      sep.innerHTML = `<td colspan="4">${dayLabel}</td>`;
       tbody.appendChild(sep);
     }
 
@@ -994,7 +993,6 @@ function selectHack(i) {
       <td>${tx.day === 0 ? '<span style="color:var(--red)">0</span>' : tx.day}</td>
       <td style="color:${tx.type !== 'baseline' ? 'var(--text)' : 'var(--text-dim)'}">${tx.hash}</td>
       <td>${tx.from.slice(0, 10)}</td>
-      <td>${signalsHtml}</td>
       <td>${verdictHtml}</td>
     `;
     tbody.appendChild(row);
