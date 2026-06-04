@@ -318,6 +318,26 @@
             "DAI",
             "ETH"
           ]
+        },
+        {
+          "address": "0x0e9c9473a1b2dcdb5d34caf1f8f90ee1e6d11b8d",
+          "label": "0x0e9c9473",
+          "type": "trail",
+          "callCount": 1,
+          "totalUsd": 2000000,
+          "tokens": [
+            "ETH"
+          ]
+        },
+        {
+          "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+          "label": "Tornado Cash",
+          "type": "mixer",
+          "callCount": 8,
+          "totalUsd": 2000000,
+          "tokens": [
+            "ETH"
+          ]
         }
       ],
       "edges": [
@@ -730,6 +750,29 @@
           "tokens": [],
           "edgeType": "call",
           "isHot": false
+        },
+        {
+          "from": "0xf19fd5c683a958ce9210948858b80d433f6bfae2",
+          "to": "0x0e9c9473a1b2dcdb5d34caf1f8f90ee1e6d11b8d",
+          "totalUsd": 2000000,
+          "count": 10,
+          "tokens": [
+            "ETH",
+            "osETH"
+          ],
+          "edgeType": "transfer",
+          "isHot": true
+        },
+        {
+          "from": "0x0e9c9473a1b2dcdb5d34caf1f8f90ee1e6d11b8d",
+          "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+          "totalUsd": 2000000,
+          "count": 8,
+          "tokens": [
+            "ETH"
+          ],
+          "edgeType": "transfer",
+          "isHot": true
         }
       ]
     }
