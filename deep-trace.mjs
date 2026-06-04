@@ -616,17 +616,13 @@ const HACKS = [
     },
   },
   {
-    id: "hedgey-finance", name: "Hedgey Finance", network: "eth", rpcUrl: ALCHEMY_ETH,
-    attackBlock: 19687887,
-    victimContract: "0xBc452fdC8F851d7c5B72e1Fe74DFB63bb793D511",
-    attackerAddresses: [
-      "0xDed2b1a426E1b7d415A40Bcad44e98F47181dda2",
-      "0xC793113F1548B97E37c409f39244EE44241bF2b3",
-    ],
+    id: "socket-gateway", name: "Socket Gateway", network: "eth", rpcUrl: ALCHEMY_ETH,
+    attackBlock: 19087046,
+    victimContract: "0x3a23f943181408eac424116af7b7790c94cb97a5",
+    attackerAddresses: ["0x50df5a2217588772471b84adbbe4194a2ed39066"],
     labels: {
-      "0xded2b1a426e1b7d415a40bcad44e98f47181dda2": "ATTACKER: EOA",
-      "0xc793113f1548b97e37c409f39244ee44241bf2b3": "ATTACKER: Contract",
-      "0xbc452fdc8f851d7c5b72e1fe74dfb63bb793d511": "ClaimCampaigns",
+      "0x50df5a2217588772471b84adbbe4194a2ed39066": "ATTACKER: EOA",
+      "0x3a23f943181408eac424116af7b7790c94cb97a5": "Socket Gateway",
     },
   },
 ];

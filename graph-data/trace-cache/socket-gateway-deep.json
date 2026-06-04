@@ -1,0 +1,5484 @@
+{
+  "name": "Socket Gateway",
+  "graph": {
+    "nodes": [
+      {
+        "address": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "label": "ATTACKER: EOA",
+        "type": "attacker",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 0,
+        "direction": "attacker"
+      },
+      {
+        "address": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
+        "label": "FixedFloat",
+        "type": "cex",
+        "totalUsd": 3042.713,
+        "totalEth": 1.2170852,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7d03149a2843e4200f07e858d6c0216806ca4242",
+        "label": "0x7d03149a",
+        "type": "funding_source",
+        "totalUsd": 656424.984436,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x38d2ca742b90ebd21dcceceb02ff6fd3d233b21e",
+        "label": "0x38d2ca74",
+        "type": "funding_source",
+        "totalUsd": 276966.71,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xcb33844b365c53d3462271cee9b719b6fc8ba06a",
+        "label": "0xcb33844b",
+        "type": "funding_source",
+        "totalUsd": 200000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xf7a1b89fe9dd7ba9f9feb89b9ae3a6d3df506d5e",
+        "label": "0xf7a1b89f",
+        "type": "funding_source",
+        "totalUsd": 150318.3,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x94d8c7b4bb48a70c5be1ada6979c44b05913e1b5",
+        "label": "0x94d8c7b4",
+        "type": "trail",
+        "totalUsd": 259900.230316,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc3b361dbd3f21a9ef11a070868b84da561f716c7",
+        "label": "0xc3b361db",
+        "type": "funding_source",
+        "totalUsd": 92919.467688,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe3b6d659d2271ae0eac6b12da02b597b5c2d3979",
+        "label": "0xe3b6d659",
+        "type": "funding_source",
+        "totalUsd": 75536.485378,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "label": "0x25dc0b41",
+        "type": "funding_source",
+        "totalUsd": 71034.542728,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x0212f6d571dbf62344ec6b8416634e1ad20023ba",
+        "label": "0x0212f6d5",
+        "type": "funding_source",
+        "totalUsd": 29463.239127,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x8be46b25d59616e594f0a9e20147fb14c1b989d9",
+        "label": "0x8be46b25",
+        "type": "funding_source",
+        "totalUsd": 50431.292243,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xeb75a45b99a8698ebc45f24a1ecb57235cc0f875",
+        "label": "0xeb75a45b",
+        "type": "funding_source",
+        "totalUsd": 50000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x977836a29eb633815315f8c61e2a8472fd128197",
+        "label": "0x977836a2",
+        "type": "funding_source",
+        "totalUsd": 46425.087086,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x0240937f8443dcc19b2189b24acab0022273301e",
+        "label": "0x0240937f",
+        "type": "funding_source",
+        "totalUsd": 46397.3,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "label": "0x713b461e",
+        "type": "funding_source",
+        "totalUsd": 45134.093748,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x28495342f16d00c0e683b609313ca3e9ce7426f4",
+        "label": "0x28495342",
+        "type": "funding_source",
+        "totalUsd": 38216.72445,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "label": "0x85ab750e",
+        "type": "funding_source",
+        "totalUsd": 37239.954948,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc9d026537a257ca48319b5f86d036faede2b4d73",
+        "label": "0xc9d02653",
+        "type": "funding_source",
+        "totalUsd": 28221.943376,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x1160387a36953afc5d80c0ea7b6b5447774af8e5",
+        "label": "0x1160387a",
+        "type": "funding_source",
+        "totalUsd": 25022.565326,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x0dcd3364e65cd5f12ef8d340f1670dc306161f66",
+        "label": "0x0dcd3364",
+        "type": "funding_source",
+        "totalUsd": 24976.089612,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x8b4816f3743db8e24643ce74a36b1df420d9318b",
+        "label": "0x8b4816f3",
+        "type": "funding_source",
+        "totalUsd": 23900.309976,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "label": "0x04c5998d",
+        "type": "funding_source",
+        "totalUsd": 23769.402136,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x4b8498a42e8eb540ab814e56491cc7af07142d5b",
+        "label": "0x4b8498a4",
+        "type": "funding_source",
+        "totalUsd": 20564.572664,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x77d9c21d45f6a4ea39dbca42cac67eab7a7f8701",
+        "label": "0x77d9c21d",
+        "type": "funding_source",
+        "totalUsd": 19999.999989,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "label": "0x5d418d8b",
+        "type": "funding_source",
+        "totalUsd": 18531.872613,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x43691201440ae5b0bf5ec03b56f4322e45ae5bdd",
+        "label": "0x43691201",
+        "type": "funding_source",
+        "totalUsd": 17333.330037,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "label": "0x312d6727",
+        "type": "funding_source",
+        "totalUsd": 16672.097014,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xdc4e07fcd1dac2f4cddb839a2e826a851df54035",
+        "label": "0xdc4e07fc",
+        "type": "funding_source",
+        "totalUsd": 15235.908288,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x427ae8e772ea21c8075504010554ace642d453e2",
+        "label": "0x427ae8e7",
+        "type": "funding_source",
+        "totalUsd": 14177.337788,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xd715573f025d0da23ff78c590582c47e18d112fc",
+        "label": "0xd715573f",
+        "type": "funding_source",
+        "totalUsd": 14000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "label": "0xd356c668",
+        "type": "funding_source",
+        "totalUsd": 10472.448696,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x8138ad598b9a468b12d52de30e1ba8d826bcf53f",
+        "label": "0x8138ad59",
+        "type": "funding_source",
+        "totalUsd": 10466.483321,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xae7dd2f1aaaca4b5b5bd68f26500431bfe7fa8e6",
+        "label": "0xae7dd2f1",
+        "type": "funding_source",
+        "totalUsd": 10000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xeb5a62068f2857dcf813d2ea369c6ce8e4381c8a",
+        "label": "0xeb5a6206",
+        "type": "funding_source",
+        "totalUsd": 10000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x8c56a34129dcf0711fe57e47fdcb733fce40a29f",
+        "label": "0x8c56a341",
+        "type": "funding_source",
+        "totalUsd": 9891.585527,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x69d6d375de8c7ade7e44446df97f49e661fdad7d",
+        "label": "0x69d6d375",
+        "type": "funding_source",
+        "totalUsd": 9581.154926,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xfeed09bd31310505346dea9eeed7dab26419a920",
+        "label": "0xfeed09bd",
+        "type": "funding_source",
+        "totalUsd": 9222.248809,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9fdb503126db5d2a2d7c079877552d917d03c6e6",
+        "label": "0x9fdb5031",
+        "type": "funding_source",
+        "totalUsd": 8701.564953,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "label": "0xc0b09b78",
+        "type": "funding_source",
+        "totalUsd": 7751.671035,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x893f4be53274353cd3379c87c8fd1cb4f8458f94",
+        "label": "0x893f4be5",
+        "type": "funding_source",
+        "totalUsd": 7500,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "label": "0x09c41efc",
+        "type": "funding_source",
+        "totalUsd": 7343.894666,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x6fd53d0edc2c92b9238a6f8aa043c9b16f0ee8ad",
+        "label": "0x6fd53d0e",
+        "type": "funding_source",
+        "totalUsd": 6586.276761,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xa01c2d2184a8f07b2556d6013d120e63f17f157b",
+        "label": "0xa01c2d21",
+        "type": "funding_source",
+        "totalUsd": 6500,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x20fcb2ea54148e0e488a6052bccbcbfd42f87435",
+        "label": "0x20fcb2ea",
+        "type": "funding_source",
+        "totalUsd": 6000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x35b746dd3aceaf7a992dd29e6a02895864c6e36a",
+        "label": "0x35b746dd",
+        "type": "funding_source",
+        "totalUsd": 5870.600389,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x4dcba122d0ab15ee406acbcd38b8116138c16312",
+        "label": "0x4dcba122",
+        "type": "funding_source",
+        "totalUsd": 5392.135367,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x06924592cdf28acd3c1d23c37875c6c6a667bdf7",
+        "label": "0x06924592",
+        "type": "funding_source",
+        "totalUsd": 5000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7932b79a91ce0685f6ac9e9eafb902b4c4f78959",
+        "label": "0x7932b79a",
+        "type": "funding_source",
+        "totalUsd": 5000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "label": "0xfcff5d89",
+        "type": "funding_source",
+        "totalUsd": 5000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7404b82617ff2855c1cb35aacfa3a5fad20541f4",
+        "label": "0x7404b826",
+        "type": "funding_source",
+        "totalUsd": 4993,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "funding"
+      },
+      {
+        "address": "0x662d6ff6373a91d78b39272e0ab6d2eb8e9244af",
+        "label": "0x662d6ff6",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x59fd543474f9b711165ed4cf4994dc0d7cd320d7",
+        "label": "0x59fd5434",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x02c5c20c7aa2725dd244e3deb4bb3435e91e1d68",
+        "label": "0x02c5c20c",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+        "label": "Coinbase 2",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x85b931a32a0725be14285b66f1a22178c672d69b",
+        "label": "0x85b931a3",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+        "label": "0x4ddc2d19",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "label": "Binance 15",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x79d93cbf3583e62dd3edbddd1ee1121f8b07af81",
+        "label": "0x79d93cbf",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x4d9079bb4165aeb4084c526a32695dcfd2f77381",
+        "label": "0x4d9079bb",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x95a9bd206ae52c4ba8eecfc93d18eacdd41c88cc",
+        "label": "0x95a9bd20",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "label": "Coinbase 10",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+        "label": "Coinbase 6",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x6e1297f5a89dd7eaf04e975ac8540e927bb2849e",
+        "label": "0x6e1297f5",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+        "label": "Kraken 4",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "label": "0x5c7bcd6e",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xf6b2716f7f1c93c81208b4a4c31a6cef2c8c0e27",
+        "label": "0xf6b2716f",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xaf891d8d43105a3d9f6d1264aeab24d6a11c406f",
+        "label": "0xaf891d8d",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x42b9df65b219b3dd36ff330a4dd8f327a6ada990",
+        "label": "0x42b9df65",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x2fd60b7bf427cd03c7b89e65cc76f515a0cd309b",
+        "label": "0x2fd60b7b",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "label": "Uniswap V2 Router",
+        "type": "defi",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xbe0fc355793284bfde6fd8e37e08ce8bb7adc3fe",
+        "label": "0xbe0fc355",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x4a0b45d7207417b6eeee2a772d9c653862c1ef3f",
+        "label": "0x4a0b45d7",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        "label": "Binance 19",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+        "label": "SushiSwap Router",
+        "type": "defi",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x328eab573baae9ee939eb19cfecd4e2fffbb3549",
+        "label": "0x328eab57",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe4fb9ca52e39b83be69e74e7fac8f807a9c16ef9",
+        "label": "0xe4fb9ca5",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xb8901acb165ed027e32754e0ffe830802919727f",
+        "label": "Hop Protocol ETH",
+        "type": "bridge",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xabfc5f8600ffeab2765a8ffda19a75e6f6e7ad21",
+        "label": "0xabfc5f86",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x305dd83eef7e88dc382e08e08fb83074c73e9567",
+        "label": "0x305dd83e",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3538fb8136bd83dec94a508bd4f87fd43b3f5ca0",
+        "label": "0x3538fb81",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "label": "Binance 14",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "label": "WETH",
+        "type": "token",
+        "totalUsd": 4868471.66257461,
+        "totalEth": 1947.3886650298434,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+        "label": "0xc098b2a3",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x00000000006c3852cbef3e08e8df289169ede581",
+        "label": "0x00000000",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x00000000009726632680fb29d3f7a9734e3010e2",
+        "label": "0x00000000",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe35d276812001e33e3a8f6f445e2d1e90ff86f1c",
+        "label": "0xe35d2768",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7e5ce10826ee167de897d262fcc9976f609ecd2b",
+        "label": "0x7e5ce108",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x605c2bdf1cc9467bbabb351099f5765f70edafa0",
+        "label": "0x605c2bdf",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "label": "Uniswap V3 Router",
+        "type": "defi",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x448c0710b1873bee5da71c41f02acab9fdc01aa7",
+        "label": "0x448c0710",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xcad621da75a66c7a8f4ff86d30a2bf981bfc8fdd",
+        "label": "0xcad621da",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x1a160780d3117b0c42f8992b4dc5c76ba0b6c4cf",
+        "label": "0x1a160780",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xfa453aec042a837e4aebbadab9d4e25b15fad69d",
+        "label": "0xfa453aec",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9a6da6d3c6eb7c2dacfc66bc82017c766634824b",
+        "label": "0x9a6da6d3",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x261cf524034af841a193a12feb9831938f81c841",
+        "label": "0x261cf524",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+        "label": "Uniswap V3 Router2",
+        "type": "defi",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe66b31678d6c16e9ebf358268a790b763c133750",
+        "label": "0xe66b3167",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe1b5bc6bab762f251ce96c7437668269eabae339",
+        "label": "0xe1b5bc6b",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x46340b20830761efd32832a74d7169b29feb9758",
+        "label": "0x46340b20",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x39c80e778478a0f50d67175605b19342dc180cae",
+        "label": "0x39c80e77",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "label": "Binance 1",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc284c7dd4dc9a981f4c0cd2c10da5e91217c3126",
+        "label": "0xc284c7dd",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xd0958e0f132cfd6d618d56e08c33b9d81816f987",
+        "label": "0xd0958e0f",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x42a5ed456650a09dc10ebc6361a7480fdd61f27b",
+        "label": "0x42a5ed45",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xd551234ae421e3bcba99a0da6d736074f22192ff",
+        "label": "Binance 2",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+        "label": "0xceb69f63",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xab9b83a7f3416d921464ab018ae273fb4b284e86",
+        "label": "0xab9b83a7",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
+        "label": "1inch V5",
+        "type": "defi",
+        "totalUsd": 43232.1556347202,
+        "totalEth": 17.27306225388808,
+        "tokens": [
+          "ETH",
+          "WETH"
+        ],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x83b285e802d76055169b1c5e3bf21702b85b89cb",
+        "label": "0x83b285e8",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xb055521bfe579784ceb8a848a2cb16f6197fc530",
+        "label": "0xb055521b",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x2b992c577d698c2297a4683d22ee29e815b8fe66",
+        "label": "0x2b992c57",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xcb6f0784b30d228168f53859ec5ac174dd6d88bc",
+        "label": "0xcb6f0784",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xb03dcf53683709fbe5e1d3789826f654bf730ee3",
+        "label": "0xb03dcf53",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+        "label": "Coinbase 5",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+        "label": "0x3cd751e6",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x8e3a9e64889df8a20ca8c519b415674d0a8ea099",
+        "label": "0x8e3a9e64",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xa910f92acdaf488fa6ef02174fb86208ad7722ba",
+        "label": "0xa910f92a",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+        "label": "0x Exchange Proxy",
+        "type": "defi",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        "label": "Binance 18",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x814d0c1903d69eb1c7ceb8f5190b20a06892d1da",
+        "label": "0x814d0c19",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xa5a50c22e52fd52c45a95b8677016ca380d86d71",
+        "label": "0xa5a50c22",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xa5d7f0f7027fa8f4d1be8042e1e43bbdec36951e",
+        "label": "0xa5d7f0f7",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xcbec15583a21c3ddad5fab658be5b4fe85df730b",
+        "label": "0xcbec1558",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9a953374459e70933023e4e88812942c5ce0b69a",
+        "label": "0x9a953374",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x38224e6d3a1486af9dbc288f5de54f54395adc5a",
+        "label": "0x38224e6d",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x8fe4dc9e950d8fe0cd2506d47ddae1df530cd8e1",
+        "label": "0x8fe4dc9e",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x121effb8160f7206444f5a57d13c7a4424a237a4",
+        "label": "0x121effb8",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x5e4867981dca0a4e41fd142454574dcad1c7bc99",
+        "label": "0x5e486798",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x5b0a9ed6942276cd5f30e190fb213d8433b2fb48",
+        "label": "0x5b0a9ed6",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x2796317b0ff8538f253012862c06787adfb8ceb6",
+        "label": "Synapse Bridge",
+        "type": "bridge",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x077d360f11d220e4d5d831430c81c26c9be7c4a4",
+        "label": "0x077d360f",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3ee18b2214aff97000d974cf647e7c347e8fa585",
+        "label": "Wormhole",
+        "type": "bridge",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9e8fab94cada52a584ec6f10042c3bb165e79114",
+        "label": "0x9e8fab94",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7a3d05c70581bd345fe117c06e45f9669205384f",
+        "label": "0x7a3d05c7",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x13f4ea83d0bd40e75c8222255bc855a974568dd4",
+        "label": "0x13f4ea83",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3bfaee272d68d723131d085c8ab5df10775e1a32",
+        "label": "0x3bfaee27",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xf164fc0ec4e93095b804a4795bbe1e041497b92a",
+        "label": "0xf164fc0e",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x929507cd3d90ab11ec4822e9eb5a48eb3a178f19",
+        "label": "0x929507cd",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xff33f3ab3bc59c02ec6aa068014a76cf69031595",
+        "label": "0xff33f3ab",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x54fe014a1fb506ff3a00d863e6522f24e6edba47",
+        "label": "0x54fe014a",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "label": "0xc36442b4",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xb0cf943cf94e7b6a2657d15af41c5e06c2bfea3d",
+        "label": "0xb0cf943c",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe05e391c437fd065d2b288947a74d8df9dcfc300",
+        "label": "0xe05e391c",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x469283faeb34ea7220e79888f25ddcddeddea6b2",
+        "label": "0x469283fa",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9c79d9fc76fb909312eb3ae09745a355d4a90e3e",
+        "label": "0x9c79d9fc",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7b86e899319e6483ff5e824abf11253eb7bcd4e5",
+        "label": "0x7b86e899",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        "label": "Bybit 1",
+        "type": "cex",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x3de174970f7b1024228d96beb6ac9735cfeb57e5",
+        "label": "0x3de17497",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe9dcb555b09d17f0b015dd9f1e119874278bba58",
+        "label": "0xe9dcb555",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x42b93acb6a9b1e9484d5d44ec762495af52169ee",
+        "label": "0x42b93acb",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xe760c7cf49aef1438fc2fe27c20ff2aadaa50ef3",
+        "label": "0xe760c7cf",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x75e89d5979e4f6fba9f97c104c2f0afb3f1dcb88",
+        "label": "0x75e89d59",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x9d14d9be285ba8e18e79d8078d0c182df06adee2",
+        "label": "0x9d14d9be",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x77696bb39917c91a0c3908d577d5e322095425ca",
+        "label": "0x77696bb3",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x2b1c9f0cf3ab95cfa56253a63d88f8e2fb27429f",
+        "label": "0x2b1c9f0c",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x7355efc63ae731f584380a9838292c7046c1e433",
+        "label": "0x7355efc6",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x6bfad42cfc4efc96f529d786d643ff4a8b89fa52",
+        "label": "0x6bfad42c",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xba8da9dcf11b50b03fd5284f164ef5cdef910705",
+        "label": "0xba8da9dc",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xdb05638a1958a778b4b19a9f12240a458af195d4",
+        "label": "0xdb05638a",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0xf7858da8a6617f7c6d0ff2bcafdb6d2eedf64840",
+        "label": "0xf7858da8",
+        "type": "funding_source",
+        "totalUsd": 0,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "funding"
+      },
+      {
+        "address": "0x874d26f8f5dd55ee1a4167c49965b991c1c9530a",
+        "label": "0x874d26f8",
+        "type": "trail",
+        "totalUsd": 1142397.023514,
+        "totalEth": 0,
+        "tokens": [
+          "USDC",
+          "USDT"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "label": "0xe37e799d",
+        "type": "trail",
+        "totalUsd": 385497.028456,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8571c129f335832f6bbc76d49414ad2b8371a422",
+        "label": "0x8571c129",
+        "type": "trail",
+        "totalUsd": 167048.712331,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "label": "0x8d8404f8",
+        "type": "trail",
+        "totalUsd": 1222043.078431,
+        "totalEth": 0,
+        "tokens": [
+          "USDC",
+          "USDT"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "label": "0xc3a8af8c",
+        "type": "trail",
+        "totalUsd": 2580000,
+        "totalEth": 1032,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc3a369b8ba103c6733870d45e0aebf96475d0820",
+        "label": "0xc3a369b8",
+        "type": "trail",
+        "totalUsd": 1032,
+        "totalEth": 0,
+        "tokens": [
+          "ЕТН"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb4a3b6268c306833f75ebe43192c38905c992598",
+        "label": "0xb4a3b626",
+        "type": "trail",
+        "totalUsd": 550488.48579632,
+        "totalEth": 148.52303629250594,
+        "tokens": [
+          "ETH",
+          "WETH",
+          "DAI",
+          "WBTC",
+          "MATIC"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb4a327e5682d71ab1b7231482da1de9a5d132598",
+        "label": "0xb4a327e5",
+        "type": "trail",
+        "totalUsd": 13927.061607333928,
+        "totalEth": 0,
+        "tokens": [
+          "ЕТН",
+          "DАI"
+        ],
+        "hop": 1,
+        "direction": "destination"
+      },
+      {
+        "address": "0x5fd7d0d6b91cc4787bcb86ca47e0bd4ea0346d34",
+        "label": "0x5fd7d0d6",
+        "type": "trail",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "label": "CoW Protocol",
+        "type": "defi",
+        "totalUsd": 988.42,
+        "totalEth": 0,
+        "tokens": [
+          "WETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd76870037e89dd43b1ab14917267e7b47c124271",
+        "label": "0xd7687003",
+        "type": "trail",
+        "totalUsd": 2110240,
+        "totalEth": 43.48,
+        "tokens": [
+          "ETH",
+          "MATIC",
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd768c53e9e68119091d650af2082cfd769764271",
+        "label": "0xd768c53e",
+        "type": "trail",
+        "totalUsd": 991540,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd7683449c836742e3ce3b7de5b0497be565a4271",
+        "label": "0xd7683449",
+        "type": "trail",
+        "totalUsd": 991540,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x94d86e1b8ced248dc8b884a83ac5240adb86e1b5",
+        "label": "0x94d86e1b",
+        "type": "trail",
+        "totalUsd": 129950,
+        "totalEth": 0,
+        "tokens": [
+          "USDС"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x3a23f943181408eac424116af7b7790c94cb97a5",
+        "label": "Socket Gateway",
+        "type": "bridge",
+        "totalUsd": 500229.29817844176,
+        "totalEth": 200.09171927137672,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xdcd33426ba191383f1c9b431a342498fdac73488",
+        "label": "0xdcd33426",
+        "type": "trail",
+        "totalUsd": 501987.1946027756,
+        "totalEth": 200.79487784111024,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+        "label": "Uniswap Universal Router",
+        "type": "defi",
+        "totalUsd": 2000,
+        "totalEth": 0.8,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        "label": "0xbebc4478",
+        "type": "trail",
+        "totalUsd": 451843.53420700005,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+        "label": "0x83f20f44",
+        "type": "trail",
+        "totalUsd": 99097.96534028073,
+        "totalEth": 0,
+        "tokens": [
+          "DAI"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb011e4eb4111ef00b620a5ed195836dcd69db1ff",
+        "label": "0xb011e4eb",
+        "type": "trail",
+        "totalUsd": 12045.376123793829,
+        "totalEth": 0,
+        "tokens": [
+          "BONE"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x53dc703b78794b61281812f3a901918253beefee",
+        "label": "0x53dc703b",
+        "type": "trail",
+        "totalUsd": 12505.39713,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "label": "Balancer Vault",
+        "type": "defi",
+        "totalUsd": 12504.50377886755,
+        "totalEth": 0,
+        "tokens": [
+          "DAI"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xccd1d21fce02959f4f51ddc4505ea154aebe7f1b",
+        "label": "0xccd1d21f",
+        "type": "trail",
+        "totalUsd": 53.049997420146155,
+        "totalEth": 0,
+        "tokens": [
+          "cbETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+        "label": "0x51c72848",
+        "type": "trail",
+        "totalUsd": 429660.6296458945,
+        "totalEth": 0,
+        "tokens": [
+          "WETH",
+          "USDC",
+          "USDT",
+          "CRV",
+          "LINK"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xbb289bc97591f70d8216462df40ed713011b968a",
+        "label": "0xbb289bc9",
+        "type": "trail",
+        "totalUsd": 27.795746387409515,
+        "totalEth": 0,
+        "tokens": [
+          "WETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x0a59649758aa4d66e25f08dd01271e891fe52199",
+        "label": "0x0a596497",
+        "type": "trail",
+        "totalUsd": 88144.393667,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x5fae7e604fc3e24fd43a72867cebac94c65b404a",
+        "label": "0x5fae7e60",
+        "type": "trail",
+        "totalUsd": 55.171997316952,
+        "totalEth": 0,
+        "tokens": [
+          "cbETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x840deeef2f115cf50da625f7368c24af6fe74410",
+        "label": "0x840deeef",
+        "type": "trail",
+        "totalUsd": 157.02799236363262,
+        "totalEth": 0,
+        "tokens": [
+          "cbETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xb3c839dbde6b96d37c56ee4f9dad3390d49310aa",
+        "label": "0xb3c839db",
+        "type": "trail",
+        "totalUsd": 26.685799556252768,
+        "totalEth": 0,
+        "tokens": [
+          "WETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa86689118d8d940d6ad729c2d7872da3fa20dd40",
+        "label": "0xa8668911",
+        "type": "trail",
+        "totalUsd": 5075.609765409383,
+        "totalEth": 0,
+        "tokens": [
+          "WETH",
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
+        "label": "0xad3b67bc",
+        "type": "trail",
+        "totalUsd": 407058.3174868316,
+        "totalEth": 0,
+        "tokens": [
+          "DAI",
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x2008b6c3d07b061a84f790c035c2f6dc11a0be70",
+        "label": "0x2008b6c3",
+        "type": "trail",
+        "totalUsd": 476.32660243554244,
+        "totalEth": 0,
+        "tokens": [
+          "AAVE"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x6ca298d2983ab03aa1da7679389d955a4efee15c",
+        "label": "0x6ca298d2",
+        "type": "trail",
+        "totalUsd": 36074.568209,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xefb47fcfcad4f96c83d4ca676842fb03ef20a477",
+        "label": "0xefb47fcf",
+        "type": "trail",
+        "totalUsd": 5955.955761222722,
+        "totalEth": 0,
+        "tokens": [
+          "BONE"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xa88800cd213da5ae406ce248380802bd53b47647",
+        "label": "0xa88800cd",
+        "type": "trail",
+        "totalUsd": 629905.3232607857,
+        "totalEth": 0,
+        "tokens": [
+          "USDT",
+          "MATIC",
+          "WETH",
+          "BITCOIN"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x33676385160f9d8f03a0db2821029882f7c79e93",
+        "label": "0x33676385",
+        "type": "trail",
+        "totalUsd": 99.657339,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x22f9dcf4647084d6c31b2765f6910cd85c178c18",
+        "label": "0x22f9dcf4",
+        "type": "trail",
+        "totalUsd": 9577.261134,
+        "totalEth": 0,
+        "tokens": [
+          "USDT"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x61935cbdd02287b511119ddb11aeb42f1593b7ef",
+        "label": "0x61935cbd",
+        "type": "trail",
+        "totalUsd": 11.624999999999998,
+        "totalEth": 0.00465,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x511b14373305007435376548e943ace2d24d4ac1",
+        "label": "0x511b1437",
+        "type": "trail",
+        "totalUsd": 103.16913423590637,
+        "totalEth": 0.04126765369436255,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x4b414031aa7d175cb846f6ca395fb92351a8d16a",
+        "label": "0x4b414031",
+        "type": "trail",
+        "totalUsd": 1329,
+        "totalEth": 0,
+        "tokens": [],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xc378485722de0bbca3be57912e781fee5efb2e62",
+        "label": "0xc3784857",
+        "type": "trail",
+        "totalUsd": 444324.8006867841,
+        "totalEth": 106.04172799288872,
+        "tokens": [
+          "ETH",
+          "MATIC",
+          "WETH",
+          "DAI"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "label": "Tornado Cash Router",
+        "type": "mixer",
+        "totalUsd": 657750,
+        "totalEth": 263.1,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      },
+      {
+        "address": "0x21410232b484136404911780bc32756d5d1a9fa9",
+        "label": "0x21410232",
+        "type": "trail",
+        "totalUsd": 178.78105,
+        "totalEth": 0,
+        "tokens": [
+          "KP3R"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xdcef968d416a41cdac0ed8702fac8128a64241a2",
+        "label": "0xdcef968d",
+        "type": "trail",
+        "totalUsd": 10000,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x03b59bd1c8b9f6c265ba0c3421923b93f15036fa",
+        "label": "0x03b59bd1",
+        "type": "trail",
+        "totalUsd": 10019.466518854188,
+        "totalEth": 0,
+        "tokens": [
+          "FRAX"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x991322ee666ec384eeb31bbd97b4dc0c2df14ce1",
+        "label": "0x991322ee",
+        "type": "trail",
+        "totalUsd": 31101936.938841514,
+        "totalEth": 0,
+        "tokens": [
+          "PEPE"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xe219a14e355c1cb3f43594655a63488da154e8eb",
+        "label": "0xe219a14e",
+        "type": "trail",
+        "totalUsd": 23.259681,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd17a89f1bb2c9cd6d6d8c34e3c847e2e3ddc11d8",
+        "label": "0xd17a89f1",
+        "type": "trail",
+        "totalUsd": 67.45,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xd0b2f5018b5d22759724af6d4281ac0b13266360",
+        "label": "0xd0b2f501",
+        "type": "trail",
+        "totalUsd": 7032.549999,
+        "totalEth": 0,
+        "tokens": [
+          "USDC"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0x1f9090aae28b8a3dceadf281b0f12828e676c326",
+        "label": "0x1f9090aa",
+        "type": "trail",
+        "totalUsd": 164.5601700504585,
+        "totalEth": 0.0658240680201834,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 2,
+        "direction": "destination"
+      },
+      {
+        "address": "0xeae7380dd4cef6fbd1144f49e4d1e6964258a4f4",
+        "label": "0xeae7380d",
+        "type": "trail",
+        "totalUsd": 125,
+        "totalEth": 0.05,
+        "tokens": [
+          "ETH"
+        ],
+        "hop": 3,
+        "direction": "destination"
+      }
+    ],
+    "edges": [
+      {
+        "from": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 3042.713,
+        "totalEth": 1.2170852,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7d03149a2843e4200f07e858d6c0216806ca4242",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 656424.984436,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x38d2ca742b90ebd21dcceceb02ff6fd3d233b21e",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 276966.71,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xcb33844b365c53d3462271cee9b719b6fc8ba06a",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 200000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xf7a1b89fe9dd7ba9f9feb89b9ae3a6d3df506d5e",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 150318.3,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x94d8c7b4bb48a70c5be1ada6979c44b05913e1b5",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 129950.230316,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc3b361dbd3f21a9ef11a070868b84da561f716c7",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 92919.467688,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe3b6d659d2271ae0eac6b12da02b597b5c2d3979",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 75536.485378,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 71034.542728,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x0212f6d571dbf62344ec6b8416634e1ad20023ba",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 29463.239127,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x8be46b25d59616e594f0a9e20147fb14c1b989d9",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 50431.292243,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeb75a45b99a8698ebc45f24a1ecb57235cc0f875",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 50000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x977836a29eb633815315f8c61e2a8472fd128197",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 46425.087086,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x0240937f8443dcc19b2189b24acab0022273301e",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 46397.3,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 45134.093748,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x28495342f16d00c0e683b609313ca3e9ce7426f4",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 38216.72445,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 37239.954948,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc9d026537a257ca48319b5f86d036faede2b4d73",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 28221.943376,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x1160387a36953afc5d80c0ea7b6b5447774af8e5",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 25022.565326,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x0dcd3364e65cd5f12ef8d340f1670dc306161f66",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 24976.089612,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x8b4816f3743db8e24643ce74a36b1df420d9318b",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 23900.309976,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 23769.402136,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4b8498a42e8eb540ab814e56491cc7af07142d5b",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 20564.572664,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x77d9c21d45f6a4ea39dbca42cac67eab7a7f8701",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 19999.999989,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 18531.872613,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x43691201440ae5b0bf5ec03b56f4322e45ae5bdd",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 17333.330037,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 16672.097014,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xdc4e07fcd1dac2f4cddb839a2e826a851df54035",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 15235.908288,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x427ae8e772ea21c8075504010554ace642d453e2",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 14177.337788,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd715573f025d0da23ff78c590582c47e18d112fc",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 14000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 10472.448696,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x8138ad598b9a468b12d52de30e1ba8d826bcf53f",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 10466.483321,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xae7dd2f1aaaca4b5b5bd68f26500431bfe7fa8e6",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 10000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeb5a62068f2857dcf813d2ea369c6ce8e4381c8a",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 10000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x8c56a34129dcf0711fe57e47fdcb733fce40a29f",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 9891.585527,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x69d6d375de8c7ade7e44446df97f49e661fdad7d",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 9581.154926,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xfeed09bd31310505346dea9eeed7dab26419a920",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 9222.248809,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9fdb503126db5d2a2d7c079877552d917d03c6e6",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 8701.564953,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 7751.671035,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x893f4be53274353cd3379c87c8fd1cb4f8458f94",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 7500,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 7343.894666,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x6fd53d0edc2c92b9238a6f8aa043c9b16f0ee8ad",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 6586.276761,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa01c2d2184a8f07b2556d6013d120e63f17f157b",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 6500,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x20fcb2ea54148e0e488a6052bccbcbfd42f87435",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 6000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x35b746dd3aceaf7a992dd29e6a02895864c6e36a",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 5870.600389,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4dcba122d0ab15ee406acbcd38b8116138c16312",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 5392.135367,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x06924592cdf28acd3c1d23c37875c6c6a667bdf7",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 5000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7932b79a91ce0685f6ac9e9eafb902b4c4f78959",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 5000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 5000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7404b82617ff2855c1cb35aacfa3a5fad20541f4",
+        "to": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "totalUsd": 4993,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x662d6ff6373a91d78b39272e0ab6d2eb8e9244af",
+        "to": "0x7d03149a2843e4200f07e858d6c0216806ca4242",
+        "totalUsd": 647.1714113224222,
+        "totalEth": 0.2588685645289689,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x59fd543474f9b711165ed4cf4994dc0d7cd320d7",
+        "to": "0x7d03149a2843e4200f07e858d6c0216806ca4242",
+        "totalUsd": 104.44431446929754,
+        "totalEth": 0.04177772578771902,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x02c5c20c7aa2725dd244e3deb4bb3435e91e1d68",
+        "to": "0x7d03149a2843e4200f07e858d6c0216806ca4242",
+        "totalUsd": 24775,
+        "totalEth": 9.91,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x503828976d22510aad0201ac7ec88293211d23da",
+        "to": "0x38d2ca742b90ebd21dcceceb02ff6fd3d233b21e",
+        "totalUsd": 480.29517500000003,
+        "totalEth": 0.19211807,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x85b931a32a0725be14285b66f1a22178c672d69b",
+        "to": "0xcb33844b365c53d3462271cee9b719b6fc8ba06a",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+        "to": "0xcb33844b365c53d3462271cee9b719b6fc8ba06a",
+        "totalUsd": 500.0585304931579,
+        "totalEth": 0.20002341219726316,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "to": "0xcb33844b365c53d3462271cee9b719b6fc8ba06a",
+        "totalUsd": 2491,
+        "totalEth": 0.9964,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x79d93cbf3583e62dd3edbddd1ee1121f8b07af81",
+        "to": "0xcb33844b365c53d3462271cee9b719b6fc8ba06a",
+        "totalUsd": 250000,
+        "totalEth": 100,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4d9079bb4165aeb4084c526a32695dcfd2f77381",
+        "to": "0xf7a1b89fe9dd7ba9f9feb89b9ae3a6d3df506d5e",
+        "totalUsd": 2614.8363138290674,
+        "totalEth": 1.045934525531627,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x95a9bd206ae52c4ba8eecfc93d18eacdd41c88cc",
+        "to": "0x94d8c7b4bb48a70c5be1ada6979c44b05913e1b5",
+        "totalUsd": 2498.0575,
+        "totalEth": 0.999223,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x94d8c7b4bb48a70c5be1ada6979c44b05913e1b5",
+        "totalUsd": 2500,
+        "totalEth": 1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+        "to": "0xc3b361dbd3f21a9ef11a070868b84da561f716c7",
+        "totalUsd": 21538.972425000004,
+        "totalEth": 8.615588970000001,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0xc3b361dbd3f21a9ef11a070868b84da561f716c7",
+        "totalUsd": 47.48285,
+        "totalEth": 0.01899314,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x6e1297f5a89dd7eaf04e975ac8540e927bb2849e",
+        "to": "0xe3b6d659d2271ae0eac6b12da02b597b5c2d3979",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+        "to": "0xe3b6d659d2271ae0eac6b12da02b597b5c2d3979",
+        "totalUsd": 5250,
+        "totalEth": 2.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "to": "0xe3b6d659d2271ae0eac6b12da02b597b5c2d3979",
+        "totalUsd": 26461.52611154007,
+        "totalEth": 10.584610444616029,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xf6b2716f7f1c93c81208b4a4c31a6cef2c8c0e27",
+        "to": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "totalUsd": 73.8142,
+        "totalEth": 0.02952568,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xaf891d8d43105a3d9f6d1264aeab24d6a11c406f",
+        "to": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "totalUsd": 205.0623,
+        "totalEth": 0.08202492,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x42b9df65b219b3dd36ff330a4dd8f327a6ada990",
+        "to": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "totalUsd": 117.69380737050174,
+        "totalEth": 0.047077522948200695,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x2fd60b7bf427cd03c7b89e65cc76f515a0cd309b",
+        "to": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "totalUsd": 344,
+        "totalEth": 0.1376,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "to": "0x25dc0b41b53bff06bf4e245a9fc13ba38ad32bc3",
+        "totalUsd": 118.44771109424249,
+        "totalEth": 0.04737908443769699,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xbe0fc355793284bfde6fd8e37e08ce8bb7adc3fe",
+        "to": "0x0212f6d571dbf62344ec6b8416634e1ad20023ba",
+        "totalUsd": 750,
+        "totalEth": 0.3,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4a0b45d7207417b6eeee2a772d9c653862c1ef3f",
+        "to": "0x8be46b25d59616e594f0a9e20147fb14c1b989d9",
+        "totalUsd": 2175,
+        "totalEth": 0.87,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        "to": "0x8be46b25d59616e594f0a9e20147fb14c1b989d9",
+        "totalUsd": 11493.500000000002,
+        "totalEth": 4.5974,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+        "to": "0x8be46b25d59616e594f0a9e20147fb14c1b989d9",
+        "totalUsd": 1196.6075160913917,
+        "totalEth": 0.47864300643655666,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x328eab573baae9ee939eb19cfecd4e2fffbb3549",
+        "to": "0xeb75a45b99a8698ebc45f24a1ecb57235cc0f875",
+        "totalUsd": 2850,
+        "totalEth": 1.1400000000000001,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe4fb9ca52e39b83be69e74e7fac8f807a9c16ef9",
+        "to": "0xeb75a45b99a8698ebc45f24a1ecb57235cc0f875",
+        "totalUsd": 105000,
+        "totalEth": 42,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb8901acb165ed027e32754e0ffe830802919727f",
+        "to": "0xeb75a45b99a8698ebc45f24a1ecb57235cc0f875",
+        "totalUsd": 15205.94313415258,
+        "totalEth": 6.082377253661032,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xabfc5f8600ffeab2765a8ffda19a75e6f6e7ad21",
+        "to": "0xeb75a45b99a8698ebc45f24a1ecb57235cc0f875",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x305dd83eef7e88dc382e08e08fb83074c73e9567",
+        "to": "0x977836a29eb633815315f8c61e2a8472fd128197",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3538fb8136bd83dec94a508bd4f87fd43b3f5ca0",
+        "to": "0x0240937f8443dcc19b2189b24acab0022273301e",
+        "totalUsd": 375,
+        "totalEth": 0.15000000000000002,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "to": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "totalUsd": 631.8325249999999,
+        "totalEth": 0.25273301,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "to": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "totalUsd": 3644.729621377912,
+        "totalEth": 1.4578918485511647,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+        "to": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "totalUsd": 298.75,
+        "totalEth": 0.1195,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+        "to": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "totalUsd": 23000.495254384092,
+        "totalEth": 9.200198101753637,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x00000000006c3852cbef3e08e8df289169ede581",
+        "to": "0x713b461e2574aa891df59a30f3c6a35786d66cc6",
+        "totalUsd": 485.0625,
+        "totalEth": 0.194025,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+        "to": "0x28495342f16d00c0e683b609313ca3e9ce7426f4",
+        "totalUsd": 11250,
+        "totalEth": 4.5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x28495342f16d00c0e683b609313ca3e9ce7426f4",
+        "totalUsd": 70522.9335,
+        "totalEth": 28.2091734,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x00000000009726632680fb29d3f7a9734e3010e2",
+        "to": "0x28495342f16d00c0e683b609313ca3e9ce7426f4",
+        "totalUsd": 431.957770521749,
+        "totalEth": 0.1727831082086996,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe35d276812001e33e3a8f6f445e2d1e90ff86f1c",
+        "to": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "totalUsd": 3141.456728354612,
+        "totalEth": 1.2565826913418447,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7e5ce10826ee167de897d262fcc9976f609ecd2b",
+        "to": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x605c2bdf1cc9467bbabb351099f5765f70edafa0",
+        "to": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        "to": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "totalUsd": 237.5,
+        "totalEth": 0.095,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "to": "0x85ab750e5736ac1f85b2167a3b4f2368d7114987",
+        "totalUsd": 739.9101513157548,
+        "totalEth": 0.2959640605263019,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x448c0710b1873bee5da71c41f02acab9fdc01aa7",
+        "to": "0xc9d026537a257ca48319b5f86d036faede2b4d73",
+        "totalUsd": 77.190625,
+        "totalEth": 0.03087625,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xcad621da75a66c7a8f4ff86d30a2bf981bfc8fdd",
+        "to": "0xc9d026537a257ca48319b5f86d036faede2b4d73",
+        "totalUsd": 1755.0500000000002,
+        "totalEth": 0.70202,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "to": "0xc9d026537a257ca48319b5f86d036faede2b4d73",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x1a160780d3117b0c42f8992b4dc5c76ba0b6c4cf",
+        "to": "0x1160387a36953afc5d80c0ea7b6b5447774af8e5",
+        "totalUsd": 935750,
+        "totalEth": 374.3,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+        "to": "0x1160387a36953afc5d80c0ea7b6b5447774af8e5",
+        "totalUsd": 570365,
+        "totalEth": 228.146,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xfa453aec042a837e4aebbadab9d4e25b15fad69d",
+        "to": "0x1160387a36953afc5d80c0ea7b6b5447774af8e5",
+        "totalUsd": 371774.75,
+        "totalEth": 148.7099,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9a6da6d3c6eb7c2dacfc66bc82017c766634824b",
+        "to": "0x0dcd3364e65cd5f12ef8d340f1670dc306161f66",
+        "totalUsd": 52804.50598451067,
+        "totalEth": 21.12180239380427,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x261cf524034af841a193a12feb9831938f81c841",
+        "to": "0x0dcd3364e65cd5f12ef8d340f1670dc306161f66",
+        "totalUsd": 235.99783097015464,
+        "totalEth": 0.09439913238806186,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+        "to": "0x0dcd3364e65cd5f12ef8d340f1670dc306161f66",
+        "totalUsd": 32727.494014200765,
+        "totalEth": 13.090997605680306,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe66b31678d6c16e9ebf358268a790b763c133750",
+        "to": "0x0dcd3364e65cd5f12ef8d340f1670dc306161f66",
+        "totalUsd": 92110.3442,
+        "totalEth": 36.84413768,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe1b5bc6bab762f251ce96c7437668269eabae339",
+        "to": "0x8b4816f3743db8e24643ce74a36b1df420d9318b",
+        "totalUsd": 373.67397500000004,
+        "totalEth": 0.14946959,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x46340b20830761efd32832a74d7169b29feb9758",
+        "to": "0x8b4816f3743db8e24643ce74a36b1df420d9318b",
+        "totalUsd": 230,
+        "totalEth": 0.092,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x39c80e778478a0f50d67175605b19342dc180cae",
+        "to": "0x8b4816f3743db8e24643ce74a36b1df420d9318b",
+        "totalUsd": 575,
+        "totalEth": 0.22999999999999998,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "to": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "totalUsd": 256350.27545,
+        "totalEth": 102.54011018,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc284c7dd4dc9a981f4c0cd2c10da5e91217c3126",
+        "to": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "totalUsd": 128149.80237500001,
+        "totalEth": 51.25992095,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd0958e0f132cfd6d618d56e08c33b9d81816f987",
+        "to": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "totalUsd": 308.2108967988811,
+        "totalEth": 0.12328435871955244,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x42a5ed456650a09dc10ebc6361a7480fdd61f27b",
+        "to": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "totalUsd": 991.880125,
+        "totalEth": 0.39675205,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd551234ae421e3bcba99a0da6d736074f22192ff",
+        "to": "0x04c5998ded94f89263370444ce64a99b7dbc9f46",
+        "totalUsd": 574980,
+        "totalEth": 229.992,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xceb69f6342ece283b2f5c9088ff249b5d0ae66ea",
+        "to": "0x4b8498a42e8eb540ab814e56491cc7af07142d5b",
+        "totalUsd": 2525,
+        "totalEth": 1.01,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb8901acb165ed027e32754e0ffe830802919727f",
+        "to": "0x4b8498a42e8eb540ab814e56491cc7af07142d5b",
+        "totalUsd": 13297.834380942277,
+        "totalEth": 5.319133752376911,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xab9b83a7f3416d921464ab018ae273fb4b284e86",
+        "to": "0x77d9c21d45f6a4ea39dbca42cac67eab7a7f8701",
+        "totalUsd": 25,
+        "totalEth": 0.01,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x1111111254eeb25477b68fb85ed929f73a960582",
+        "to": "0x77d9c21d45f6a4ea39dbca42cac67eab7a7f8701",
+        "totalUsd": 153.60040697624055,
+        "totalEth": 0.06144016279049622,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x83b285e802d76055169b1c5e3bf21702b85b89cb",
+        "to": "0x77d9c21d45f6a4ea39dbca42cac67eab7a7f8701",
+        "totalUsd": 500,
+        "totalEth": 0.2,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb055521bfe579784ceb8a848a2cb16f6197fc530",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 1530.6059750000002,
+        "totalEth": 0.61224239,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x2b992c577d698c2297a4683d22ee29e815b8fe66",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 80000,
+        "totalEth": 32,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xcb6f0784b30d228168f53859ec5ac174dd6d88bc",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 80000,
+        "totalEth": 32,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb03dcf53683709fbe5e1d3789826f654bf730ee3",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 46500,
+        "totalEth": 18.6,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 1250,
+        "totalEth": 0.5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3cd751e6b0078be393132286c442345e5dc49699",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 2750,
+        "totalEth": 1.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+        "to": "0x5d418d8bcfe8c6f199bdb997ff968d92a0c5bbaf",
+        "totalUsd": 15000,
+        "totalEth": 6,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x8e3a9e64889df8a20ca8c519b415674d0a8ea099",
+        "to": "0x43691201440ae5b0bf5ec03b56f4322e45ae5bdd",
+        "totalUsd": 5500,
+        "totalEth": 2.2,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa910f92acdaf488fa6ef02174fb86208ad7722ba",
+        "to": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "totalUsd": 76.28722499999999,
+        "totalEth": 0.03051489,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+        "to": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "totalUsd": 63.115627818108074,
+        "totalEth": 0.02524625112724323,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "to": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "totalUsd": 8652.314965231873,
+        "totalEth": 3.4609259860927497,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb8901acb165ed027e32754e0ffe830802919727f",
+        "to": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "totalUsd": 8635.440488529113,
+        "totalEth": 3.454176195411645,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x312d67272aaced043e97ddb2c42854529d57b39d",
+        "totalUsd": 4498.803325,
+        "totalEth": 1.79952133,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "to": "0xdc4e07fcd1dac2f4cddb839a2e826a851df54035",
+        "totalUsd": 127.49999999999999,
+        "totalEth": 0.051,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        "to": "0xdc4e07fcd1dac2f4cddb839a2e826a851df54035",
+        "totalUsd": 193.79725,
+        "totalEth": 0.0775189,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x814d0c1903d69eb1c7ceb8f5190b20a06892d1da",
+        "to": "0xdc4e07fcd1dac2f4cddb839a2e826a851df54035",
+        "totalUsd": 23875.1855375,
+        "totalEth": 9.550074215,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa5a50c22e52fd52c45a95b8677016ca380d86d71",
+        "to": "0x427ae8e772ea21c8075504010554ace642d453e2",
+        "totalUsd": 54.63051947489039,
+        "totalEth": 0.021852207789956158,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa5d7f0f7027fa8f4d1be8042e1e43bbdec36951e",
+        "to": "0x427ae8e772ea21c8075504010554ace642d453e2",
+        "totalUsd": 172.634425,
+        "totalEth": 0.06905377,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xcbec15583a21c3ddad5fab658be5b4fe85df730b",
+        "to": "0xd715573f025d0da23ff78c590582c47e18d112fc",
+        "totalUsd": 11656.750657440738,
+        "totalEth": 4.662700262976295,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9a953374459e70933023e4e88812942c5ce0b69a",
+        "to": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "totalUsd": 11684.032442418915,
+        "totalEth": 4.673612976967566,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x38224e6d3a1486af9dbc288f5de54f54395adc5a",
+        "to": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "totalUsd": 25325,
+        "totalEth": 10.13,
+        "count": 7,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x8fe4dc9e950d8fe0cd2506d47ddae1df530cd8e1",
+        "to": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "totalUsd": 13610.980060753202,
+        "totalEth": 5.4443920243012816,
+        "count": 7,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x121effb8160f7206444f5a57d13c7a4424a237a4",
+        "to": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "totalUsd": 20067.9955,
+        "totalEth": 8.0271982,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5e4867981dca0a4e41fd142454574dcad1c7bc99",
+        "to": "0xd356c668fa259755b6f88a7e063a94ece24fa571",
+        "totalUsd": 21000,
+        "totalEth": 8.4,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x5b0a9ed6942276cd5f30e190fb213d8433b2fb48",
+        "to": "0x8138ad598b9a468b12d52de30e1ba8d826bcf53f",
+        "totalUsd": 32.5155795198443,
+        "totalEth": 0.01300623180793772,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x8138ad598b9a468b12d52de30e1ba8d826bcf53f",
+        "totalUsd": 6046.590775,
+        "totalEth": 2.4186363099999997,
+        "count": 6,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb8901acb165ed027e32754e0ffe830802919727f",
+        "to": "0x8138ad598b9a468b12d52de30e1ba8d826bcf53f",
+        "totalUsd": 2463.9179315135593,
+        "totalEth": 0.9855671726054237,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x2796317b0ff8538f253012862c06787adfb8ceb6",
+        "to": "0xae7dd2f1aaaca4b5b5bd68f26500431bfe7fa8e6",
+        "totalUsd": 1349.9160107533637,
+        "totalEth": 0.5399664043013455,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4d9079bb4165aeb4084c526a32695dcfd2f77381",
+        "to": "0xae7dd2f1aaaca4b5b5bd68f26500431bfe7fa8e6",
+        "totalUsd": 12487.588632885172,
+        "totalEth": 4.995035453154069,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x1111111254eeb25477b68fb85ed929f73a960582",
+        "to": "0xae7dd2f1aaaca4b5b5bd68f26500431bfe7fa8e6",
+        "totalUsd": 3888.931031970167,
+        "totalEth": 1.5555724127880668,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x077d360f11d220e4d5d831430c81c26c9be7c4a4",
+        "to": "0xeb5a62068f2857dcf813d2ea369c6ce8e4381c8a",
+        "totalUsd": 243.2343,
+        "totalEth": 0.09729372,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3ee18b2214aff97000d974cf647e7c347e8fa585",
+        "to": "0xeb5a62068f2857dcf813d2ea369c6ce8e4381c8a",
+        "totalUsd": 46105.2719,
+        "totalEth": 18.442108759999996,
+        "count": 6,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9e8fab94cada52a584ec6f10042c3bb165e79114",
+        "to": "0x8c56a34129dcf0711fe57e47fdcb733fce40a29f",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x00000000009726632680fb29d3f7a9734e3010e2",
+        "to": "0x69d6d375de8c7ade7e44446df97f49e661fdad7d",
+        "totalUsd": 258292.73693047574,
+        "totalEth": 103.3170947721903,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7a3d05c70581bd345fe117c06e45f9669205384f",
+        "to": "0x69d6d375de8c7ade7e44446df97f49e661fdad7d",
+        "totalUsd": 652.0857141480154,
+        "totalEth": 0.2608342856592062,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3cd751e6b0078be393132286c442345e5dc49699",
+        "to": "0xfeed09bd31310505346dea9eeed7dab26419a920",
+        "totalUsd": 111.2758,
+        "totalEth": 0.04451032,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0xfeed09bd31310505346dea9eeed7dab26419a920",
+        "totalUsd": 603.975375,
+        "totalEth": 0.24159015,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+        "to": "0x9fdb503126db5d2a2d7c079877552d917d03c6e6",
+        "totalUsd": 27.555875,
+        "totalEth": 0.01102235,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x9fdb503126db5d2a2d7c079877552d917d03c6e6",
+        "totalUsd": 362.34772499999997,
+        "totalEth": 0.14493909,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x13f4ea83d0bd40e75c8222255bc855a974568dd4",
+        "to": "0x9fdb503126db5d2a2d7c079877552d917d03c6e6",
+        "totalUsd": 677.5073589597229,
+        "totalEth": 0.27100294358388916,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3bfaee272d68d723131d085c8ab5df10775e1a32",
+        "to": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xf164fc0ec4e93095b804a4795bbe1e041497b92a",
+        "to": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "totalUsd": 377.16638746488286,
+        "totalEth": 0.15086655498595314,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x929507cd3d90ab11ec4822e9eb5a48eb3a178f19",
+        "to": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "totalUsd": 2096.0985558682432,
+        "totalEth": 0.8384394223472973,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xff33f3ab3bc59c02ec6aa068014a76cf69031595",
+        "to": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "totalUsd": 125,
+        "totalEth": 0.05,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+        "to": "0xc0b09b78c00ebced69ed1b397f5fb6ad94938441",
+        "totalUsd": 2328.465698872725,
+        "totalEth": 0.93138627954909,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x54fe014a1fb506ff3a00d863e6522f24e6edba47",
+        "to": "0x893f4be53274353cd3379c87c8fd1cb4f8458f94",
+        "totalUsd": 7600,
+        "totalEth": 3.04,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "to": "0x893f4be53274353cd3379c87c8fd1cb4f8458f94",
+        "totalUsd": 45297.64257465309,
+        "totalEth": 18.119057029861235,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "to": "0x893f4be53274353cd3379c87c8fd1cb4f8458f94",
+        "totalUsd": 2754.2627969621194,
+        "totalEth": 1.101705118784848,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xb0cf943cf94e7b6a2657d15af41c5e06c2bfea3d",
+        "to": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "totalUsd": 10250,
+        "totalEth": 4.1,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe05e391c437fd065d2b288947a74d8df9dcfc300",
+        "to": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "totalUsd": 2644.65,
+        "totalEth": 1.05786,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x469283faeb34ea7220e79888f25ddcddeddea6b2",
+        "to": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "totalUsd": 16250,
+        "totalEth": 6.5,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9c79d9fc76fb909312eb3ae09745a355d4a90e3e",
+        "to": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "totalUsd": 5945,
+        "totalEth": 2.378,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7b86e899319e6483ff5e824abf11253eb7bcd4e5",
+        "to": "0x09c41efc1c7e2c2a11bb153ef39affeaff2cedcd",
+        "totalUsd": 18750,
+        "totalEth": 7.5,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x6fd53d0edc2c92b9238a6f8aa043c9b16f0ee8ad",
+        "totalUsd": 6103.193925,
+        "totalEth": 2.44127757,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "to": "0x6fd53d0edc2c92b9238a6f8aa043c9b16f0ee8ad",
+        "totalUsd": 459.5804311092548,
+        "totalEth": 0.18383217244370192,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "to": "0xa01c2d2184a8f07b2556d6013d120e63f17f157b",
+        "totalUsd": 90.255,
+        "totalEth": 0.036101999999999995,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        "to": "0xa01c2d2184a8f07b2556d6013d120e63f17f157b",
+        "totalUsd": 145.726875,
+        "totalEth": 0.05829075,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x3de174970f7b1024228d96beb6ac9735cfeb57e5",
+        "to": "0x20fcb2ea54148e0e488a6052bccbcbfd42f87435",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe9dcb555b09d17f0b015dd9f1e119874278bba58",
+        "to": "0x20fcb2ea54148e0e488a6052bccbcbfd42f87435",
+        "totalUsd": 3176.25,
+        "totalEth": 1.2705,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x42b93acb6a9b1e9484d5d44ec762495af52169ee",
+        "to": "0x35b746dd3aceaf7a992dd29e6a02895864c6e36a",
+        "totalUsd": 285,
+        "totalEth": 0.114,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe760c7cf49aef1438fc2fe27c20ff2aadaa50ef3",
+        "to": "0x35b746dd3aceaf7a992dd29e6a02895864c6e36a",
+        "totalUsd": 1500,
+        "totalEth": 0.6,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x75e89d5979e4f6fba9f97c104c2f0afb3f1dcb88",
+        "to": "0x4dcba122d0ab15ee406acbcd38b8116138c16312",
+        "totalUsd": 7292.97795,
+        "totalEth": 2.91719118,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9d14d9be285ba8e18e79d8078d0c182df06adee2",
+        "to": "0x06924592cdf28acd3c1d23c37875c6c6a667bdf7",
+        "totalUsd": 11175,
+        "totalEth": 4.470000000000001,
+        "count": 5,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xe592427a0aece92de3edee1f18e0157c05861564",
+        "to": "0x06924592cdf28acd3c1d23c37875c6c6a667bdf7",
+        "totalUsd": 16747.034981327164,
+        "totalEth": 6.698813992530866,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        "to": "0x06924592cdf28acd3c1d23c37875c6c6a667bdf7",
+        "totalUsd": 339.148,
+        "totalEth": 0.1356592,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+        "to": "0x06924592cdf28acd3c1d23c37875c6c6a667bdf7",
+        "totalUsd": 13159.986012695013,
+        "totalEth": 5.263994405078005,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x77696bb39917c91a0c3908d577d5e322095425ca",
+        "to": "0x7932b79a91ce0685f6ac9e9eafb902b4c4f78959",
+        "totalUsd": 111.90615,
+        "totalEth": 0.04476246,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "to": "0x7932b79a91ce0685f6ac9e9eafb902b4c4f78959",
+        "totalUsd": 6688.0572250000005,
+        "totalEth": 2.67522289,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x2b1c9f0cf3ab95cfa56253a63d88f8e2fb27429f",
+        "to": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "totalUsd": 15285.75,
+        "totalEth": 6.1143,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x7355efc63ae731f584380a9838292c7046c1e433",
+        "to": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "totalUsd": 2481.7480519539727,
+        "totalEth": 0.9926992207815891,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x6bfad42cfc4efc96f529d786d643ff4a8b89fa52",
+        "to": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "totalUsd": 9547.5,
+        "totalEth": 3.819,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xba8da9dcf11b50b03fd5284f164ef5cdef910705",
+        "to": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "totalUsd": 164335.5,
+        "totalEth": 65.7342,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xdb05638a1958a778b4b19a9f12240a458af195d4",
+        "to": "0xfcff5d8987a630c89f462093d1752a2cf8420a9f",
+        "totalUsd": 5082.86,
+        "totalEth": 2.033144,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0xf7858da8a6617f7c6d0ff2bcafdb6d2eedf64840",
+        "to": "0x7404b82617ff2855c1cb35aacfa3a5fad20541f4",
+        "totalUsd": 24981,
+        "totalEth": 9.9924,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        "to": "0x7404b82617ff2855c1cb35aacfa3a5fad20541f4",
+        "totalUsd": 399998.675,
+        "totalEth": 159.99947,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "funding",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0x874d26f8f5dd55ee1a4167c49965b991c1c9530a",
+        "totalUsd": 1142397.023514,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC",
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "totalUsd": 385497.028456,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0x8571c129f335832f6bbc76d49414ad2b8371a422",
+        "totalUsd": 167048.712331,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "totalUsd": 1222043.078431,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDC",
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "totalUsd": 2580000,
+        "totalEth": 1032,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0xc3a369b8ba103c6733870d45e0aebf96475d0820",
+        "totalUsd": 1032,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "ЕТН"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0xb4a3b6268c306833f75ebe43192c38905c992598",
+        "totalUsd": 550488.48579632,
+        "totalEth": 148.52303629250594,
+        "count": 6,
+        "tokens": [
+          "ETH",
+          "WETH",
+          "DAI",
+          "WBTC",
+          "MATIC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x50df5a2217588772471b84adbbe4194a2ed39066",
+        "to": "0xb4a327e5682d71ab1b7231482da1de9a5d132598",
+        "totalUsd": 13927.061607333928,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "ЕТН",
+          "DАI"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0x5fd7d0d6b91cc4787bcb86ca47e0bd4ea0346d34",
+        "totalUsd": 250,
+        "totalEth": 0.1,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 4676050,
+        "totalEth": 1870.42,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "totalUsd": 988.42,
+        "totalEth": 0,
+        "count": 3,
+        "tokens": [
+          "WETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0xd76870037e89dd43b1ab14917267e7b47c124271",
+        "totalUsd": 2110240,
+        "totalEth": 43.48,
+        "count": 14,
+        "tokens": [
+          "ETH",
+          "MATIC",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0xd768c53e9e68119091d650af2082cfd769764271",
+        "totalUsd": 991540,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0xd7683449c836742e3ce3b7de5b0497be565a4271",
+        "totalUsd": 991540,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0x94d8c7b4bb48a70c5be1ada6979c44b05913e1b5",
+        "totalUsd": 129950,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc3a8af8c8bfc263030258afd80eb25afb6ff0820",
+        "to": "0x94d86e1b8ced248dc8b884a83ac5240adb86e1b5",
+        "totalUsd": 129950,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDС"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xd76870037e89dd43b1ab14917267e7b47c124271",
+        "to": "0x3a23f943181408eac424116af7b7790c94cb97a5",
+        "totalUsd": 500229.29817844176,
+        "totalEth": 200.09171927137672,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xd76870037e89dd43b1ab14917267e7b47c124271",
+        "to": "0xdcd33426ba191383f1c9b431a342498fdac73488",
+        "totalUsd": 501987.1946027756,
+        "totalEth": 200.79487784111024,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x94d8c7b4bb48a70c5be1ada6979c44b05913e1b5",
+        "to": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+        "totalUsd": 2000,
+        "totalEth": 0.8,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+        "totalUsd": 451843.53420700005,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x83f20f44975d03b1b09e64809b757c47f942beea",
+        "totalUsd": 99097.96534028073,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "DAI"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xb011e4eb4111ef00b620a5ed195836dcd69db1ff",
+        "totalUsd": 12045.376123793829,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "BONE"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x53dc703b78794b61281812f3a901918253beefee",
+        "totalUsd": 12505.39713,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+        "totalUsd": 12504.50377886755,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "DAI"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xccd1d21fce02959f4f51ddc4505ea154aebe7f1b",
+        "totalUsd": 53.049997420146155,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "cbETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+        "totalUsd": 5162.981534038848,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "WETH",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xbb289bc97591f70d8216462df40ed713011b968a",
+        "totalUsd": 27.795746387409515,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x0a59649758aa4d66e25f08dd01271e891fe52199",
+        "totalUsd": 88144.393667,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x5fae7e604fc3e24fd43a72867cebac94c65b404a",
+        "totalUsd": 55.171997316952,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "cbETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x840deeef2f115cf50da625f7368c24af6fe74410",
+        "totalUsd": 157.02799236363262,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "cbETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xb3c839dbde6b96d37c56ee4f9dad3390d49310aa",
+        "totalUsd": 26.685799556252768,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "WETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xa86689118d8d940d6ad729c2d7872da3fa20dd40",
+        "totalUsd": 5075.609765409383,
+        "totalEth": 0,
+        "count": 2,
+        "tokens": [
+          "WETH",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
+        "totalUsd": 407058.3174868316,
+        "totalEth": 0,
+        "count": 4,
+        "tokens": [
+          "DAI",
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x2008b6c3d07b061a84f790c035c2f6dc11a0be70",
+        "totalUsd": 476.32660243554244,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "AAVE"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0x6ca298d2983ab03aa1da7679389d955a4efee15c",
+        "totalUsd": 29039.660429,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8d8404f8cca4c8834ca3cab1e54887ae47724bee",
+        "to": "0xefb47fcfcad4f96c83d4ca676842fb03ef20a477",
+        "totalUsd": 5955.955761222722,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "BONE"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x874d26f8f5dd55ee1a4167c49965b991c1c9530a",
+        "to": "0xa88800cd213da5ae406ce248380802bd53b47647",
+        "totalUsd": 629905.3232607857,
+        "totalEth": 0,
+        "count": 7,
+        "tokens": [
+          "USDT",
+          "MATIC",
+          "WETH",
+          "BITCOIN"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x874d26f8f5dd55ee1a4167c49965b991c1c9530a",
+        "to": "0x33676385160f9d8f03a0db2821029882f7c79e93",
+        "totalUsd": 99.657339,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x874d26f8f5dd55ee1a4167c49965b991c1c9530a",
+        "to": "0x22f9dcf4647084d6c31b2765f6910cd85c178c18",
+        "totalUsd": 9577.261134,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x22f9dcf4647084d6c31b2765f6910cd85c178c18",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 500,
+        "totalEth": 0.2,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x22f9dcf4647084d6c31b2765f6910cd85c178c18",
+        "to": "0x61935cbdd02287b511119ddb11aeb42f1593b7ef",
+        "totalUsd": 11.624999999999998,
+        "totalEth": 0.00465,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x22f9dcf4647084d6c31b2765f6910cd85c178c18",
+        "to": "0x511b14373305007435376548e943ace2d24d4ac1",
+        "totalUsd": 103.16913423590637,
+        "totalEth": 0.04126765369436255,
+        "count": 2,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xb4a3b6268c306833f75ebe43192c38905c992598",
+        "to": "0x4b414031aa7d175cb846f6ca395fb92351a8d16a",
+        "totalUsd": 1329,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xb4a3b6268c306833f75ebe43192c38905c992598",
+        "to": "0xc378485722de0bbca3be57912e781fee5efb2e62",
+        "totalUsd": 444324.8006867841,
+        "totalEth": 106.04172799288872,
+        "count": 5,
+        "tokens": [
+          "ETH",
+          "MATIC",
+          "WETH",
+          "DAI"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xc378485722de0bbca3be57912e781fee5efb2e62",
+        "to": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b",
+        "totalUsd": 657750,
+        "totalEth": 263.1,
+        "count": 12,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 148546.942576109,
+        "totalEth": 59.418777030443586,
+        "count": 6,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0x1111111254eeb25477b68fb85ed929f73a960582",
+        "totalUsd": 43232.1556347202,
+        "totalEth": 17.27306225388808,
+        "count": 9,
+        "tokens": [
+          "ETH",
+          "WETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0x21410232b484136404911780bc32756d5d1a9fa9",
+        "totalUsd": 178.78105,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "KP3R"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0xdcef968d416a41cdac0ed8702fac8128a64241a2",
+        "totalUsd": 10000,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0x03b59bd1c8b9f6c265ba0c3421923b93f15036fa",
+        "totalUsd": 10019.466518854188,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "FRAX"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0x991322ee666ec384eeb31bbd97b4dc0c2df14ce1",
+        "totalUsd": 31101936.938841514,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "PEPE"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0xe219a14e355c1cb3f43594655a63488da154e8eb",
+        "totalUsd": 23.259681,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0xd17a89f1bb2c9cd6d6d8c34e3c847e2e3ddc11d8",
+        "totalUsd": 67.45,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0xd0b2f5018b5d22759724af6d4281ac0b13266360",
+        "totalUsd": 7032.549999,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+        "to": "0x6ca298d2983ab03aa1da7679389d955a4efee15c",
+        "totalUsd": 7034.90778,
+        "totalEth": 0,
+        "count": 1,
+        "tokens": [
+          "USDT"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8571c129f335832f6bbc76d49414ad2b8371a422",
+        "to": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+        "totalUsd": 424497.6481118557,
+        "totalEth": 0,
+        "count": 18,
+        "tokens": [
+          "WETH",
+          "USDT",
+          "USDC",
+          "CRV",
+          "LINK"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x8571c129f335832f6bbc76d49414ad2b8371a422",
+        "to": "0x1f9090aae28b8a3dceadf281b0f12828e676c326",
+        "totalUsd": 125.17416011879462,
+        "totalEth": 0.05006966404751784,
+        "count": 4,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+        "to": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "totalUsd": 43374.719998500004,
+        "totalEth": 17.3498879994,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+        "to": "0xeae7380dd4cef6fbd1144f49e4d1e6964258a4f4",
+        "totalUsd": 125,
+        "totalEth": 0.05,
+        "count": 1,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+        "to": "0x1f9090aae28b8a3dceadf281b0f12828e676c326",
+        "totalUsd": 39.38600993166391,
+        "totalEth": 0.01575440397266556,
+        "count": 3,
+        "tokens": [
+          "ETH"
+        ],
+        "direction": "destination",
+        "isHot": true
+      }
+    ]
+  },
+  "meta": {
+    "mixers": [
+      {
+        "label": "Tornado Cash Router",
+        "address": "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b"
+      }
+    ],
+    "cexes": [
+      {
+        "label": "FixedFloat",
+        "address": "0x4e5b2e1dc63f6b91cb6cd759936495434c7e972f"
+      },
+      {
+        "label": "Coinbase 2",
+        "address": "0x503828976d22510aad0201ac7ec88293211d23da"
+      },
+      {
+        "label": "Binance 15",
+        "address": "0x21a31ee1afc51d94c2efccaa2092ad1028285549"
+      },
+      {
+        "label": "Coinbase 10",
+        "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43"
+      },
+      {
+        "label": "Coinbase 6",
+        "address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf"
+      },
+      {
+        "label": "Kraken 4",
+        "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0"
+      },
+      {
+        "label": "Binance 19",
+        "address": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327"
+      },
+      {
+        "label": "Binance 14",
+        "address": "0x28c6c06298d514db089934071355e5743bf21d60"
+      },
+      {
+        "label": "Binance 1",
+        "address": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be"
+      },
+      {
+        "label": "Binance 2",
+        "address": "0xd551234ae421e3bcba99a0da6d736074f22192ff"
+      },
+      {
+        "label": "Coinbase 5",
+        "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511"
+      },
+      {
+        "label": "Binance 18",
+        "address": "0x9696f59e4d72e237be84ffd425dcad154bf96976"
+      },
+      {
+        "label": "Bybit 1",
+        "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40"
+      }
+    ],
+    "bridges": [
+      {
+        "label": "Hop Protocol ETH",
+        "address": "0xb8901acb165ed027e32754e0ffe830802919727f"
+      },
+      {
+        "label": "Synapse Bridge",
+        "address": "0x2796317b0ff8538f253012862c06787adfb8ceb6"
+      },
+      {
+        "label": "Wormhole",
+        "address": "0x3ee18b2214aff97000d974cf647e7c347e8fa585"
+      },
+      {
+        "label": "Socket Gateway",
+        "address": "0x3a23f943181408eac424116af7b7790c94cb97a5"
+      }
+    ],
+    "fundingSources": 160,
+    "maxHop": 3
+  }
+}
