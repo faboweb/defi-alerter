@@ -547,6 +547,7 @@ footer {
   <div class="network-legend">
     <div class="legend-item"><div class="legend-dot red"></div>Attacker</div>
     <div class="legend-item"><div class="legend-dot" style="background:#cc4422"></div>Fund Trail</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ff00ff"></div>Mixer/Bridge</div>
     <div class="legend-item"><div class="legend-dot blue"></div>Protocol</div>
     <div class="legend-item"><div class="legend-dot" style="background:#00bbcc"></div>DeFi</div>
     <div class="legend-item"><div class="legend-dot green"></div>Other</div>
@@ -1065,6 +1066,7 @@ function buildNetworkFromTxs(txList, hack) {
   const trailNodes = nodes.filter(n => n.type === 'trail');
   const protocolNodes = nodes.filter(n => n.type === 'protocol');
   const defiNodes = nodes.filter(n => n.type === 'defi');
+  const mixerNodes = nodes.filter(n => n.type === 'mixer' || n.type === 'bridge');
   const normalNodes = nodes.filter(n => n.type === 'normal');
 
   const hackLogo = hack.logo;
@@ -1107,6 +1109,12 @@ function buildNetworkFromTxs(txList, hack) {
     ));
   });
 
+  // Mixers — prominent, between attacker and trail
+  mixerNodes.forEach((n, i) => {
+    const angle = -0.3 + (i / Math.max(mixerNodes.length, 1)) * 0.6;
+    positions.set(n.address, new THREE.Vector3(3.5 + rng() * 0.5, -0.5 + i * 1, (rng() - 0.5)));
+  });
+
   // Trail — fan below/right of attackers
   trailNodes.forEach((n, i) => {
     const angle = -0.8 + (i / Math.max(trailNodes.length - 1, 1)) * 1.8;
@@ -1144,7 +1152,9 @@ function buildNetworkFromTxs(txList, hack) {
 
     const isProtocol = node.type === 'protocol';
     const isDefi = node.type === 'defi';
+    const isMixer = node.type === 'mixer';
     const color = isAttacker ? 0xff3344 :
+                  isMixer ? 0xff00ff :
                   isTrail ? 0xcc4422 :
                   isProtocol ? 0x2288ff :
                   isDefi ? 0x00bbcc :
@@ -1152,6 +1162,7 @@ function buildNetworkFromTxs(txList, hack) {
     const usdRatio = Math.min((node.totalUsd || 0) / maxUsd, 1);
     const countRatio = Math.min((node.callCount || 0) / 50, 1);
     const size = isAttacker ? 0.1 + usdRatio * 0.18 :
+                 isMixer ? 0.15 :
                  isTrail ? 0.06 + usdRatio * 0.1 :
                  isProtocol ? 0.06 + countRatio * 0.1 :
                  isDefi ? 0.08 :
@@ -1160,16 +1171,16 @@ function buildNetworkFromTxs(txList, hack) {
     const geo = new THREE.SphereGeometry(size, 14, 14);
     const mat = new THREE.MeshPhongMaterial({
       color, emissive: color,
-      emissiveIntensity: isAttacker ? 0.5 : isTrail ? 0.3 : isProtocol ? 0.3 : 0.2,
+      emissiveIntensity: isAttacker ? 0.5 : isMixer ? 0.6 : isTrail ? 0.3 : isProtocol ? 0.3 : 0.2,
       transparent: true,
-      opacity: isAttacker || isTrail || isProtocol || isDefi ? 0.9 : 0.5,
+      opacity: isAttacker || isTrail || isProtocol || isDefi || isMixer ? 0.9 : 0.5,
     });
     const mesh = new THREE.Mesh(geo, mat);
     mesh.position.copy(pos);
     networkGroup.add(mesh);
 
     // Glow rings
-    if (isAttacker) {
+    if (isMixer || isAttacker) {
       const ringGeo = new THREE.RingGeometry(size + 0.06, size + 0.1, 24);
       const ringMat = new THREE.MeshBasicMaterial({
         color, transparent: true, opacity: 0.2, side: THREE.DoubleSide,
