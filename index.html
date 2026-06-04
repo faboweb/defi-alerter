@@ -820,7 +820,8 @@ function generateBaselineTxs(hack) {
   }
 
   for (let day = -30; day < 0; day++) {
-    const txsToday = Math.floor(hack.baseline.txsPerDay * (0.6 + rng() * 0.8));
+    const raw = hack.baseline.txsPerDay * (0.6 + rng() * 0.8);
+    const txsToday = raw < 1 ? (rng() < raw ? 1 : 0) : Math.floor(raw);
     for (let j = 0; j < txsToday; j++) {
       const gas = Math.floor(hack.baseline.gasMedian * (0.5 + rng() * 1.2));
       const logs = Math.floor(hack.baseline.logsMedian * (0.5 + rng() * 1.5));
