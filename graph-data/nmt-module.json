@@ -1334,6 +1334,26 @@
         ],
         "hop": 2,
         "direction": "destination"
+      },
+      {
+        "address": "0x7e54c729148a95bca651f3214ac9ebefd3fb1271",
+        "label": "ATTACKER: Wallet 3 (module caller)",
+        "type": "attacker",
+        "totalUsd": 1371471,
+        "totalEth": 0,
+        "tokens": [
+          "DAI",
+          "USDC"
+        ]
+      },
+      {
+        "address": "0xbebc44782c7db0a1a60b1b98a6202171942db296",
+        "label": "Curve 3pool",
+        "type": "defi",
+        "totalUsd": 721513,
+        "tokens": [
+          "DAI"
+        ]
       }
     ],
     "edges": [
@@ -2828,6 +2848,28 @@
         ],
         "direction": "destination",
         "isHot": true
+      },
+      {
+        "from": "0x7e54c729148a95bca651f3214ac9ebefd3fb1271",
+        "to": "0xbebc44782c7db0a1a60b1b98a6202171942db296",
+        "totalUsd": 721513,
+        "count": 1,
+        "tokens": [
+          "DAI"
+        ],
+        "direction": "destination",
+        "isHot": true
+      },
+      {
+        "from": "0x7e54c729148a95bca651f3214ac9ebefd3fb1271",
+        "to": "0x7f54f05635d15cde17a49502fedb9d1803a3be8a",
+        "totalUsd": 649958,
+        "count": 4,
+        "tokens": [
+          "USDC"
+        ],
+        "direction": "destination",
+        "isHot": true
       }
     ]
   },
@@ -2839,7 +2881,7 @@
     "maxHop": 3,
     "funding": "OKX at hop 4 (hot wallet, likely indirect)",
     "laundering": "USDC swapped to DAI via CREATE2 atomic swaps (USDC→pool→DAI in single tx). $3.07M DAI still sitting in staging wallet 0xa447f717 — NOT YET LAUNDERED. Attacker ETH balance: 2.19 ETH.",
-    "correctedAmount": "$4.8M real value (not $41.8M reported by Alchemy)",
+    "correctedAmount": "$3.98M total across 3 chains (ETH only: $1.08M)",
     "fundLocations": {
       "daiStaging": {
         "address": "0xa447f71782135ab96a71374271a749ff7aa54859",
@@ -2853,6 +2895,9 @@
         "status": "drained"
       }
     },
-    "create2Pattern": "USDC laundering uses CREATE2 pass-through contracts in atomic txs: attacker→CREATE2→pool (USDC side) + pool→CREATE2→attacker (DAI side). Each CREATE2 contract used once then selfdestructed."
+    "create2Pattern": "USDC laundering uses CREATE2 pass-through contracts in atomic txs: attacker→CREATE2→pool (USDC side) + pool→CREATE2→attacker (DAI side). Each CREATE2 contract used once then selfdestructed.",
+    "attackers": "4 wallets (not 2): Wallet 1 main op, Wallet 2 TC-funded co-op, Wallet 3 module caller ($1.37M), Wallet 4 Orbiter-funded secondary",
+    "chains": "ETH: $1.08M, Base: $2.81M, Arbitrum: $80K — total $3.98M across 88 Gnosis Safes",
+    "wallet3": "Wallet 3 (0x7e54c729): $721K DAI → Curve 3pool (swap), $650K USDC → CREATE2 pass-through"
   }
 }
