@@ -3260,7 +3260,22 @@
     "bridges": [],
     "fundingSources": 16,
     "maxHop": 3,
-    "funding": "15 sources on Arbitrum (no mixer/CEX identified)",
-    "laundering": "CREATE2+selfdestruct obfuscation"
+    "funding": "15 sources on Arbitrum (no mixer/CEX at depth 3)",
+    "laundering": "Attack contract extracted 3,205 WETH ($8M) + 88 WBTC ($5.3M) + 187K USDC ($187K) = $13.5M to consolidation 0xdf3340. Then CREATE2+selfdestruct on Arbitrum — untraceable.",
+    "realAttackBlock": 355880237,
+    "tokenFlows": {
+      "weth": {
+        "amount": 3205.5,
+        "usd": 8013748
+      },
+      "wbtc": {
+        "amount": 88.17,
+        "usd": 5290402
+      },
+      "usdc": {
+        "amount": 187343,
+        "usd": 187343
+      }
+    }
   }
 }

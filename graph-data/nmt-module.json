@@ -157,10 +157,10 @@
       },
       {
         "address": "0xa4460a1b7dc7448f6333bb44abd9f56e5fa54859",
-        "label": "0xa4460a1b",
+        "label": "DAI Staging (real $3.07M)",
         "type": "trail",
         "callCount": 1,
-        "totalUsd": 41854558,
+        "totalUsd": 3070767,
         "tokens": [
           "DAI",
           "USDC",
@@ -2837,7 +2837,8 @@
     "bridges": [],
     "fundingSources": 0,
     "maxHop": 3,
-    "funding": "OKX (hop 4, likely not direct)",
-    "laundering": "$41.8M DAI to staging, CREATE2+selfdestruct peeling chain"
+    "funding": "OKX at hop 4 (hot wallet, likely indirect)",
+    "laundering": "Real stolen: $3.07M DAI + $1.71M USDC ($4.8M total). Alchemy misidentified anonymous tokens as DAI — actual $38.8M was valueless custom tokens. Funds moved via CREATE2+selfdestruct, untraceable.",
+    "correctedAmount": "$4.8M real value (not $41.8M reported by Alchemy)"
   }
 }
