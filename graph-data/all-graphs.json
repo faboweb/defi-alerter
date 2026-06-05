@@ -16787,8 +16787,22 @@
       "fundingSources": 0,
       "maxHop": 3,
       "funding": "OKX at hop 4 (hot wallet, likely indirect)",
-      "laundering": "Real stolen: $3.07M DAI + $1.71M USDC ($4.8M total). Alchemy misidentified anonymous tokens as DAI — actual $38.8M was valueless custom tokens. Funds moved via CREATE2+selfdestruct, untraceable.",
-      "correctedAmount": "$4.8M real value (not $41.8M reported by Alchemy)"
+      "laundering": "USDC swapped to DAI via CREATE2 atomic swaps (USDC→pool→DAI in single tx). $3.07M DAI still sitting in staging wallet 0xa447f717 — NOT YET LAUNDERED. Attacker ETH balance: 2.19 ETH.",
+      "correctedAmount": "$4.8M real value (not $41.8M reported by Alchemy)",
+      "fundLocations": {
+        "daiStaging": {
+          "address": "0xa447f71782135ab96a71374271a749ff7aa54859",
+          "dai": 3070767,
+          "status": "NOT MOVED"
+        },
+        "attackerEOA": {
+          "address": "0x7c82cb4b2909c50c7c0f2b696eee7565e0a23bb8",
+          "eth": 2.19,
+          "dai": 0,
+          "status": "drained"
+        }
+      },
+      "create2Pattern": "USDC laundering uses CREATE2 pass-through contracts in atomic txs: attacker→CREATE2→pool (USDC side) + pool→CREATE2→attacker (DAI side). Each CREATE2 contract used once then selfdestructed."
     }
   },
   {
