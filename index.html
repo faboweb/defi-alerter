@@ -1186,6 +1186,8 @@ function buildNetworkFromTxs(txList, hack) {
     forceGraph.graphData(graphData);
   } else {
     forceGraph = ForceGraph3D({ controlType: 'orbit' })(graphContainer)
+      .width(graphContainer.clientWidth)
+      .height(graphContainer.clientHeight)
       .backgroundColor('#060610')
       .nodeId('id')
       .nodeVal(n => n.__size * n.__size)
@@ -1234,6 +1236,13 @@ function buildNetworkFromTxs(txList, hack) {
 
 // Init
 buildNetworkFromTxs(null, HACKS[0]);
+
+// Resize handler
+window.addEventListener('resize', () => {
+  if (forceGraph) {
+    forceGraph.width(graphContainer.clientWidth).height(graphContainer.clientHeight);
+  }
+});
 </script>
 
 </body>
