@@ -2898,6 +2898,42 @@
     "create2Pattern": "USDC laundering uses CREATE2 pass-through contracts in atomic txs: attacker→CREATE2→pool (USDC side) + pool→CREATE2→attacker (DAI side). Each CREATE2 contract used once then selfdestructed.",
     "attackers": "4 wallets (not 2): Wallet 1 main op, Wallet 2 TC-funded co-op, Wallet 3 module caller ($1.37M), Wallet 4 Orbiter-funded secondary",
     "chains": "ETH: $1.08M, Base: $2.81M, Arbitrum: $80K — total $3.98M across 88 Gnosis Safes",
-    "wallet3": "Wallet 3 (0x7e54c729): $721K DAI → Curve 3pool (swap), $650K USDC → CREATE2 pass-through"
+    "wallet3": "Wallet 3 (0x7e54c729): $721K DAI → Curve 3pool (swap), $650K USDC → CREATE2 pass-through",
+    "fullTrace": {
+      "wallet1": {
+        "addr": "0x7c82cb4b2909c50c7c0f2b696eee7565e0a23bb8",
+        "role": "Main operator",
+        "funding": "Wallet 2 (0.1 ETH) + unknown (348 ETH from 0xb92fe925 + 88 ETH from 0x28b1dc1a)",
+        "drained": "$3.07M DAI → consolidation, $1.71M USDC + $3.5K USDT → CREATE2 swaps",
+        "balance": "2.19 ETH"
+      },
+      "wallet2": {
+        "addr": "0x9bdc730183821b6bb2b51be30b77c964fa645b91",
+        "role": "Co-operator, gas provider",
+        "funding": "Tornado Cash 1 ETH (2x 1 ETH) + 0x12d66f87 (Tornado Cash 0.1 ETH pool)",
+        "drained": "Gas only — funded Wallet 1",
+        "balance": "0 ETH"
+      },
+      "wallet3": {
+        "addr": "0x7e54c729148a95bca651f3214ac9ebefd3fb1271",
+        "role": "Module caller, fake token creator",
+        "funding": "0x51dbd97f (0.07 ETH) + WETH contract (10.6 ETH swap output)",
+        "drained": "$721K DAI → Curve 3pool (swap), $650K USDC → CREATE2 pass-through",
+        "balance": "0.004 ETH"
+      },
+      "wallet4": {
+        "addr": "0xc8ef4003d9db3863b9af26afcf2275378bfa83e4",
+        "role": "Secondary operator",
+        "funding": "Multiple sources (0x3bdb03, 0x5c7bcd, 1inch), ~43 ETH total",
+        "drained": "$2.3K DAI + $1.9K USDT — small amounts",
+        "balance": "0.0002 ETH"
+      },
+      "consolidation": {
+        "addr": "0xa447f71782135ab96a71374271a749ff7aa54859",
+        "balance": "$3,070,767 DAI — STILL SITTING, NOT LAUNDERED"
+      },
+      "totalETH": "$1.08M (Ethereum chain)",
+      "totalAllChains": "$3.98M across ETH/Base/Arbitrum from 88 Gnosis Safes"
+    }
   }
 }
